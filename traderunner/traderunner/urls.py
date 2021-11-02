@@ -17,8 +17,15 @@ from django.contrib import admin
 from django.urls import include, path
 from django.views.generic.base import TemplateView
 
+from tradingbot import views
+
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('accounts/', include('django.contrib.auth.urls')),
-    path('', TemplateView.as_view(template_name='home.html'), name='home'),
+    #path('accounts/', include('tradingbot.urls')),
+    #path('accounts/', include('django.contrib.auth.urls')),
+    path('home', TemplateView.as_view(template_name='home.html'), name='home'),
+    path('register', views.register_request, name="register"),
+    path('login', views.login_request, name="login"),
+    path('logout', views.logout_request, name= "logout"),
 ]
