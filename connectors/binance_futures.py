@@ -46,7 +46,7 @@ class BinanceFuturesClient:
         logger.info('Binance Futures Client Successfully Initialized')
 
     def _generate_signature(self, data: typing.Dict) -> str:
-        return hmac.new(self._secret_key.encode(), urlencode(data).encode(), hashlib.sha256).hexdigest(
+        return hmac.new(self._secret_key.encode(), urlencode(data).encode(), hashlib.sha256).hexdigest()
 
     def _make_request(self, method: str, endpoint: str, data: typing.Dict):
         if method == "GET":
@@ -80,7 +80,7 @@ class BinanceFuturesClient:
                          method, endpoint, response.json(), response.status_code)
             return None
 
-    def get_contracts(self): -> typing.Dict[str, Contract]:
+    def get_contracts(self) -> typing.Dict[str, Contract]:
         exchange_info = self._make_request("GET", "/fapi/v1/exchangeInfo", dict())
 
         contracts = dict()
@@ -136,7 +136,8 @@ class BinanceFuturesClient:
 
         return balances
 
-    def place_order(self, contract: Contract, side: str, quantity: float, order_type: str, price=None, tif=None) -> OrderStatus:
+    def place_order(self, contract: Contract, side: str, quantity: float, order_type: str, price=None, tif=None) \
+            -> OrderStatus:
         data = dict()
         data['symbol'] = contract.symbol
         data['side'] = side
@@ -226,7 +227,6 @@ class BinanceFuturesClient:
                     self.prices[symbol]['bid'] = float(data['b'])
                     self.prices[symbol]['ask'] = float(data['a'])
 
-
     def subscribe_channel(self, contracts: typing.List[Contract], channel: str):
         data = dict()
         data['method'] = "SUBSCRIBE"
@@ -238,8 +238,7 @@ class BinanceFuturesClient:
 
         try:
             self._ws.send(json.dumps(data))
-        except: Exception as e:
-        logger.error("Websocket error while subscribing to %s %s updates: %s", log(contracts), channel, e)
+        except Exception as e:
+            logger.error("Websocket error while subscribing to %s %s updates: %s", len(contracts), channel, e)
 
         self._ws_id += 1
-
