@@ -6,3 +6,13 @@
 2021-11-03 13:33:09,040 INFO :: Binance Futures Client Successfully Initialized
 2021-11-03 13:34:15,099 INFO :: Binance Futures Client Successfully Initialized
 2021-11-03 13:34:45,055 INFO :: Binance Futures Client Successfully Initialized
+2021-11-03 12:22:42,820 INFO :: Binance Futures Client Successfully Initialized
+2021-11-03 12:35:01,504 INFO :: Binance Futures Client Successfully Initialized
+2021-11-03 12:35:03,142 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4016, 'msg': "Limit price can't be higher than 69078.09"} (error code 400
+2021-11-03 12:35:53,054 INFO :: Binance Futures Client Successfully Initialized
+2021-11-03 12:37:24,456 INFO :: Binance Futures Client Successfully Initialized
+2021-11-03 12:37:27,978 ERROR :: Error while making GET request to /fapi/v1/order: {'code': -2013, 'msg': 'Order does not exist.'} (error code 400
+2021-11-03 12:38:14,907 INFO :: Binance Futures Client Successfully Initialized
+2021-11-03 12:38:17,748 ERROR :: Error while making GET request to /fapi/v1/order: {'code': -2013, 'msg': 'Order does not exist.'} (error code 400
+2021-11-03 12:39:08,420 INFO :: Binance Futures Client Successfully Initialized
+2021-11-03 12:39:10,755 ERROR :: Error while making GET request to /fapi/v1/order: {'code': -2013, 'msg': 'Order does not exist.'} (error code 400
