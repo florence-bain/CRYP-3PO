@@ -16,3 +16,17 @@
 2021-11-03 12:38:17,748 ERROR :: Error while making GET request to /fapi/v1/order: {'code': -2013, 'msg': 'Order does not exist.'} (error code 400
 2021-11-03 12:39:08,420 INFO :: Binance Futures Client Successfully Initialized
 2021-11-03 12:39:10,755 ERROR :: Error while making GET request to /fapi/v1/order: {'code': -2013, 'msg': 'Order does not exist.'} (error code 400
+2021-11-03 15:18:24,069 INFO :: Binance Futures Client Successfully Initialized
+2021-11-03 15:19:51,771 INFO :: Binance Futures Client Successfully Initialized
+2021-11-03 15:20:10,744 INFO :: Binance Futures Client Successfully Initialized
+2021-11-03 15:20:12,640 ERROR :: error from callback <bound method BinanceFuturesClient.on_open of <connectors.binance_futures.BinanceFuturesClient object at 0x101658100>>: on_open() takes 1 positional argument but 2 were given
+2021-11-03 15:21:20,076 INFO :: Binance Futures Client Successfully Initialized
+2021-11-03 15:21:21,903 INFO :: Binance connection opened
+2021-11-03 15:31:28,688 INFO :: Binance Futures Client Successfully Initialized
+2021-11-03 15:31:30,506 INFO :: Binance connection opened
+2021-11-03 15:32:32,774 INFO :: Binance Futures Client Successfully Initialized
+2021-11-03 15:32:34,601 INFO :: Binance connection opened
+2021-11-03 15:38:49,872 INFO :: Binance Futures Client Successfully Initialized
+2021-11-03 15:38:51,731 INFO :: Binance connection opened
+2021-11-03 15:39:38,470 INFO :: Binance Futures Client Successfully Initialized
+2021-11-03 15:39:40,256 INFO :: Binance connection opened

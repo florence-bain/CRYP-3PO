@@ -7,6 +7,11 @@ from urllib.parse import urlencode
 import hmac
 import hashlib
 
+import websocket
+import json
+
+import threading
+
 logger = logging.getLogger()
 
 
@@ -14,8 +19,10 @@ class BinanceFuturesClient:
     def __init__(self, public_key, secret_key, testnet):
         if testnet:
             self.base_url = "https://testnet.binancefuture.com"
+            self.wss_url = "wss://stream.binancefuture.com/ws"
         else:
             self.base_url = "https://fapi.binance.com"
+            self.wss_url = "wss://fstream.binance.com/ws"
 
         self.public_key = public_key
         self.secret_key = secret_key
@@ -23,6 +30,12 @@ class BinanceFuturesClient:
         self.headers = {'X-MBX-APIKEY': self.public_key}
 
         self.prices = dict()
+
+        self.id = 1
+        self.ws = None
+
+        t = threading.Thread(target=self.start_ws)
+        t.start()
 
         logger.info('Binance Futures Client Successfully Initialized')
 
@@ -146,3 +159,51 @@ class BinanceFuturesClient:
         order_status = self.make_request("GET", "/fapi/v1/order", data)
 
         return order_status
+
+    def start_ws(self):
+        self.ws = websocket.WebSocketApp(self.wss_url, on_open=self.on_open, on_close=self.on_close, on_error=self.on_error,
+                                    on_message=self.on_message)
+
+        self.ws.run_forever()
+
+    def on_open(self, ws):
+        logger.info("Binance connection opened")
+
+        self.subscribe_channel("BTCUSDT")
+
+    def on_close(self, ws):
+        logger.warning("Binance websocket connection closed")
+
+    def on_error(self, ws, msg):
+        logger.error("Binance connections error: %s", msg)
+
+    def on_message(self, ws, msg):
+
+        data = json.loads(msg)
+
+        if "e" in data:
+            if data['e'] == "bookTicker":
+
+                symbol = data['s']
+
+                if symbol not in self.prices:
+                    self.prices[symbol] = {'bid': float(data['b']), 'ask': float(data['a'])}
+                else:
+                    self.prices[symbol]['bid'] = float(data['b'])
+                    self.prices[symbol]['ask'] = float(data['a'])
+
+                print(self.prices[symbol])
+
+
+    def subscribe_channel(self, symbol):
+        data = dict()
+        data['method'] = "SUBSCRIBE"
+        data['params'] = []
+        data['params'].append(symbol.lower() + "@bookTicker")
+        data['id'] = self.id
+
+        self.ws.send(json.dumps(data))
+
+
+        self.id += 1
+
