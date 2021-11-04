@@ -1,2 +1,2 @@
 
-web: gunicorn traderunner.wsgi
+web: gunicorn traderunner.wsgi --log-file -
