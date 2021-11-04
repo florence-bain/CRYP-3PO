@@ -192,7 +192,7 @@ class BinanceFuturesClient:
         return order_status
 
     def _start_ws(self):
-        self.ws = websocket.WebSocketApp(self._wss_url, on_open=self._on_open, on_close=self._on_close,
+        self._ws = websocket.WebSocketApp(self._wss_url, on_open=self._on_open, on_close=self._on_close,
                                          on_error=self._on_error, on_message=self._on_message)
         while True:
             try:
