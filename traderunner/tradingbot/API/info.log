@@ -1,0 +1,46 @@
+2021-11-03 13:28:29,663 INFO :: Binance Futures Client Successfully Initialized
+2021-11-03 13:28:55,795 INFO :: Binance Futures Client Successfully Initialized
+2021-11-03 13:30:27,595 INFO :: Binance Futures Client Successfully Initialized
+2021-11-03 13:30:28,841 ERROR :: Error while making GET request to /fapi/v1/ticker/bookTicker: {'code': -1121, 'msg': 'Invalid symbol.'} (error code 400
+2021-11-03 13:30:52,984 INFO :: Binance Futures Client Successfully Initialized
+2021-11-03 13:33:09,040 INFO :: Binance Futures Client Successfully Initialized
+2021-11-03 13:34:15,099 INFO :: Binance Futures Client Successfully Initialized
+2021-11-03 13:34:45,055 INFO :: Binance Futures Client Successfully Initialized
+2021-11-03 12:22:42,820 INFO :: Binance Futures Client Successfully Initialized
+2021-11-03 12:35:01,504 INFO :: Binance Futures Client Successfully Initialized
+2021-11-03 12:35:03,142 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4016, 'msg': "Limit price can't be higher than 69078.09"} (error code 400
+2021-11-03 12:35:53,054 INFO :: Binance Futures Client Successfully Initialized
+2021-11-03 12:37:24,456 INFO :: Binance Futures Client Successfully Initialized
+2021-11-03 12:37:27,978 ERROR :: Error while making GET request to /fapi/v1/order: {'code': -2013, 'msg': 'Order does not exist.'} (error code 400
+2021-11-03 12:38:14,907 INFO :: Binance Futures Client Successfully Initialized
+2021-11-03 12:38:17,748 ERROR :: Error while making GET request to /fapi/v1/order: {'code': -2013, 'msg': 'Order does not exist.'} (error code 400
+2021-11-03 12:39:08,420 INFO :: Binance Futures Client Successfully Initialized
+2021-11-03 12:39:10,755 ERROR :: Error while making GET request to /fapi/v1/order: {'code': -2013, 'msg': 'Order does not exist.'} (error code 400
+2021-11-03 15:18:24,069 INFO :: Binance Futures Client Successfully Initialized
+2021-11-03 15:19:51,771 INFO :: Binance Futures Client Successfully Initialized
+2021-11-03 15:20:10,744 INFO :: Binance Futures Client Successfully Initialized
+2021-11-03 15:20:12,640 ERROR :: error from callback <bound method BinanceFuturesClient.on_open of <connectors.binance_futures.BinanceFuturesClient object at 0x101658100>>: on_open() takes 1 positional argument but 2 were given
+2021-11-03 15:21:20,076 INFO :: Binance Futures Client Successfully Initialized
+2021-11-03 15:21:21,903 INFO :: Binance connection opened
+2021-11-03 15:31:28,688 INFO :: Binance Futures Client Successfully Initialized
+2021-11-03 15:31:30,506 INFO :: Binance connection opened
+2021-11-03 15:32:32,774 INFO :: Binance Futures Client Successfully Initialized
+2021-11-03 15:32:34,601 INFO :: Binance connection opened
+2021-11-03 15:38:49,872 INFO :: Binance Futures Client Successfully Initialized
+2021-11-03 15:38:51,731 INFO :: Binance connection opened
+2021-11-03 15:39:38,470 INFO :: Binance Futures Client Successfully Initialized
+2021-11-03 15:39:40,256 INFO :: Binance connection opened
+2021-11-04 16:05:37,362 INFO :: Binance Futures Client Successfully Initialized
+2021-11-04 16:05:38,804 INFO :: Binance connection opened
+2021-11-04 21:53:17,000 ERROR :: Binance connections error: [Errno 54] Connection reset by peer
+2021-11-04 21:53:17,096 ERROR :: error from callback <bound method BinanceFuturesClient._on_close of <connectors.binance_futures.BinanceFuturesClient object at 0x111da4190>>: _on_close() takes 2 positional arguments but 4 were given
+2021-11-04 21:53:17,098 ERROR :: Binance connections error: _on_close() takes 2 positional arguments but 4 were given
+2021-11-04 21:53:20,494 INFO :: Binance connection opened
+2021-11-05 08:16:47,675 ERROR :: Binance connections error: [Errno 54] Connection reset by peer
+2021-11-05 08:16:47,794 ERROR :: error from callback <bound method BinanceFuturesClient._on_close of <connectors.binance_futures.BinanceFuturesClient object at 0x111da4190>>: _on_close() takes 2 positional arguments but 4 were given
+2021-11-05 08:16:47,796 ERROR :: Binance connections error: _on_close() takes 2 positional arguments but 4 were given
+2021-11-05 08:16:51,204 INFO :: Binance connection opened
+2021-11-05 13:29:34,348 ERROR :: Binance connections error: [Errno 54] Connection reset by peer
+2021-11-05 13:29:34,672 ERROR :: error from callback <bound method BinanceFuturesClient._on_close of <connectors.binance_futures.BinanceFuturesClient object at 0x111da4190>>: _on_close() takes 2 positional arguments but 4 were given
+2021-11-05 13:29:34,681 ERROR :: Binance connections error: _on_close() takes 2 positional arguments but 4 were given
+2021-11-05 13:29:38,142 INFO :: Binance connection opened
