@@ -77,7 +77,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'traderunner.wsgi.application'
+WSGI_APPLICATION = 'traderunner-cryp3po.wsgi.application'
 
 
 # Database
