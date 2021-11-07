@@ -15,7 +15,11 @@ import threading
 
 from tradingbot.API.models import *
 
+from strategies import Strategies
+
 logger = logging.getLogger()
+
+
 
 
 class BinanceFuturesClient:
