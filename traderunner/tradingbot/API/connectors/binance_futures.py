@@ -240,6 +240,13 @@ class BinanceFuturesClient:
                 else:
                     self.prices[symbol]['bid'] = float(data['b'])
                     self.prices[symbol]['ask'] = float(data['a'])
+                    if symbol == 'BTCBUSD' and self.strategy_price != 'false' and \
+                            self.prices[symbol]['bid'] > self.strategy_price:
+                        #logger.info("Bingo")
+                        self.execute_trade(symbol)
+                    else:
+                        pass
+
 
     def subscribe_channel(self, contracts: typing.List[Contract], channel: str):
         data = dict()
@@ -256,3 +263,9 @@ class BinanceFuturesClient:
             logger.error("Websocket error while subscribing to %s %s updates: %s", len(contracts), channel, e)
 
         self._ws_id += 1
+
+    def execute_trade(self, symbol):
+        #x = self.place_order(self.contracts['BTCUSDT'], "BUY", 0.05, "LIMIT", 2000, "GTC")
+        # when I try to execute trade it says the margins are too low
+        #print(x)
+        logger.info("Bingo, now is a good time to execute a trade")
