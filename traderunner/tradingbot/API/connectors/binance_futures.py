@@ -19,7 +19,7 @@ from strategies import Strategies
 
 logger = logging.getLogger()
 
-
+# valid intervals - 1m, 3m, 5m, 15m, 30m, 1h, 2h, 4h, 6h, 8h, 12h, 1d, 3d, 1w, 1M
 
 
 class BinanceFuturesClient:
@@ -43,6 +43,8 @@ class BinanceFuturesClient:
 
         self._ws_id = 1
         self._ws = None
+
+        self.strategy_price = ""
 
         t = threading.Thread(target=self._start_ws)
         t.start()
@@ -207,6 +209,11 @@ class BinanceFuturesClient:
 
     def _on_open(self, ws):
         logger.info("Binance connection opened")
+
+        strategies = Strategies()
+        hist_contracts = self.get_historical_candles(self.contracts['BTCBUSD'], '1m')
+        self.strategy_price = strategies.golden_cross(hist_contracts)
+
 
         self.subscribe_channel(list(self.contracts.values()), "bookTicker")
 
