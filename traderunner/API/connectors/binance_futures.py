@@ -13,9 +13,10 @@ import json
 
 import threading
 
-from tradingbot.API.models import *
 
 from strategies import Strategies
+
+from models import * 
 
 logger = logging.getLogger()
 

@@ -433,3 +433,5 @@ django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 12: 'b
 2021-11-04 22:37:08,691 INFO :: Binance Futures Client Successfully Initialized
 2021-11-04 22:37:09,879 INFO :: Binance connection opened
 2021-11-04 22:50:09,658 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-07 20:16:29,414 INFO :: Binance Futures Client Successfully Initialized
+2021-11-07 20:16:30,932 INFO :: Binance connection opened
