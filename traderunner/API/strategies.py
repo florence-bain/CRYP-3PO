@@ -36,7 +36,20 @@ class Strategies:
 
         return has_it_crossed
 
-    def sell_strategy(self, historical_candle_callback):
-        x = 'nothing defined at this moment'
+    def sell_strategy(self, historical_candle_callback, ask_price):
+        fifty_day = historical_candle_callback[-50:]
 
-        return x
+        fifty_day_array_close = []
+
+        for candlestick in fifty_day:
+            fifty_day_array_close.append(candlestick.close)
+
+        fifty_day_moving_average = (sum(fifty_day_array_close)/50)
+
+        if (fifty_day_moving_average * 0.15) < ask_price:
+            message = (f"The price of {ask_price} has fallen by 15% over the last 50 days, probably time to sell off")
+
+
+        #message = 'nothing defined at this moment'
+
+        return message
