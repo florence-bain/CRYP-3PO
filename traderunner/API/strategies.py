@@ -22,17 +22,17 @@ class Strategies:
         fifty_day_moving_average = (sum(fifty_day_array_close)/50)
         two_hundred_day_moving_average = (sum(two_hundred_day_array_close)/200)
 
-        print(f"This is the fifty day moving average {fifty_day_moving_average}")
-        print(f"This is the two hundred day moving average {two_hundred_day_moving_average}")
+        #print(f"This is the fifty day moving average {fifty_day_moving_average}")
+        #print(f"This is the two hundred day moving average {two_hundred_day_moving_average}")
 
         has_it_crossed = 'false'
 
-        if fifty_day_moving_average < two_hundred_day_moving_average:
+        if fifty_day_moving_average > two_hundred_day_moving_average:
             has_it_crossed = fifty_day_moving_average
         else:
             has_it_crossed = 'false'
 
-        print(has_it_crossed)
+        #print(has_it_crossed)
 
         return has_it_crossed
 

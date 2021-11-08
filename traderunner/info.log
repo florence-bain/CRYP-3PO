@@ -1273,3 +1273,715 @@ AttributeError: 'str' object has no attribute 'contracts'
 2021-11-08 14:51:01,506 INFO :: Bingo, now is a good time to execute a trade
 2021-11-08 14:51:02,599 INFO :: Bingo, now is a good time to execute a trade
 2021-11-08 14:51:03,335 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 15:18:11,332 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 15:18:12,351 INFO :: Binance connection opened
+2021-11-08 15:19:56,176 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/API/connectors/binance_futures.py changed, reloading.
+2021-11-08 15:19:58,384 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109a45c10>>: 'Trade' object has no attribute 'name'
+2021-11-08 15:19:58,384 ERROR :: Binance connections error: 'Trade' object has no attribute 'name'
+2021-11-08 15:20:10,640 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 15:20:11,708 INFO :: Binance connection opened
+2021-11-08 15:20:24,208 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/API/connectors/binance_futures.py changed, reloading.
+2021-11-08 15:20:31,991 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 15:20:33,053 INFO :: Binance connection opened
+2021-11-08 15:20:38,216 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e0d0100>>: 'Trade' object has no attribute 'name'
+2021-11-08 15:20:38,216 ERROR :: Binance connections error: 'Trade' object has no attribute 'name'
+2021-11-08 15:20:40,228 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e0d0100>>: 'Trade' object has no attribute 'name'
+2021-11-08 15:20:40,228 ERROR :: Binance connections error: 'Trade' object has no attribute 'name'
+2021-11-08 15:20:40,242 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e0d0100>>: 'Trade' object has no attribute 'name'
+2021-11-08 15:20:40,242 ERROR :: Binance connections error: 'Trade' object has no attribute 'name'
+2021-11-08 15:20:42,294 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e0d0100>>: 'Trade' object has no attribute 'name'
+2021-11-08 15:20:42,294 ERROR :: Binance connections error: 'Trade' object has no attribute 'name'
+2021-11-08 15:20:42,328 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e0d0100>>: 'Trade' object has no attribute 'name'
+2021-11-08 15:20:42,329 ERROR :: Binance connections error: 'Trade' object has no attribute 'name'
+2021-11-08 15:20:43,855 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e0d0100>>: 'Trade' object has no attribute 'name'
+2021-11-08 15:20:43,855 ERROR :: Binance connections error: 'Trade' object has no attribute 'name'
+2021-11-08 15:20:43,864 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e0d0100>>: 'Trade' object has no attribute 'name'
+2021-11-08 15:20:43,864 ERROR :: Binance connections error: 'Trade' object has no attribute 'name'
+2021-11-08 15:22:44,627 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 15:22:45,668 INFO :: Binance connection opened
+2021-11-08 15:22:48,005 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e4b8be0>>: 'Trade' object has no attribute 'name'
+2021-11-08 15:22:48,005 ERROR :: Binance connections error: 'Trade' object has no attribute 'name'
+2021-11-08 15:22:50,044 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e4b8be0>>: 'Trade' object has no attribute 'name'
+2021-11-08 15:22:50,044 ERROR :: Binance connections error: 'Trade' object has no attribute 'name'
+2021-11-08 15:22:52,093 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e4b8be0>>: 'Trade' object has no attribute 'name'
+2021-11-08 15:22:52,093 ERROR :: Binance connections error: 'Trade' object has no attribute 'name'
+2021-11-08 15:22:52,101 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e4b8be0>>: 'Trade' object has no attribute 'name'
+2021-11-08 15:22:52,101 ERROR :: Binance connections error: 'Trade' object has no attribute 'name'
+2021-11-08 15:22:52,134 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e4b8be0>>: 'Trade' object has no attribute 'name'
+2021-11-08 15:22:52,134 ERROR :: Binance connections error: 'Trade' object has no attribute 'name'
+2021-11-08 15:22:52,168 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e4b8be0>>: 'Trade' object has no attribute 'name'
+2021-11-08 15:22:52,168 ERROR :: Binance connections error: 'Trade' object has no attribute 'name'
+2021-11-08 15:22:54,234 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e4b8be0>>: 'Trade' object has no attribute 'name'
+2021-11-08 15:22:54,234 ERROR :: Binance connections error: 'Trade' object has no attribute 'name'
+2021-11-08 15:22:54,247 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e4b8be0>>: 'Trade' object has no attribute 'name'
+2021-11-08 15:22:54,247 ERROR :: Binance connections error: 'Trade' object has no attribute 'name'
+2021-11-08 15:22:54,267 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e4b8be0>>: 'Trade' object has no attribute 'name'
+2021-11-08 15:22:54,267 ERROR :: Binance connections error: 'Trade' object has no attribute 'name'
+2021-11-08 15:22:54,277 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e4b8be0>>: 'Trade' object has no attribute 'name'
+2021-11-08 15:22:54,277 ERROR :: Binance connections error: 'Trade' object has no attribute 'name'
+2021-11-08 15:25:40,774 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 15:25:41,944 INFO :: Binance connection opened
+2021-11-08 15:27:17,976 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 15:27:19,021 INFO :: Binance connection opened
+2021-11-08 15:28:04,299 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 15:28:05,351 INFO :: Binance connection opened
+2021-11-08 15:29:45,565 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 15:29:46,713 INFO :: Binance connection opened
+2021-11-08 15:29:49,994 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x11404e130>>: 'Trade' object is not subscriptable
+2021-11-08 15:29:49,994 ERROR :: Binance connections error: 'Trade' object is not subscriptable
+2021-11-08 15:29:49,996 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x11404e130>>: 'Trade' object is not subscriptable
+2021-11-08 15:29:49,996 ERROR :: Binance connections error: 'Trade' object is not subscriptable
+2021-11-08 15:29:52,043 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x11404e130>>: 'Trade' object is not subscriptable
+2021-11-08 15:29:52,044 ERROR :: Binance connections error: 'Trade' object is not subscriptable
+2021-11-08 15:29:52,056 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x11404e130>>: 'Trade' object is not subscriptable
+2021-11-08 15:29:52,056 ERROR :: Binance connections error: 'Trade' object is not subscriptable
+2021-11-08 15:30:33,737 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 15:30:34,766 INFO :: Binance connection opened
+2021-11-08 15:32:48,505 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 15:32:49,550 INFO :: Binance connection opened
+2021-11-08 15:32:51,857 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x111f84be0>>: too many values to unpack (expected 2)
+2021-11-08 15:32:51,857 ERROR :: Binance connections error: too many values to unpack (expected 2)
+2021-11-08 15:32:53,908 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x111f84be0>>: too many values to unpack (expected 2)
+2021-11-08 15:32:53,908 ERROR :: Binance connections error: too many values to unpack (expected 2)
+2021-11-08 15:32:55,933 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x111f84be0>>: too many values to unpack (expected 2)
+2021-11-08 15:32:55,933 ERROR :: Binance connections error: too many values to unpack (expected 2)
+2021-11-08 15:32:55,950 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x111f84be0>>: too many values to unpack (expected 2)
+2021-11-08 15:32:55,951 ERROR :: Binance connections error: too many values to unpack (expected 2)
+2021-11-08 15:33:35,556 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 15:33:36,672 INFO :: Binance connection opened
+2021-11-08 15:35:20,467 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 15:35:21,497 INFO :: Binance connection opened
+2021-11-08 15:36:13,133 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 15:36:14,158 INFO :: Binance connection opened
+2021-11-08 15:36:15,881 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x111b10b20>>: 'Trade' object is not subscriptable
+2021-11-08 15:36:15,881 ERROR :: Binance connections error: 'Trade' object is not subscriptable
+2021-11-08 15:36:17,892 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x111b10b20>>: 'Trade' object is not subscriptable
+2021-11-08 15:36:17,893 ERROR :: Binance connections error: 'Trade' object is not subscriptable
+2021-11-08 15:36:17,914 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x111b10b20>>: 'Trade' object is not subscriptable
+2021-11-08 15:36:17,914 ERROR :: Binance connections error: 'Trade' object is not subscriptable
+2021-11-08 15:37:07,878 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 15:37:08,996 INFO :: Binance connection opened
+2021-11-08 15:37:12,237 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x110ba6be0>>: __str__ returned non-string (type int)
+2021-11-08 15:37:12,237 ERROR :: Binance connections error: __str__ returned non-string (type int)
+2021-11-08 15:37:12,238 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x110ba6be0>>: __str__ returned non-string (type int)
+2021-11-08 15:37:12,238 ERROR :: Binance connections error: __str__ returned non-string (type int)
+2021-11-08 15:37:14,193 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x110ba6be0>>: __str__ returned non-string (type int)
+2021-11-08 15:37:14,193 ERROR :: Binance connections error: __str__ returned non-string (type int)
+2021-11-08 15:37:14,206 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x110ba6be0>>: __str__ returned non-string (type int)
+2021-11-08 15:37:14,206 ERROR :: Binance connections error: __str__ returned non-string (type int)
+2021-11-08 15:38:15,006 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 15:38:16,095 INFO :: Binance connection opened
+2021-11-08 15:40:04,496 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 15:40:05,602 INFO :: Binance connection opened
+2021-11-08 15:40:39,053 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 15:40:40,104 INFO :: Binance connection opened
+2021-11-08 15:45:15,807 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 15:45:16,948 INFO :: Binance connection opened
+2021-11-08 15:45:17,133 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/API/connectors/binance_futures.py changed, reloading.
+2021-11-08 15:45:24,999 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 15:45:26,059 INFO :: Binance connection opened
+2021-11-08 15:46:32,808 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 15:47:28,141 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 15:47:29,299 INFO :: Binance connection opened
+2021-11-08 15:47:45,836 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/API/connectors/binance_futures.py changed, reloading.
+2021-11-08 15:47:59,938 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 15:48:01,005 INFO :: Binance connection opened
+2021-11-08 15:48:50,539 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/API/connectors/binance_futures.py changed, reloading.
+2021-11-08 15:49:01,265 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 15:49:02,383 INFO :: Binance connection opened
+2021-11-08 15:49:04,062 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,062 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,176 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,176 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,318 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,318 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,330 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,330 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,341 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,342 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,353 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,353 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,363 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,363 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,375 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,375 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,393 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,393 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,400 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,400 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,499 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,499 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,519 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,519 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,532 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,532 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,542 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,542 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,553 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,554 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,564 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,564 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,572 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,572 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,583 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,583 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,700 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,701 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,715 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,715 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,961 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,961 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,971 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,972 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,982 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,982 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,995 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:04,996 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:05,006 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:05,007 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,072 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,072 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,077 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,077 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,079 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,079 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,108 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,109 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,122 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,122 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,138 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,139 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,205 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,205 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,210 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,210 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,217 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,217 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,225 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,225 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,238 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,238 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,248 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,248 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,271 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,271 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,298 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,298 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,542 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,542 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,577 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,577 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,586 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,586 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,597 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,598 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,611 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,611 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,616 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,617 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,623 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,623 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,710 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,710 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,743 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:06,744 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:07,096 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:07,096 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:07,099 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:07,099 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:08,018 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:08,019 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:08,021 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:08,022 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:08,201 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:08,201 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:08,214 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:08,214 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:08,227 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:08,227 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:08,262 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:08,262 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:08,319 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:08,319 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:08,340 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:08,340 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:08,343 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:08,344 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:08,347 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:08,347 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:08,373 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:08,373 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:08,384 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:08,385 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:08,395 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:08,396 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:08,560 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:08,561 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:08,572 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:08,572 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:08,627 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:08,627 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:08,652 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:08,653 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:08,995 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:08,995 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:09,881 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:09,881 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:09,900 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:09,901 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:09,914 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:09,914 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:10,011 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:10,011 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:10,145 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:10,145 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:10,154 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:10,154 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:10,166 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:10,167 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:10,260 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:10,260 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:10,287 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:10,287 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:10,319 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:10,319 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:10,339 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:10,340 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:10,443 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:10,444 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:10,518 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:10,519 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:10,533 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:10,533 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:10,542 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:10,542 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:10,667 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:10,668 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:10,677 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:10,677 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:10,681 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:10,681 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:10,693 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:10,693 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:10,953 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:10,953 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:11,047 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:11,047 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:11,057 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1032e6d90>>: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:11,058 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 15:49:57,071 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 15:49:58,196 INFO :: Binance connection opened
+2021-11-08 15:49:59,978 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:49:59,978 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:00,085 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:00,086 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:00,291 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:00,292 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:00,303 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:00,303 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:00,345 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:00,345 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:00,618 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:00,618 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:00,762 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:00,763 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:00,776 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:00,776 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,053 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,053 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,139 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,139 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,170 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,170 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,196 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,197 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,308 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,308 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,321 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,321 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,353 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,353 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,355 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,355 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,393 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,393 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,409 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,409 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,414 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,414 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,479 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,479 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,506 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,507 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,527 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,527 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,691 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,691 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,702 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,703 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,741 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,741 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,762 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,763 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,798 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,799 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,810 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:02,810 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:03,112 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:03,112 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:03,115 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:03,115 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:03,118 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:03,118 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:03,129 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:03,129 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:03,138 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:03,138 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:03,150 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:03,150 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:03,865 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:03,865 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:03,874 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:03,874 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:03,935 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:03,936 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:03,984 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:03,985 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:03,995 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:03,995 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:04,072 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:04,073 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:04,122 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:04,122 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:04,275 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:04,276 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:04,287 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:04,288 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:04,648 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:04,648 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:04,651 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:04,651 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:04,830 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:04,830 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:04,836 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:04,837 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:04,842 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:04,843 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:04,851 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:04,851 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:04,862 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:04,862 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:04,866 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:04,866 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:04,956 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:04,957 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:05,468 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b3db2b0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:50:05,468 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:23,081 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 15:57:24,144 INFO :: Binance connection opened
+2021-11-08 15:57:25,866 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:25,867 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:25,869 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:25,869 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:26,102 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:26,102 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:26,260 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:26,261 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:26,266 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:26,267 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:26,469 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:26,470 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:26,765 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:26,765 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:26,786 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:26,786 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:26,795 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:26,796 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:26,799 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:26,799 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:26,806 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:26,806 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:26,813 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:26,814 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:26,824 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:26,824 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:26,963 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:26,964 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:27,911 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:27,911 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:27,922 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:27,922 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:27,932 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:27,932 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:27,950 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:27,951 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,177 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,177 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,219 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,219 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,233 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,233 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,242 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,242 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,258 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,258 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,260 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,260 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,302 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,302 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,314 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,314 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,323 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,323 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,500 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,500 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,529 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,529 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,548 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,548 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,554 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,554 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,641 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,641 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,716 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,716 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,720 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,720 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,742 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,743 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,756 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,756 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,769 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,769 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,870 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,870 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,911 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:28,911 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:29,868 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:29,868 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:29,872 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:29,872 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:29,896 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:29,896 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:29,900 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:29,900 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:29,902 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:29,902 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:29,905 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:29,905 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:29,913 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:29,913 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:29,988 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:29,988 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:30,003 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:30,003 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:30,005 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:30,005 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:30,068 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:30,069 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:30,080 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109c319d0>>: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 15:57:30,080 ERROR :: Binance connections error: can't subtract offset-naive and offset-aware datetimes
+2021-11-08 16:00:02,856 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 16:00:50,537 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 16:01:01,491 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 16:01:23,958 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 16:01:58,355 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 16:01:59,484 INFO :: Binance connection opened
+2021-11-08 16:02:00,747 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10d38ea00>>: name 'difference' is not defined
+2021-11-08 16:02:00,747 ERROR :: Binance connections error: name 'difference' is not defined
+2021-11-08 16:02:01,133 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10d38ea00>>: name 'difference' is not defined
+2021-11-08 16:02:01,133 ERROR :: Binance connections error: name 'difference' is not defined
+2021-11-08 16:02:01,178 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10d38ea00>>: name 'difference' is not defined
+2021-11-08 16:02:01,178 ERROR :: Binance connections error: name 'difference' is not defined
+2021-11-08 16:02:01,188 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10d38ea00>>: name 'difference' is not defined
+2021-11-08 16:02:01,189 ERROR :: Binance connections error: name 'difference' is not defined
+2021-11-08 16:02:01,361 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10d38ea00>>: name 'difference' is not defined
+2021-11-08 16:02:01,361 ERROR :: Binance connections error: name 'difference' is not defined
+2021-11-08 16:02:01,373 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10d38ea00>>: name 'difference' is not defined
+2021-11-08 16:02:01,373 ERROR :: Binance connections error: name 'difference' is not defined
+2021-11-08 16:02:01,378 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10d38ea00>>: name 'difference' is not defined
+2021-11-08 16:02:01,378 ERROR :: Binance connections error: name 'difference' is not defined
+2021-11-08 16:02:02,498 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10d38ea00>>: name 'difference' is not defined
+2021-11-08 16:02:02,498 ERROR :: Binance connections error: name 'difference' is not defined
+2021-11-08 16:02:02,597 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10d38ea00>>: name 'difference' is not defined
+2021-11-08 16:02:02,597 ERROR :: Binance connections error: name 'difference' is not defined
+2021-11-08 16:02:02,604 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10d38ea00>>: name 'difference' is not defined
+2021-11-08 16:02:02,604 ERROR :: Binance connections error: name 'difference' is not defined
+2021-11-08 16:02:02,705 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10d38ea00>>: name 'difference' is not defined
+2021-11-08 16:02:02,705 ERROR :: Binance connections error: name 'difference' is not defined
+2021-11-08 16:02:02,715 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10d38ea00>>: name 'difference' is not defined
+2021-11-08 16:02:02,715 ERROR :: Binance connections error: name 'difference' is not defined
+2021-11-08 16:02:02,739 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10d38ea00>>: name 'difference' is not defined
+2021-11-08 16:02:02,739 ERROR :: Binance connections error: name 'difference' is not defined
+2021-11-08 16:02:02,911 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10d38ea00>>: name 'difference' is not defined
+2021-11-08 16:02:02,911 ERROR :: Binance connections error: name 'difference' is not defined
+2021-11-08 16:02:02,925 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10d38ea00>>: name 'difference' is not defined
+2021-11-08 16:02:02,925 ERROR :: Binance connections error: name 'difference' is not defined
+2021-11-08 16:02:03,026 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10d38ea00>>: name 'difference' is not defined
+2021-11-08 16:02:03,027 ERROR :: Binance connections error: name 'difference' is not defined
+2021-11-08 16:02:03,062 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10d38ea00>>: name 'difference' is not defined
+2021-11-08 16:02:03,062 ERROR :: Binance connections error: name 'difference' is not defined
+2021-11-08 16:02:03,087 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10d38ea00>>: name 'difference' is not defined
+2021-11-08 16:02:03,087 ERROR :: Binance connections error: name 'difference' is not defined
+2021-11-08 16:02:03,092 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10d38ea00>>: name 'difference' is not defined
+2021-11-08 16:02:03,092 ERROR :: Binance connections error: name 'difference' is not defined
+2021-11-08 16:02:03,106 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10d38ea00>>: name 'difference' is not defined
+2021-11-08 16:02:03,106 ERROR :: Binance connections error: name 'difference' is not defined
+2021-11-08 16:02:03,175 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10d38ea00>>: name 'difference' is not defined
+2021-11-08 16:02:03,175 ERROR :: Binance connections error: name 'difference' is not defined
+2021-11-08 16:02:03,183 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10d38ea00>>: name 'difference' is not defined
+2021-11-08 16:02:03,183 ERROR :: Binance connections error: name 'difference' is not defined
+2021-11-08 16:02:03,231 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10d38ea00>>: name 'difference' is not defined
+2021-11-08 16:02:03,232 ERROR :: Binance connections error: name 'difference' is not defined
+2021-11-08 16:02:03,316 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10d38ea00>>: name 'difference' is not defined
+2021-11-08 16:02:03,316 ERROR :: Binance connections error: name 'difference' is not defined
+2021-11-08 16:02:03,327 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10d38ea00>>: name 'difference' is not defined
+2021-11-08 16:02:03,327 ERROR :: Binance connections error: name 'difference' is not defined
+2021-11-08 16:02:03,340 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10d38ea00>>: name 'difference' is not defined
+2021-11-08 16:02:03,340 ERROR :: Binance connections error: name 'difference' is not defined
+2021-11-08 16:02:03,416 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10d38ea00>>: name 'difference' is not defined
+2021-11-08 16:02:03,416 ERROR :: Binance connections error: name 'difference' is not defined
+2021-11-08 16:02:03,429 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10d38ea00>>: name 'difference' is not defined
+2021-11-08 16:02:03,430 ERROR :: Binance connections error: name 'difference' is not defined
+2021-11-08 16:02:03,460 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10d38ea00>>: name 'difference' is not defined
+2021-11-08 16:02:03,460 ERROR :: Binance connections error: name 'difference' is not defined
+2021-11-08 16:02:55,305 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 16:02:56,420 INFO :: Binance connection opened
+2021-11-08 16:04:09,854 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 16:04:10,906 INFO :: Binance connection opened
+2021-11-08 16:04:50,395 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 16:05:50,811 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 16:05:51,899 INFO :: Binance connection opened
+2021-11-08 16:05:53,421 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:53,421 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:53,423 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:53,423 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:53,424 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:53,424 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:54,497 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:54,497 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:54,501 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:54,501 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:54,514 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:54,514 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:54,610 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:54,610 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:55,012 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:55,012 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:55,014 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:55,014 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:55,019 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:55,020 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:55,035 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:55,036 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:55,046 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:55,046 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:55,062 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:55,062 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:55,229 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:55,229 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:55,244 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:55,244 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:55,386 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:55,386 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:55,405 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:55,406 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:55,445 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:55,445 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:55,459 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:55,459 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:55,467 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:55,467 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:55,483 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:55,483 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:55,495 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:55,496 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:55,507 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:55,508 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:55,520 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:55,521 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:56,618 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:56,619 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:56,620 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:56,620 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:56,709 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:56,709 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:56,784 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:56,784 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:56,799 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:56,799 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:56,879 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:56,879 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:56,973 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:56,973 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:57,029 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:57,029 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:57,039 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:57,039 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:57,041 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:57,041 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:57,111 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:57,111 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:57,126 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:57,126 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:57,265 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:57,265 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:57,278 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:57,278 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:57,297 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:57,297 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:57,419 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:57,419 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:57,433 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:57,433 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:57,453 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:57,453 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:57,463 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:57,463 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:57,628 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:57,629 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:57,881 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:57,881 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:57,882 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:57,883 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:58,059 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:58,059 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:58,407 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:58,407 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:58,618 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:58,618 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:58,633 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:58,634 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:58,640 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:58,640 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:58,679 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:58,680 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:58,699 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:58,699 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:58,876 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:58,876 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:58,904 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:58,905 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:59,039 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:59,039 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:59,050 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:59,050 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:59,067 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:59,067 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:59,078 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:59,078 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:59,195 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:59,195 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:59,364 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:59,364 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:59,378 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e69b9d0>>: module 'datetime' has no attribute 'now'
+2021-11-08 16:05:59,378 ERROR :: Binance connections error: module 'datetime' has no attribute 'now'
+2021-11-08 16:06:29,602 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 16:06:45,184 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 16:06:46,236 INFO :: Binance connection opened
+2021-11-08 16:08:12,340 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 16:08:13,389 INFO :: Binance connection opened
+2021-11-08 16:10:13,032 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 16:10:14,116 INFO :: Binance connection opened
+2021-11-08 16:13:38,136 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 16:13:39,211 INFO :: Binance connection opened

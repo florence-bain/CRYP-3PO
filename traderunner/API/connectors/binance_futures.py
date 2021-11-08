@@ -3,7 +3,7 @@ import requests
 import time
 import typing
 
-import datetime
+from datetime import datetime, timezone
 import pytz
 
 from urllib.parse import urlencode
@@ -245,11 +245,8 @@ class BinanceFuturesClient:
                 else:
                     self.prices[symbol]['bid'] = float(data['b'])
                     self.prices[symbol]['ask'] = float(data['a'])
-                    #print("This method is working")
-                    #print(f"{self.prices[symbol]['bid']}")
                     if symbol == 'BTCBUSD' and self.strategy_price != 'false' and \
-                            self.prices[symbol]['bid'] < self.strategy_price:
-                        #logger.info("Bingo")
+                            self.prices[symbol]['bid'] > self.strategy_price:    
                         #print("This method is working as intended")
                         self.execute_trade(symbol, self.prices[symbol]['bid'], self.prices[symbol]['ask'])
                     else:
@@ -275,26 +272,41 @@ class BinanceFuturesClient:
     def execute_trade(self, symbol_ticker, sym_bid_price, sym_ask_price):
 
         order_quantity = 0.05
-        buy_price = 2000
+        buy_price = 2000 
         
-        x = self.place_order(self.contracts['BTCUSDT'], "BUY", order_quantity, "LIMIT", buy_price, "GTC")
-        # when I try to execute trade it says the margins are too low
-        print(f"This is the {x.order_id} and this is the order status {x.status} and the average price {x.status}")
-        
-        new_trade = Trade(
-            symbol = f"{symbol_ticker}",
-            trade_date = f"{datetime.datetime.now()}",
-            order_id = x.order_id,
-            status = f"{x.status}",
-            bid_price = sym_bid_price,
-            ask_price = sym_ask_price,
-            side = "BUY",
-            quantity = order_quantity,
-            tif = "GTC",
-            order_price = buy_price,
-        )
-        
-        new_trade.save()
-        logger.info("Bingo, now is a good time to execute a trade")
+        x = Trade.objects.latest('trade_date').trade_date
 
+        y = (datetime.now(timezone.utc))
+        #print(f"This is the trade date {x}")
+
+        difference = y - x 
+
+        if difference.days > 1:
+            print("Now is time to do a trade")
+            x = self.place_order(self.contracts['BTCUSDT'], "BUY", order_quantity, "LIMIT", buy_price, "GTC")
+
+            print(f"This is the {x.order_id} and this is the order status {x.status} and the average price {x.status}")
+            
+            new_trade = Trade(
+                symbol = f"{symbol_ticker}",
+                trade_date = f"{datetime.datetime.now()}",
+                order_id = x.order_id,
+                status = f"{x.status}",
+                bid_price = sym_bid_price,
+                ask_price = sym_ask_price,
+                side = "BUY",
+                quantity = order_quantity,
+                tif = "GTC",
+                order_price = buy_price,
+            )
+            new_trade.save()
+            logger.info("Bingo, now is a good time to execute a trade")
+        else:
+            print("You've already traded enough today")
+            pass
+
+
+
+      
+    
 
