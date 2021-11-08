@@ -1985,3 +1985,6 @@ AttributeError: 'str' object has no attribute 'contracts'
 2021-11-08 16:10:14,116 INFO :: Binance connection opened
 2021-11-08 16:13:38,136 INFO :: Binance Futures Client Successfully Initialized
 2021-11-08 16:13:39,211 INFO :: Binance connection opened
+2021-11-08 16:50:58,119 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 16:50:59,174 INFO :: Binance connection opened
+2021-11-08 17:05:04,767 WARNING :: Not Found: /images/c3p0.png
