@@ -1988,3 +1988,8 @@ AttributeError: 'str' object has no attribute 'contracts'
 2021-11-08 16:50:58,119 INFO :: Binance Futures Client Successfully Initialized
 2021-11-08 16:50:59,174 INFO :: Binance connection opened
 2021-11-08 17:05:04,767 WARNING :: Not Found: /images/c3p0.png
+2021-11-08 21:56:22,667 ERROR :: Binance connections error: [Errno 54] Connection reset by peer
+2021-11-08 21:56:22,694 ERROR :: error from callback <bound method BinanceFuturesClient._on_close of <API.connectors.binance_futures.BinanceFuturesClient object at 0x11409aa60>>: _on_close() takes 2 positional arguments but 4 were given
+2021-11-08 21:56:22,695 ERROR :: Binance connections error: _on_close() takes 2 positional arguments but 4 were given
+2021-11-08 21:56:26,088 INFO :: Binance connection opened
+2021-11-08 22:10:23,382 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/models.py changed, reloading.

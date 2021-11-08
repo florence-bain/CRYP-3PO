@@ -9,29 +9,61 @@
   body {
   background: rgb(185,12,6);
   background: linear-gradient(90deg, rgba(185,12,6,1) 0%, rgba(227,92,29,1) 37%, rgba(26,128,150,1) 67%);
-  }
+
+}
  
 </style>
 
 <body>
-{% if user.is_authenticated %}
+  {% if user.is_authenticated %}
   Hi {{ user.username }}!
 
-<p> Lets start talking about bitcoin,  
-
-  
-
-
-  </p>
-
+  <p> Lets start talking about bitcoin,</p>
 
   <div>
     <img src="https://www.pikpng.com/pngl/b/169-1694738_graphic-free-stock-star-wars-at-getdrawings-com.png" alt="Graphic Free Stock Star Wars At Getdrawings Com Free - Star Wars C3p0 Drawings Clipart@pikpng.com">
   </div>
 
-  <p><a href="{% url 'logout' %}">Log Out</a></p>
+  <div class="table-container">
+    <div class="table-responsive-sm text-center">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">Crypto</th>
+            <th scope="col">Date</th>
+            <th scope="col">Side</th>
+            <th scope="col">Amount</th>
+            <th scope="col">Order ID</th>
+            <th scope="col">Bid/Ask</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Bitcoin</td>
+            <td>08 Nov 21</td>
+            <td>Buy</td>
+            <td>0.05</td>
+            <td>000001</td>
+            <td>60001.02</td>
+          </tr>
+          <tr>
+            <td>Ethereum</td>
+            <td>08 Nov 21</td>
+            <td>Buy</td>
+            <td>0.1</td>
+            <td>000002</td>
+            <td>4001.02</td>
+          </tr>
 
-  
+          
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+
+
+  <p><a href="{% url 'logout' %}">Log Out</a></p>
 
 {% else %}
   <p>You are not logged in</p>
