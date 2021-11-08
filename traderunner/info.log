@@ -435,3 +435,201 @@ django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 12: 'b
 2021-11-04 22:50:09,658 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
 2021-11-07 20:16:29,414 INFO :: Binance Futures Client Successfully Initialized
 2021-11-07 20:16:30,932 INFO :: Binance connection opened
+2021-11-08 00:19:30,276 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/API/main.py changed, reloading.
+2021-11-08 00:20:13,326 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/API/main.py changed, reloading.
+2021-11-08 00:20:15,814 ERROR :: Internal Server Error: /home
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py", line 48, in home
+    contracts = binance.contracts
+AttributeError: 'str' object has no attribute 'contracts'
+2021-11-08 00:20:30,674 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/API/main.py changed, reloading.
+2021-11-08 00:22:06,958 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/API/main.py changed, reloading.
+2021-11-08 00:22:09,151 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 00:22:10,314 INFO :: Binance connection opened
+2021-11-08 00:22:12,418 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:22:14,064 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:22:14,065 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:22:16,022 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:22:16,067 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:22:18,094 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:22:18,107 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:22:20,186 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:22:20,204 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:22:22,247 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:22:22,258 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:22:24,289 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:22:24,326 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:22:26,360 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:22:26,373 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:22:26,403 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:22:28,090 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:22:28,095 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:22:28,097 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:22:30,066 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:22:30,070 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:22:32,180 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:22:32,192 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:22:32,203 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:22:32,214 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:22:32,225 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:22:34,270 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:22:34,283 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:22:36,389 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:22:38,384 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:22:38,424 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:22:38,436 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:22:38,449 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:22:42,021 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:22:44,063 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:22:44,077 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:22:46,126 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:22:46,159 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:04,572 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 00:25:05,795 INFO :: Binance connection opened
+2021-11-08 00:25:08,336 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:10,393 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:10,406 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:12,041 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:12,041 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:14,089 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:14,089 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:16,096 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:20,200 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:20,212 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:22,284 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:22,285 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:22,286 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:24,440 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:26,381 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:26,394 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:26,417 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:28,016 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:30,063 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:30,065 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:32,100 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:34,162 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:34,175 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:36,241 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:36,255 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:38,312 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:38,369 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:38,382 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:38,395 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:40,100 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:40,101 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:42,071 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:44,123 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:48,258 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:50,295 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:50,308 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:52,491 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:52,494 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:54,102 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-08 00:25:56,001 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:56,013 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:25:58,124 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:00,140 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:02,234 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:02,245 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:02,261 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:02,275 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:04,401 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:04,418 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:06,008 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:08,036 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:08,037 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:10,094 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:10,108 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:10,122 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:10,134 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:12,241 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:12,254 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:12,269 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:14,309 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:18,414 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:18,449 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:20,009 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:22,052 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:22,067 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:37,657 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 00:26:38,879 INFO :: Binance connection opened
+2021-11-08 00:26:42,328 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:42,342 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:46,048 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:46,049 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:48,095 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:48,095 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:50,083 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:50,097 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:52,140 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:54,197 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:54,229 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:56,258 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:56,271 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:56,288 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:58,320 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:26:58,352 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:27:00,427 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:27:01,976 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:27:04,071 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:27:04,071 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:27:06,122 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:27:06,131 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:27:08,207 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:27:10,260 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:27:10,273 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:27:12,357 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:27:12,378 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:27:14,424 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:27:14,452 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:27:16,052 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:27:18,099 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:27:18,111 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:27:20,190 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:27:22,241 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:27:24,301 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:27:24,315 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:27:26,387 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:27:28,431 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:27:28,446 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:29:09,116 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 00:29:10,334 INFO :: Binance connection opened
+2021-11-08 00:29:14,405 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:29:14,437 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:29:14,447 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:29:16,036 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:29:18,062 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:29:18,074 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:29:20,139 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:29:22,242 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:29:22,253 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:29:22,262 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:29:24,339 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:29:26,381 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:29:27,946 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:29:30,012 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:29:30,024 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:29:32,104 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:29:32,133 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:29:32,144 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:29:34,203 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:29:34,219 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:29:36,267 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:29:36,279 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:29:38,333 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:29:40,370 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:29:40,383 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:29:40,395 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:29:42,433 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:29:42,464 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:29:44,026 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:29:44,027 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:29:46,074 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:29:46,075 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:29:46,093 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:29:48,179 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:29:48,195 INFO :: Bingo, now is a good time to execute a trade

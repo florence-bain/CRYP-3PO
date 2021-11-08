@@ -14,9 +14,9 @@ import json
 import threading
 
 
-from strategies import Strategies
+from API.strategies import Strategies
 
-from models import * 
+from API.models import * 
 
 logger = logging.getLogger()
 
@@ -228,8 +228,8 @@ class BinanceFuturesClient:
 
         data = json.loads(msg)
 
-        print(data)
-        print(self.prices)
+        #print(data)
+        #print(self.prices)
 
         if "e" in data:
             if data['e'] == "bookTicker":

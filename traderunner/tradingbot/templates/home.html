@@ -6,7 +6,17 @@
 {% if user.is_authenticated %}
   Hi {{ user.username }}!
 
+<p> Lets start talking about bitcoin,  {{contracts}}
+
+    {{close_price}}
+
+
+  </p>
+
   <p><a href="{% url 'logout' %}">Log Out</a></p>
+
+  
+
 {% else %}
   <p>You are not logged in</p>
   <a href="{% url 'login' %}">Log In</a>

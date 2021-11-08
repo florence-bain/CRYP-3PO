@@ -4,7 +4,7 @@ from .forms import NewUserForm
 from django.contrib.auth import login,authenticate,logout
 from django.contrib import messages
 from django.contrib.auth.forms import AuthenticationForm
-
+from API.main import binancey
 
 def register_request(request):
 	if request.method == "POST":
@@ -41,3 +41,14 @@ def logout_request(request):
 	logout(request)
 	messages.info(request, "You have successfully logged out.") 
 	return redirect("/login")
+
+def home(request):
+
+	bid_price = 2000.21
+	contracts = binancey.contracts
+
+	context = {
+		'bid_price' : bid_price,
+		'contracts' : contracts
+	}
+	return render(request, 'home.html', context)

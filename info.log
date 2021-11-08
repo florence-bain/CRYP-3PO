@@ -40,3 +40,27 @@
 2021-11-07 20:38:08,244 INFO :: Bingo, now is a good time to execute a trade
 2021-11-07 20:38:10,288 INFO :: Bingo, now is a good time to execute a trade
 2021-11-07 20:38:10,289 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 00:15:55,050 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x106d6f670>>: [Errno 5] Input/output error
+2021-11-08 00:15:55,053 ERROR :: Binance connections error: [Errno 5] Input/output error
+2021-11-08 00:15:55,056 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x106d6f670>>: [Errno 5] Input/output error
+2021-11-08 00:15:55,056 ERROR :: Binance connections error: [Errno 5] Input/output error
+2021-11-08 00:15:55,057 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x106d6f670>>: [Errno 5] Input/output error
+2021-11-08 00:15:55,057 ERROR :: Binance connections error: [Errno 5] Input/output error
+2021-11-08 00:15:55,058 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x106d6f670>>: [Errno 5] Input/output error
+2021-11-08 00:15:55,058 ERROR :: Binance connections error: [Errno 5] Input/output error
+2021-11-08 00:15:55,059 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x106d6f670>>: [Errno 5] Input/output error
+2021-11-08 00:15:55,059 ERROR :: Binance connections error: [Errno 5] Input/output error
+2021-11-08 00:15:55,059 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x106d6f670>>: [Errno 5] Input/output error
+2021-11-08 00:15:55,059 ERROR :: Binance connections error: [Errno 5] Input/output error
+2021-11-08 00:15:55,060 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x106d6f670>>: [Errno 5] Input/output error
+2021-11-08 00:15:55,060 ERROR :: Binance connections error: [Errno 5] Input/output error
+2021-11-08 00:15:55,060 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x106d6f670>>: [Errno 5] Input/output error
+2021-11-08 00:15:55,060 ERROR :: Binance connections error: [Errno 5] Input/output error
+2021-11-08 00:15:55,061 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x106d6f670>>: [Errno 5] Input/output error
+2021-11-08 00:15:55,061 ERROR :: Binance connections error: [Errno 5] Input/output error
+2021-11-08 00:15:55,062 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x106d6f670>>: [Errno 5] Input/output error
+2021-11-08 00:15:55,063 ERROR :: Binance connections error: [Errno 5] Input/output error
+2021-11-08 00:15:55,063 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x106d6f670>>: [Errno 5] Input/output error
+2021-11-08 00:15:55,063 ERROR :: Binance connections error: [Errno 5] Input/output error
+2021-11-08 00:15:55,064 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x106d6f670>>: [Errno 5] Input/output error
+2021-11-08 00:15:55,065 ERROR :: Binance connections error: [Errno 5] Input/output error
