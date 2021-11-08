@@ -1226,3 +1226,50 @@ AttributeError: 'str' object has no attribute 'contracts'
 2021-11-08 14:12:46,384 INFO :: Binance connection opened
 2021-11-08 14:13:00,490 INFO :: Binance Futures Client Successfully Initialized
 2021-11-08 14:13:01,506 INFO :: Binance connection opened
+2021-11-08 14:37:11,013 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 14:37:12,126 INFO :: Binance connection opened
+2021-11-08 14:37:53,327 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/API/strategies.py changed, reloading.
+2021-11-08 14:38:07,343 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 14:38:08,412 INFO :: Binance connection opened
+2021-11-08 14:39:52,034 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 14:39:53,112 INFO :: Binance connection opened
+2021-11-08 14:40:49,700 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/API/connectors/binance_futures.py changed, reloading.
+2021-11-08 14:41:03,647 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 14:41:04,760 INFO :: Binance connection opened
+2021-11-08 14:41:44,933 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/API/connectors/binance_futures.py changed, reloading.
+2021-11-08 14:42:50,769 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 14:42:51,846 INFO :: Binance connection opened
+2021-11-08 14:44:59,431 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 14:45:00,473 INFO :: Binance connection opened
+2021-11-08 14:45:31,716 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 14:45:32,796 INFO :: Binance connection opened
+2021-11-08 14:45:34,636 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 14:45:36,542 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 14:45:38,156 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 14:45:38,860 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 14:45:40,245 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 14:45:42,270 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 14:45:42,979 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 14:50:09,596 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 14:50:10,751 INFO :: Binance connection opened
+2021-11-08 14:50:12,935 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10f259b20>>: type object 'datetime.datetime' has no attribute 'datetime'
+2021-11-08 14:50:12,935 ERROR :: Binance connections error: type object 'datetime.datetime' has no attribute 'datetime'
+2021-11-08 14:50:14,583 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10f259b20>>: type object 'datetime.datetime' has no attribute 'datetime'
+2021-11-08 14:50:14,583 ERROR :: Binance connections error: type object 'datetime.datetime' has no attribute 'datetime'
+2021-11-08 14:50:16,132 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10f259b20>>: type object 'datetime.datetime' has no attribute 'datetime'
+2021-11-08 14:50:16,132 ERROR :: Binance connections error: type object 'datetime.datetime' has no attribute 'datetime'
+2021-11-08 14:50:16,866 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10f259b20>>: type object 'datetime.datetime' has no attribute 'datetime'
+2021-11-08 14:50:16,866 ERROR :: Binance connections error: type object 'datetime.datetime' has no attribute 'datetime'
+2021-11-08 14:50:17,179 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10f259b20>>: type object 'datetime.datetime' has no attribute 'datetime'
+2021-11-08 14:50:17,179 ERROR :: Binance connections error: type object 'datetime.datetime' has no attribute 'datetime'
+2021-11-08 14:50:18,611 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10f259b20>>: type object 'datetime.datetime' has no attribute 'datetime'
+2021-11-08 14:50:18,611 ERROR :: Binance connections error: type object 'datetime.datetime' has no attribute 'datetime'
+2021-11-08 14:50:20,255 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10f259b20>>: type object 'datetime.datetime' has no attribute 'datetime'
+2021-11-08 14:50:20,255 ERROR :: Binance connections error: type object 'datetime.datetime' has no attribute 'datetime'
+2021-11-08 14:50:55,259 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 14:50:56,470 INFO :: Binance connection opened
+2021-11-08 14:50:59,022 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 14:50:59,356 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 14:51:01,506 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 14:51:02,599 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 14:51:03,335 INFO :: Bingo, now is a good time to execute a trade

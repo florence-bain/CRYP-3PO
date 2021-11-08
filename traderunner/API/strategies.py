@@ -27,7 +27,7 @@ class Strategies:
 
         has_it_crossed = 'false'
 
-        if fifty_day_moving_average > two_hundred_day_moving_average:
+        if fifty_day_moving_average < two_hundred_day_moving_average:
             has_it_crossed = fifty_day_moving_average
         else:
             has_it_crossed = 'false'

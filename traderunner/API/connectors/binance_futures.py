@@ -3,6 +3,9 @@ import requests
 import time
 import typing
 
+import datetime
+import pytz
+
 from urllib.parse import urlencode
 
 import hmac
@@ -13,6 +16,7 @@ import json
 
 import threading
 
+from tradingbot.models import Trade
 
 from API.strategies import Strategies
 
@@ -241,10 +245,13 @@ class BinanceFuturesClient:
                 else:
                     self.prices[symbol]['bid'] = float(data['b'])
                     self.prices[symbol]['ask'] = float(data['a'])
+                    #print("This method is working")
+                    #print(f"{self.prices[symbol]['bid']}")
                     if symbol == 'BTCBUSD' and self.strategy_price != 'false' and \
-                            self.prices[symbol]['bid'] > self.strategy_price:
+                            self.prices[symbol]['bid'] < self.strategy_price:
                         #logger.info("Bingo")
-                        self.execute_trade(symbol)
+                        #print("This method is working as intended")
+                        self.execute_trade(symbol, self.prices[symbol]['bid'], self.prices[symbol]['ask'])
                     else:
                         pass
 
@@ -265,12 +272,29 @@ class BinanceFuturesClient:
 
         self._ws_id += 1
 
-    def execute_trade(self, symbol):
+    def execute_trade(self, symbol_ticker, sym_bid_price, sym_ask_price):
 
-        x = self.place_order(self.contracts['BTCUSDT'], "BUY", 0.05, "LIMIT", 2000, "GTC")
+        order_quantity = 0.05
+        buy_price = 2000
+        
+        x = self.place_order(self.contracts['BTCUSDT'], "BUY", order_quantity, "LIMIT", buy_price, "GTC")
         # when I try to execute trade it says the margins are too low
         print(f"This is the {x.order_id} and this is the order status {x.status} and the average price {x.status}")
         
+        new_trade = Trade(
+            symbol = f"{symbol_ticker}",
+            trade_date = f"{datetime.datetime.now()}",
+            order_id = x.order_id,
+            status = f"{x.status}",
+            bid_price = sym_bid_price,
+            ask_price = sym_ask_price,
+            side = "BUY",
+            quantity = order_quantity,
+            tif = "GTC",
+            order_price = buy_price,
+        )
+        
+        new_trade.save()
         logger.info("Bingo, now is a good time to execute a trade")
 
 
