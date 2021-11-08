@@ -266,7 +266,11 @@ class BinanceFuturesClient:
         self._ws_id += 1
 
     def execute_trade(self, symbol):
-        #x = self.place_order(self.contracts['BTCUSDT'], "BUY", 0.05, "LIMIT", 2000, "GTC")
+
+        x = self.place_order(self.contracts['BTCUSDT'], "BUY", 0.05, "LIMIT", 2000, "GTC")
         # when I try to execute trade it says the margins are too low
-        #print(x)
+        print(f"This is the {x.order_id} and this is the order status {x.status} and the average price {x.status}")
+        
         logger.info("Bingo, now is a good time to execute a trade")
+
+

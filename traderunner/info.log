@@ -633,3 +633,596 @@ AttributeError: 'str' object has no attribute 'contracts'
 2021-11-08 00:29:46,093 INFO :: Bingo, now is a good time to execute a trade
 2021-11-08 00:29:48,179 INFO :: Bingo, now is a good time to execute a trade
 2021-11-08 00:29:48,195 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 10:21:21,200 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 10:21:22,293 INFO :: Binance connection opened
+2021-11-08 10:23:13,059 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 10:23:14,130 INFO :: Binance connection opened
+2021-11-08 10:23:47,503 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 10:23:48,523 INFO :: Binance connection opened
+2021-11-08 10:24:28,773 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/API/connectors/binance_futures.py changed, reloading.
+2021-11-08 10:25:33,990 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 10:25:35,063 INFO :: Binance connection opened
+2021-11-08 10:26:53,362 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 10:26:54,447 INFO :: Binance connection opened
+2021-11-08 10:28:39,390 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 10:28:40,464 INFO :: Binance connection opened
+2021-11-08 10:51:34,743 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 10:51:35,860 INFO :: Binance connection opened
+2021-11-08 10:54:04,841 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/API/connectors/binance_futures.py changed, reloading.
+2021-11-08 10:54:37,112 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 10:54:38,149 INFO :: Binance connection opened
+2021-11-08 10:55:01,945 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/API/connectors/binance_futures.py changed, reloading.
+2021-11-08 10:55:18,763 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 10:55:19,865 INFO :: Binance connection opened
+2021-11-08 10:55:48,690 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/API/connectors/binance_futures.py changed, reloading.
+2021-11-08 10:56:03,105 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 10:56:04,144 INFO :: Binance connection opened
+2021-11-08 10:57:00,452 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 10:57:01,452 INFO :: Binance connection opened
+2021-11-08 10:57:02,879 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:02,880 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:02,984 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:02,984 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:04,413 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:04,413 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:04,420 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:04,420 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:04,438 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:04,438 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:04,450 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:04,451 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:04,465 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:04,465 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:04,486 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:04,486 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:04,505 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:04,505 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:04,590 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:04,590 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:04,918 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:04,918 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:04,957 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:04,957 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:05,009 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:05,009 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:05,017 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:05,017 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:05,049 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:05,050 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:05,185 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:05,186 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:06,424 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:06,424 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:06,428 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:06,429 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:06,431 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:06,431 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:06,438 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:06,438 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:06,502 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:06,502 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:06,521 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:06,521 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:06,540 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:06,541 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:06,551 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:06,551 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:06,559 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:06,560 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:06,568 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:06,569 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:06,572 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:06,572 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:06,573 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:06,573 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:06,578 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:06,578 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:06,583 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:06,583 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:06,584 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:06,584 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:07,007 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:07,007 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:07,015 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:07,015 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:07,137 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:07,138 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:07,145 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:07,146 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:07,297 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:07,297 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:08,125 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:08,126 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:08,139 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:08,140 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:08,153 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:08,154 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:08,183 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:08,183 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:08,196 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:08,196 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:08,475 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:08,476 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:08,481 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:08,481 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:08,496 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:08,496 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:08,500 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:08,500 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:08,571 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:08,571 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:08,584 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:08,584 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:08,592 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:08,592 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:08,613 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:08,613 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:08,621 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:08,621 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:08,771 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:08,772 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:08,930 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:08,930 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:09,065 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:09,065 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:09,097 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:09,097 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:09,170 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:09,170 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:09,181 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:09,181 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:10,160 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:10,161 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:10,173 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:10,173 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:10,176 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:10,177 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:10,190 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:10,191 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:10,196 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:10,196 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:10,218 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:10,218 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:10,231 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:10,231 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:10,241 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:10,241 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:10,266 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:10,266 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:10,531 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:10,532 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:10,551 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:10,552 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:10,556 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:10,557 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:10,582 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:10,582 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:10,601 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:10,601 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:10,611 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:10,611 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:10,623 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:10,623 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:11,040 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:11,040 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:11,126 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:11,126 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:11,138 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:11,138 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:11,237 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:11,237 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:12,219 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:12,219 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:12,220 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:12,220 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:12,233 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:12,234 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:12,251 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:12,252 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:12,260 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:12,260 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:12,273 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:12,273 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:12,371 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:12,371 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:12,384 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:12,384 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:12,414 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:12,414 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:12,442 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:12,442 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:12,454 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:12,454 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:12,629 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:12,629 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:12,641 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:12,641 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:12,659 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:12,659 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:12,689 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:12,689 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:12,701 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:12,701 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:12,708 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:12,708 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:12,780 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:12,780 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:12,791 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:12,792 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:12,804 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:12,804 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:12,817 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:12,817 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:12,828 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:12,829 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:12,840 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:12,840 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:12,854 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:12,854 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:12,865 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:12,865 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:12,874 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:12,874 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:12,889 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:12,890 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:13,062 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:13,062 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:13,156 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:13,156 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:13,216 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:13,216 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:13,228 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:13,228 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:13,329 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:13,330 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:13,350 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:13,351 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:13,370 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:13,370 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:13,385 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:13,385 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:14,235 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:14,235 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:14,251 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:14,251 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:14,278 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:14,278 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:14,299 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:14,299 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:14,309 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:14,310 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:14,324 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:14,324 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:14,489 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:14,489 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:14,537 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:14,537 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:14,579 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:14,580 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:14,593 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:14,593 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:14,604 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:14,604 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:14,619 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:14,619 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:14,934 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:14,934 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:14,943 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:14,943 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:15,274 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:15,274 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:15,297 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:15,297 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:15,311 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:15,312 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:16,152 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:16,152 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:16,224 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:16,224 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:16,292 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:16,292 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:16,303 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:16,303 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:16,317 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:16,317 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:16,334 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:16,335 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:16,346 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:16,347 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:16,356 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:16,356 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:16,381 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:16,381 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:16,403 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:16,404 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:16,441 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:16,441 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:16,465 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:16,465 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:16,568 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:16,569 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:16,706 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:16,706 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:16,718 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:16,718 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:16,732 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:16,732 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:16,746 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:16,746 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:16,865 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:16,865 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:16,876 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:16,877 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:16,890 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:16,891 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:16,987 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:16,988 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:17,074 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:17,074 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:17,085 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:17,086 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:17,364 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:17,364 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:17,446 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:17,446 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:17,456 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:17,456 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:17,465 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:17,465 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:17,960 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:17,960 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:18,303 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:18,303 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:18,337 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:18,337 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:18,370 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:18,370 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:18,394 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:18,395 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:18,395 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:18,396 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:18,408 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:18,409 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:18,419 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:18,420 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:18,423 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:18,423 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:18,434 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:18,435 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:18,435 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:18,435 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:18,446 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:18,447 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:18,448 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:18,448 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:18,519 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:18,519 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:18,535 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:18,535 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:18,545 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:18,545 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:18,921 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:18,921 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:18,932 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:18,932 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:18,946 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:18,946 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:19,069 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:19,070 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:19,115 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:19,115 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:19,148 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:19,148 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:57:19,169 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1034c5e20>>: list indices must be integers or slices, not str
+2021-11-08 10:57:19,169 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:25,338 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 10:58:26,463 INFO :: Binance connection opened
+2021-11-08 10:58:30,219 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:30,220 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:30,235 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:30,235 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:30,344 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:30,344 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:30,423 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:30,423 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:30,435 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:30,435 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:30,447 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:30,447 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:30,449 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:30,450 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:30,479 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:30,480 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:30,580 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:30,581 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:31,086 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:31,087 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:31,099 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:31,099 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:31,112 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:31,112 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:31,123 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:31,123 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:31,275 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:31,275 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:31,284 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:31,285 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:32,069 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:32,070 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:32,280 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:32,281 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:32,296 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:32,296 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:32,391 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:32,391 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:32,407 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:32,407 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:32,418 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:32,418 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:32,497 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:32,497 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:32,524 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:32,524 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:32,528 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:32,528 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:32,541 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:32,541 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:32,646 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:32,646 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:32,655 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:32,655 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:32,665 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:32,666 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:33,189 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:33,189 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:33,199 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:33,199 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:33,242 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:33,243 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:33,331 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:33,331 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:33,342 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:33,342 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:34,192 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:34,192 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:34,201 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:34,202 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:34,370 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:34,370 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:34,384 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:34,384 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:34,396 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:34,396 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:34,439 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:34,439 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:34,450 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:34,450 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:34,458 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:34,458 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:34,505 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:34,506 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:34,570 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:34,570 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:34,581 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:34,581 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:34,650 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:34,651 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:34,671 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:34,671 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:34,683 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:34,683 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:34,696 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:34,696 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:34,705 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:34,706 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:34,719 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:34,719 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:34,734 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:34,735 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:34,874 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:34,875 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:34,894 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:34,894 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:34,903 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:34,903 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:35,265 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:35,265 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:35,289 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:35,290 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:35,301 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:35,302 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:35,313 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:35,313 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:58:35,362 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e1cf340>>: list indices must be integers or slices, not str
+2021-11-08 10:58:35,362 ERROR :: Binance connections error: list indices must be integers or slices, not str
+2021-11-08 10:59:15,521 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 10:59:16,575 INFO :: Binance connection opened
+2021-11-08 11:00:26,650 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 11:00:27,676 INFO :: Binance connection opened
+2021-11-08 11:00:30,205 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:00:32,262 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:00:32,368 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:00:32,380 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:00:32,395 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:00:32,407 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:00:32,418 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:00:34,450 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:00:34,525 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:00:36,574 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:01:27,695 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 11:01:28,710 INFO :: Binance connection opened
+2021-11-08 11:01:32,524 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:01:32,535 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:01:32,549 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:01:32,561 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:01:34,666 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:01:34,690 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:01:34,692 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:01:36,209 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:01:36,230 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:01:38,264 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:01:38,288 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:01:40,320 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:01:40,327 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:01:42,365 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:01:42,395 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:01:44,426 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:01:44,438 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:01:46,528 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:01:46,551 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:03:32,022 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 11:03:33,069 INFO :: Binance connection opened
+2021-11-08 11:03:36,250 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:03:36,265 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:03:38,382 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:03:38,398 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:03:38,426 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:03:38,434 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:03:38,447 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:03:38,457 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:03:38,471 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:04:25,912 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 11:04:26,938 INFO :: Binance connection opened
+2021-11-08 11:04:29,264 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:04:31,290 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:04:31,584 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:04:32,940 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:04:33,243 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:08:27,641 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 11:08:28,745 INFO :: Binance connection opened
+2021-11-08 11:08:33,133 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:08:35,192 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:08:37,242 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:08:39,292 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:08:39,596 INFO :: Bingo, now is a good time to execute a trade
+2021-11-08 11:15:40,983 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 11:15:42,122 INFO :: Binance connection opened
+2021-11-08 11:16:16,153 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/API/strategies.py changed, reloading.
+2021-11-08 11:16:31,281 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 11:16:32,368 INFO :: Binance connection opened
+2021-11-08 12:11:59,350 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 12:12:00,455 INFO :: Binance connection opened
+2021-11-08 12:12:41,481 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 12:12:42,497 INFO :: Binance connection opened
+2021-11-08 12:14:22,977 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 12:14:24,094 INFO :: Binance connection opened
+2021-11-08 12:14:40,540 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 12:14:41,628 INFO :: Binance connection opened
+2021-11-08 12:18:34,926 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 12:18:36,029 INFO :: Binance connection opened
+2021-11-08 13:15:02,747 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 13:15:04,069 INFO :: Binance connection opened
+2021-11-08 13:21:15,706 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 13:21:16,866 INFO :: Binance connection opened
+2021-11-08 13:24:26,981 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 13:24:28,184 INFO :: Binance connection opened
+2021-11-08 13:25:07,858 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 13:25:09,079 INFO :: Binance connection opened
+2021-11-08 13:25:54,248 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 13:25:55,469 INFO :: Binance connection opened
+2021-11-08 13:45:08,316 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 13:45:09,532 INFO :: Binance connection opened
+2021-11-08 14:12:45,257 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 14:12:46,384 INFO :: Binance connection opened
+2021-11-08 14:13:00,490 INFO :: Binance Futures Client Successfully Initialized
+2021-11-08 14:13:01,506 INFO :: Binance connection opened
