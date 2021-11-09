@@ -9,7 +9,8 @@ import os
 
 candlesticks  = binancey.get_historical_candles(binancey.contracts['BTCBUSD'], '1d')
 
-filtered = candlesticks[-30:]
+filtered_btc = candlesticks[-30:]
+filtered_eth
 
 x_values = []
 y_values = []

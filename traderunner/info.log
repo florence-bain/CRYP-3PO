@@ -3012,3 +3012,4 @@ django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '
 2021-11-09 19:05:24,354 INFO :: Binance connection opened
 2021-11-09 19:11:24,050 INFO :: Binance Futures Client Successfully Initialized
 2021-11-09 19:11:25,277 INFO :: Binance connection opened
+2021-11-09 19:58:44,299 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/API/data_visualisation.py changed, reloading.

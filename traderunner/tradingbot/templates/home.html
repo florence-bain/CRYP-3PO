@@ -27,10 +27,19 @@
 
   </p>
 
-
-<div class="chart">
-  <canvas id="myChart" width="400" height="400"></canvas>
+<div class="row align-items-center" id="chart_container">
+  <div class="col">
+    <canvas id="myChart" width="400" height="400"></canvas>
+    <p style="color:#f7f7f7; font-family: 'Blade Runner Movie Font'; text-align: center;">Bitcoin</p>
+  </div>
+  <div class="col">
+    <p style="color:#f7f7f7; font-family: 'Blade Runner Movie Font'; text-align: center;">DogeCoin</p>
+  </div>
+  <div class="col">
+    <p style="color:#f7f7f7; font-family: 'Blade Runner Movie Font'; text-align: center;">Ethereum</p>
+  </div>
 </div>
+
 
 <script>
 const ctx = document.getElementById('myChart');
@@ -39,7 +48,7 @@ const myChart = new Chart(ctx, {
     data: {
         labels: [{% for dates in x %} '{{dates}}', {% endfor %}],
         datasets: [{
-            label: 'Bitcoin (BTCUSDT) daily high',
+            label: 'BTCUSDT daily high',
             data: {{ y }},
             borderColor: [
             'rgb(75, 192, 192)',
@@ -71,12 +80,12 @@ const myChart = new Chart(ctx, {
 
 
 
-
-
-
   <div>
     <img src="https://www.pikpng.com/pngl/b/169-1694738_graphic-free-stock-star-wars-at-getdrawings-com.png" alt="Graphic Free Stock Star Wars At Getdrawings Com Free - Star Wars C3p0 Drawings Clipart@pikpng.com">
   </div>
+
+
+
 
   <div class="table-container">
     <div class="table-responsive-sm text-center">
