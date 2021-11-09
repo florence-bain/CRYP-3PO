@@ -255,15 +255,15 @@ class BinanceFuturesClient:
                     #print(f"This is the litecoin price {self.prices['LTCUSDT']['ask']} and the strategy price {self.strategy_price_ltc}")
                     if symbol == 'BTCBUSD' and self.strategy_price_btc != 'false' and \
                             self.prices[symbol]['bid'] > self.strategy_price_btc:    
-                        print("This bitcoin method is working as intended")
+                        #print("This bitcoin method is working as intended")
                         self.execute_trade(symbol, self.prices[symbol]['bid'], self.prices[symbol]['ask'])
                     elif symbol == 'ETHUSDT_211231' and self.strategy_price_eth != 'false' and \
                              self.prices[symbol]['bid'] > self.strategy_price_eth:    
-                             print("This ethereum method is working as intended")
+                             #print("This ethereum method is working as intended")
                              self.execute_trade(symbol, self.prices[symbol]['bid'], self.prices[symbol]['ask'])
                     elif symbol == 'LTCUSDT' and self.strategy_price_ltc != 'false' and \
                              self.prices[symbol]['bid'] > self.strategy_price_ltc:    
-                             print("This litecoin method is working as intended")
+                             #print("This litecoin method is working as intended")
                              self.execute_trade(symbol, self.prices[symbol]['bid'], self.prices[symbol]['ask'])
                     else:
                         pass

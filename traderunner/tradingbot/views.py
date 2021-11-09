@@ -6,6 +6,9 @@ from django.contrib import messages
 from django.contrib.auth.forms import AuthenticationForm
 from API.main import binancey
 
+#from API.data_visualisation import fig
+
+
 from tradingbot.models import Trade
 
 
@@ -48,10 +51,11 @@ def logout_request(request):
 def home(request):
 	trades = Trade.objects.all().order_by("trade_date")
 	contracts = binancey.contracts
-	
+	#show_graph = fig
 
 	context = {
 		'trades' : trades,
 		'contracts' : contracts,
+		#'show_graph' : show_graph,
 	}
 	return render(request, 'home.html', context)

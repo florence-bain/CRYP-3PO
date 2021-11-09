@@ -2561,3 +2561,73 @@ django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '
 2021-11-09 09:01:23,151 INFO :: Bingo, now is a good time to execute a trade
 2021-11-09 09:03:46,397 INFO :: Binance Futures Client Successfully Initialized
 2021-11-09 09:03:47,710 INFO :: Binance connection opened
+2021-11-09 10:16:03,587 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 10:16:04,671 INFO :: Binance connection opened
+2021-11-09 10:43:41,157 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 10:43:42,202 INFO :: Binance connection opened
+2021-11-09 10:45:51,699 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 10:45:52,741 INFO :: Binance connection opened
+2021-11-09 10:48:09,715 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 10:48:10,906 INFO :: Binance connection opened
+2021-11-09 10:49:10,618 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 10:49:11,623 INFO :: Binance connection opened
+2021-11-09 10:50:42,779 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 10:50:44,331 INFO :: Binance connection opened
+2021-11-09 10:52:32,342 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 10:52:33,406 INFO :: Binance connection opened
+2021-11-09 10:56:25,860 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 10:56:26,996 INFO :: Binance connection opened
+2021-11-09 10:56:27,454 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 10:56:28,070 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 10:56:28,465 INFO :: Binance connection opened
+2021-11-09 10:56:29,136 INFO :: Binance connection opened
+2021-11-09 10:56:41,317 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/API/data_visualisation.py changed, reloading.
+2021-11-09 10:56:48,451 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 10:56:49,507 INFO :: Binance connection opened
+2021-11-09 10:56:49,877 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 10:56:50,916 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 10:56:50,937 INFO :: Binance connection opened
+2021-11-09 10:56:51,926 INFO :: Binance connection opened
+2021-11-09 10:57:23,318 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/API/data_visualisation.py changed, reloading.
+2021-11-09 10:57:35,900 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 10:57:36,999 INFO :: Binance connection opened
+2021-11-09 10:57:37,474 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 10:57:38,104 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 10:57:38,464 INFO :: Binance connection opened
+2021-11-09 10:57:39,123 INFO :: Binance connection opened
+2021-11-09 10:57:56,526 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/API/data_visualisation.py changed, reloading.
+2021-11-09 10:58:03,450 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 10:58:04,583 INFO :: Binance connection opened
+2021-11-09 10:58:04,979 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 10:58:05,987 INFO :: Binance connection opened
+2021-11-09 10:58:06,458 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 10:58:07,462 INFO :: Binance connection opened
+2021-11-09 11:02:09,656 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 11:02:10,769 INFO :: Binance connection opened
+2021-11-09 11:02:11,202 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 11:02:12,217 INFO :: Binance connection opened
+2021-11-09 11:02:12,577 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 11:02:13,638 INFO :: Binance connection opened
+2021-11-09 11:02:46,962 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/API/data_visualisation.py changed, reloading.
+2021-11-09 11:02:55,055 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 11:02:56,106 INFO :: Binance connection opened
+2021-11-09 11:02:56,577 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 11:02:57,514 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 11:02:57,609 INFO :: Binance connection opened
+2021-11-09 11:02:58,603 INFO :: Binance connection opened
+2021-11-09 11:05:55,884 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 11:05:56,991 INFO :: Binance connection opened
+2021-11-09 11:05:57,911 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 11:05:58,984 INFO :: Binance connection opened
+2021-11-09 11:06:01,458 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 11:06:02,474 INFO :: Binance connection opened
+2021-11-09 11:26:45,210 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 11:26:46,477 INFO :: Binance connection opened
+2021-11-09 11:27:15,880 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/API/data_visualisation.py changed, reloading.
+2021-11-09 11:27:48,061 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 11:27:49,103 INFO :: Binance connection opened
+2021-11-09 11:30:23,009 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 11:30:24,110 INFO :: Binance connection opened
+2021-11-09 11:30:56,275 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 11:30:57,382 INFO :: Binance connection opened
+2021-11-09 11:35:12,794 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/API/connectors/binance_futures.py changed, reloading.
