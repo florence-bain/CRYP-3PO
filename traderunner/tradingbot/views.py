@@ -6,7 +6,7 @@ from django.contrib import messages
 from django.contrib.auth.forms import AuthenticationForm
 from API.main import binancey
 
-from API.data_visualisation import x_axis,y_axis
+from API.data_visualisation import x_values, btc_high, btc_close, eth_close, eth_high, doge_close, doge_high
 
 import datetime
 import pandas as pd
@@ -51,7 +51,7 @@ def logout_request(request):
 	return redirect("/login")
 
 def home(request):
-	trades = Trade.objects.all().order_by("trade_date")
+	trades = Trade.objects.all().order_by("trade_date").reverse()
 	contracts = binancey.contracts
 
 	candlesticks  = binancey.get_historical_candles(binancey.contracts['BTCBUSD'], '1d')
@@ -70,15 +70,32 @@ def home(request):
 
 	
 	x_axis = x_values
+
+	btc_c = btc_close
+	btc_h = btc_high
+
+	eth_c = eth_close
+	eth_h = eth_high
+
+	doge_c = doge_high
+	doge_h = doge_close
+
+
+	print(f"This is doge {doge_c}")
+
 	#x_axis = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30]
-	btc_close = btc_close_values
-	btc_high = btc_high_values
+	# btc_close = btc_close_values
+	# btc_high = btc_high_values
 
 	context = {
 			'trades' : trades,
 			'contracts' : contracts,
-			'btc_high' : btc_high,
-			'btc_close' : btc_close,
+			'btc_high' : btc_h,
+			'btc_close' : btc_c,
+			'eth_high' : eth_h,
+			'eth_close' : eth_c,
+			'doge_close' : doge_c,
+			'doge_high' : doge_h,
 			'x' : x_axis,
 			
 		}

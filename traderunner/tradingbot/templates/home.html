@@ -21,21 +21,24 @@
   {% if user.is_authenticated %}
   Hi {{ user.username }}!
 
+
+
   <p> Lets start talking about bitcoin,
-    1 - {{contracts.ADAUSDT.symbol}}
-    2 - {{contracts.ETHUSDT.symbol}}
+  
 
   </p>
 
 <div class="row align-items-center" id="chart_container">
-  <div class="col">
+  <div class="col-6 col-sm-4">
     <canvas id="myChart" width="400" height="400"></canvas>
     <p style="color:#f7f7f7; font-family: 'Blade Runner Movie Font'; text-align: center;">Bitcoin</p>
   </div>
-  <div class="col">
+  <div class="col-6 col-sm-4"> 
+    <canvas id="myChartD" width="400" height="400"></canvas>
     <p style="color:#f7f7f7; font-family: 'Blade Runner Movie Font'; text-align: center;">DogeCoin</p>
   </div>
-  <div class="col">
+  <div class="col-6 col-sm-4">
+    <canvas id="myChartETH" width="400" height="400"></canvas>
     <p style="color:#f7f7f7; font-family: 'Blade Runner Movie Font'; text-align: center;">Ethereum</p>
   </div>
 </div>
@@ -86,8 +89,96 @@ const myChart = new Chart(ctx, {
 });
 </script>
 
+<script>
+  const ctxeth = document.getElementById('myChartETH');
+  const myChartETH = new Chart(ctxeth, {
+      type: 'line',
+      data: {
+          labels: [{% for dates in x %} '{{dates}}', {% endfor %}],
+          datasets: [
+            {
+              label: 'ETHUSDT daily high',
+              data: {{ eth_high }},
+              borderColor: [
+              'rgb(75, 192, 192)',
+              ],
+              borderWidth: 3,
+              color: ['rgb(255, 255, 255)'],
+          },
+          {
+            label: 'ETHUSDT daily close',
+              data: {{ eth_close }},
+              borderColor: [
+              'rgb(255, 255, 255)',
+              ],
+              borderWidth: 3,
+            }
+          
+        ]
+      },
+      options: {
+        plugins: {  
+          legend: {
+            display: true,
+            labels: {
+              
+            }
+          }
+        },
+          scales: {
+              y: {
+                  beginAtZero: true
+              }
+          }
+      }
+  });
+  </script>
 
 
+<script>
+  const ctxd = document.getElementById('myChartD');
+  const myChartD = new Chart(ctxd, {
+      type: 'line',
+      data: {
+          labels: [{% for dates in x %} '{{dates}}', {% endfor %}],
+          datasets: [
+            {
+              label: 'DOGEUSDT daily high',
+              data: {{ doge_high }},
+              borderColor: [
+              'rgb(75, 192, 192)',
+              ],
+              borderWidth: 3,
+              color: ['rgb(255, 255, 255)'],
+          },
+          {
+            label: 'DOGEUSDT daily close',
+              data: {{ doge_close }},
+              borderColor: [
+              'rgb(255, 255, 255)',
+              ],
+              borderWidth: 3,
+            }
+          
+        ]
+      },
+      options: {
+        plugins: {  
+          legend: {
+            display: true,
+            labels: {
+              
+            }
+          }
+        },
+          scales: {
+              y: {
+                  beginAtZero: true
+              }
+          }
+      }
+  });
+  </script>
 
 
   <div>
