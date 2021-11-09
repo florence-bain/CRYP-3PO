@@ -14,7 +14,10 @@
  
 </style>
 
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <body>
+<h1>TradeRunner</h1>
+
   {% if user.is_authenticated %}
   Hi {{ user.username }}!
 
@@ -24,10 +27,52 @@
 
   </p>
 
-  <div>
-    {{show_graph.show()}}
-  </div>
-  
+
+<div class="chart">
+  <canvas id="myChart" width="400" height="400"></canvas>
+</div>
+
+<script>
+const ctx = document.getElementById('myChart');
+const myChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+        labels: [{% for dates in x %} '{{dates}}', {% endfor %}],
+        datasets: [{
+            label: 'Bitcoin (BTCUSDT) daily high',
+            data: {{ y }},
+            borderColor: [
+            'rgb(75, 192, 192)',
+            ],
+            borderWidth: 3,
+            color: ['rgb(255, 255, 255)'],
+
+        }]
+    },
+    options: {
+      plugins: {  
+        legend: {
+          display: true,
+          labels: {
+            
+          }
+        }
+      },
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        }
+    }
+});
+</script>
+
+
+
+
+
+
+
 
   <div>
     <img src="https://www.pikpng.com/pngl/b/169-1694738_graphic-free-stock-star-wars-at-getdrawings-com.png" alt="Graphic Free Stock Star Wars At Getdrawings Com Free - Star Wars C3p0 Drawings Clipart@pikpng.com">
@@ -65,14 +110,20 @@
 
 
 
-  <p><a href="{% url 'logout' %}">Log Out</a></p>
+  <p style="align-items: center; margin: auto; text-align: center;">
+    <a style="color:#f7f7f7; font-family: 'Blade Runner Movie Font', sans-serif;;" href="{% url 'logout' %}">Log Out</a></p>
 
 {% else %}
-  <p>You are not logged in</p>
-  <a href="{% url 'login' %}">Log In</a>
 
+  <h2>You are not logged in, to see your trading information log in below 👇</h2>
+  <div style="align-items: center; margin: auto; text-align: center;">
+    <a style="color:#f7f7f7; font-family: 'Blade Runner Movie Font', sans-serif;" href="{% url 'login' %}">Log In</a>
+  </div>
+  
 {% endif %}
 
 </body>
+<canvas id="chart" width="500" height="500"></canvas>
+
 {% endblock %}
 

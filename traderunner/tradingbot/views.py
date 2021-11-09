@@ -6,8 +6,10 @@ from django.contrib import messages
 from django.contrib.auth.forms import AuthenticationForm
 from API.main import binancey
 
-#from API.data_visualisation import fig
+from API.data_visualisation import x_axis,y_axis
 
+import datetime
+import pandas as pd
 
 from tradingbot.models import Trade
 
@@ -51,11 +53,29 @@ def logout_request(request):
 def home(request):
 	trades = Trade.objects.all().order_by("trade_date")
 	contracts = binancey.contracts
-	#show_graph = fig
+
+	candlesticks  = binancey.get_historical_candles(binancey.contracts['BTCBUSD'], '1d')
+
+	filtered = candlesticks[-30:]
+
+	x_values = []
+	y_values = []
+
+	for figure in filtered:
+				y_values.append(figure.high)
+				time = datetime.datetime.fromtimestamp((figure.timestamp)/1000)
+				x_values.append(time.strftime("%m/%d/%Y"))
+
+	
+	x_axis = x_values
+	#x_axis = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30]
+	y_axis = y_values
 
 	context = {
-		'trades' : trades,
-		'contracts' : contracts,
-		#'show_graph' : show_graph,
-	}
+			'trades' : trades,
+			'contracts' : contracts,
+			'y' : y_axis,
+			'x' : x_axis,
+			
+		}
 	return render(request, 'home.html', context)

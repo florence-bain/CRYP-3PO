@@ -6,7 +6,13 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <!-- CSS Traderunner Font-->
   <link href="http://fonts.cdnfonts.com/css/blade-runner-movie-font" rel="stylesheet">
-                
+  <!--Chart js-->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.css" integrity="sha256-aa0xaJgmK/X74WM224KMQeNQC2xYKwlAt08oZqjeF0E=" crossorigin="anonymous" />
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4"></script>
+            
   <title>{% block title %}Trade Runner in Base HTML{% endblock %}</title>
 
   <style>
@@ -16,6 +22,14 @@
       font-family: 'Blade Runner Movie Font', sans-serif;                                          
     }
 
+    h2 { color:#e492bb;
+      text-align: center;
+      padding: 80px;
+      font-family: 'Blade Runner Movie Font', sans-serif;                                          
+    }
+
+
+
     body{ 
       background-image: url('https://images.unsplash.com/flagged/photo-1577912504896-abc46b500434?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2728&q=80');
       background-size: cover;
@@ -23,7 +37,12 @@
       background-repeat: no-repeat;
       background-attachment: fixed;
     }
-
+    .chart{
+      margin: auto;
+      height:200px;
+      width:50%;
+     
+    }
     .table-container{
       padding-left: 20%;
       padding-right: 20%;

@@ -2631,3 +2631,384 @@ django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '
 2021-11-09 11:30:56,275 INFO :: Binance Futures Client Successfully Initialized
 2021-11-09 11:30:57,382 INFO :: Binance connection opened
 2021-11-09 11:35:12,794 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/API/connectors/binance_futures.py changed, reloading.
+2021-11-09 14:05:18,553 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 14:05:19,684 INFO :: Binance connection opened
+2021-11-09 14:06:10,725 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/API/data_visualisation.py changed, reloading.
+2021-11-09 14:06:29,290 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 14:06:30,356 INFO :: Binance connection opened
+2021-11-09 14:07:11,436 ERROR :: Internal Server Error: /home
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py", line 61, in home
+    return render(request, 'home.html', context)
+  File "/usr/local/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.9/site-packages/django/template/defaulttags.py", line 965, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'show_graph.show()'
+2021-11-09 14:14:43,094 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/API/data_visualisation.py changed, reloading.
+2021-11-09 14:16:09,879 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 14:16:10,997 INFO :: Binance connection opened
+2021-11-09 14:17:34,947 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 14:17:36,032 INFO :: Binance connection opened
+2021-11-09 14:17:48,057 ERROR :: Internal Server Error: /home
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py", line 54, in home
+    show_graph = fig
+NameError: name 'fig' is not defined
+2021-11-09 14:18:07,034 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-09 14:18:08,350 ERROR :: Internal Server Error: /home
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py", line 54, in home
+    #show_graph = fig
+NameError: name 'fig' is not defined
+2021-11-09 14:18:09,909 ERROR :: Internal Server Error: /home
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py", line 54, in home
+    #show_graph = fig
+NameError: name 'fig' is not defined
+2021-11-09 14:18:25,014 ERROR :: Internal Server Error: /home
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py", line 54, in home
+    #show_graph = fig
+NameError: name 'fig' is not defined
+2021-11-09 14:18:34,139 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 14:18:35,150 INFO :: Binance connection opened
+2021-11-09 14:18:36,012 WARNING :: Not Found: /sepal_plot.html
+2021-11-09 14:18:36,013 WARNING :: Not Found: /petal_plot.html
+2021-11-09 14:20:54,304 WARNING :: Not Found: /favicon.ico
+2021-11-09 14:20:54,690 WARNING :: Not Found: /apple-touch-icon-precomposed.png
+2021-11-09 14:20:54,698 WARNING :: Not Found: /apple-touch-icon.png
+2021-11-09 14:21:21,672 WARNING :: Not Found: /sepal_plot.html
+2021-11-09 14:21:21,675 WARNING :: Not Found: /petal_plot.html
+2021-11-09 14:24:58,236 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-09 14:25:54,201 ERROR :: Internal Server Error: /home
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py", line 61, in home
+    return render(request, 'home.html', context)
+  File "/usr/local/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.9/site-packages/django/template/defaulttags.py", line 965, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'show_graph.show()'
+2021-11-09 14:26:37,841 ERROR :: Internal Server Error: /home
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py", line 61, in home
+    return render(request, 'home.html', context)
+  File "/usr/local/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.9/site-packages/django/template/defaulttags.py", line 965, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'fig.show()'
+2021-11-09 14:27:37,859 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 14:27:38,986 INFO :: Binance connection opened
+2021-11-09 14:28:11,042 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-09 14:28:15,819 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 14:28:16,867 INFO :: Binance connection opened
+2021-11-09 15:00:13,958 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 15:00:15,025 INFO :: Binance connection opened
+2021-11-09 15:07:36,417 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 15:07:37,466 INFO :: Binance connection opened
+2021-11-09 15:26:45,034 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-09 15:27:04,008 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 15:27:05,131 INFO :: Binance connection opened
+2021-11-09 15:28:34,809 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/API/data_visualisation.py changed, reloading.
+2021-11-09 15:30:16,671 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 15:30:17,724 INFO :: Binance connection opened
+2021-11-09 15:33:57,842 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-09 15:43:23,343 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 15:43:24,483 INFO :: Binance connection opened
+2021-11-09 15:46:56,378 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-09 15:47:59,396 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 15:48:00,437 INFO :: Binance connection opened
+2021-11-09 15:49:35,479 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-09 15:51:08,521 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 15:51:09,566 INFO :: Binance connection opened
+2021-11-09 15:51:46,778 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/API/data_visualisation.py changed, reloading.
+2021-11-09 15:51:57,742 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 15:51:58,851 INFO :: Binance connection opened
+2021-11-09 15:53:01,289 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/API/data_visualisation.py changed, reloading.
+2021-11-09 15:57:25,908 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 15:57:27,005 INFO :: Binance connection opened
+2021-11-09 16:00:01,757 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-09 16:06:49,080 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 16:06:50,133 INFO :: Binance connection opened
+2021-11-09 16:07:03,440 ERROR :: Internal Server Error: /home
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py", line 66, in home
+    x_values.append(str(datetime.datetime.fromtimestamp((figure.timestamp)/1000).date))
+NameError: name 'datetime' is not defined
+2021-11-09 16:07:24,346 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-09 16:07:27,742 ERROR :: Internal Server Error: /home
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py", line 66, in home
+    #x_values.append(str(datetime.datetime.fromtimestamp((figure.timestamp)/1000).date))
+NameError: name 'datetime' is not defined
+2021-11-09 16:07:48,219 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 16:07:49,279 INFO :: Binance connection opened
+2021-11-09 16:08:30,653 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-09 16:11:06,312 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 16:11:07,374 INFO :: Binance connection opened
+2021-11-09 16:11:44,221 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-09 16:11:59,424 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 16:12:00,546 INFO :: Binance connection opened
+2021-11-09 16:13:43,953 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-09 16:15:23,192 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 16:15:24,301 INFO :: Binance connection opened
+2021-11-09 16:16:40,249 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-09 16:19:05,122 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 16:19:06,194 INFO :: Binance connection opened
+2021-11-09 16:19:13,476 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-09 16:19:17,941 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 16:19:18,946 INFO :: Binance connection opened
+2021-11-09 16:21:45,193 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-09 16:23:43,137 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 16:23:44,226 INFO :: Binance connection opened
+2021-11-09 16:24:20,586 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-09 16:24:27,594 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 16:24:28,694 INFO :: Binance connection opened
+2021-11-09 16:27:25,663 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-09 16:27:44,873 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 16:27:45,930 INFO :: Binance connection opened
+2021-11-09 16:28:42,002 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-09 16:30:42,842 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 16:30:43,968 INFO :: Binance connection opened
+2021-11-09 18:23:42,058 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 18:23:43,198 INFO :: Binance connection opened
+2021-11-09 18:25:21,393 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-09 18:25:50,680 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 18:25:51,790 INFO :: Binance connection opened
+2021-11-09 18:30:56,557 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-09 18:32:18,113 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 18:32:19,306 INFO :: Binance connection opened
+2021-11-09 18:34:25,366 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 18:34:26,505 INFO :: Binance connection opened
+2021-11-09 18:36:05,262 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 18:36:06,365 INFO :: Binance connection opened
+2021-11-09 18:38:23,350 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 18:38:24,407 INFO :: Binance connection opened
+2021-11-09 18:38:30,768 ERROR :: Internal Server Error: /home
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py", line 89, in home
+    return render(request, 'home.html', context)
+  File "/usr/local/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.9/site-packages/django/template/defaulttags.py", line 965, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ' = []' from 'times = []'
+2021-11-09 18:49:02,676 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-09 18:54:33,710 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 18:54:34,847 INFO :: Binance connection opened
+2021-11-09 18:55:03,172 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 18:55:04,287 INFO :: Binance connection opened
+2021-11-09 18:56:38,655 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 18:56:39,780 INFO :: Binance connection opened
+2021-11-09 18:57:40,562 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 18:57:41,746 INFO :: Binance connection opened
+2021-11-09 19:00:52,130 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 19:00:53,278 INFO :: Binance connection opened
+2021-11-09 19:03:07,539 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 19:03:08,640 INFO :: Binance connection opened
+2021-11-09 19:05:23,193 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 19:05:24,354 INFO :: Binance connection opened
+2021-11-09 19:11:24,050 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 19:11:25,277 INFO :: Binance connection opened
