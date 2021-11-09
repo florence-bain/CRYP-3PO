@@ -49,7 +49,9 @@ class BinanceFuturesClient:
         self._ws_id = 1
         self._ws = None
 
-        self.strategy_price = ""
+        self.strategy_price_btc = ""
+        self.strategy_price_eth = ""
+        self.strategy_price_ltc = ""
 
         t = threading.Thread(target=self._start_ws)
         t.start()
@@ -216,8 +218,13 @@ class BinanceFuturesClient:
         logger.info("Binance connection opened")
 
         strategies = Strategies()
-        hist_contracts = self.get_historical_candles(self.contracts['BTCBUSD'], '1m')
-        self.strategy_price = strategies.golden_cross(hist_contracts)
+        hist_contracts_btc = self.get_historical_candles(self.contracts['BTCBUSD'], '1d')
+        hist_contracts_ltc = self.get_historical_candles(self.contracts['LTCUSDT'], '1d')
+        hist_contracts_eth = self.get_historical_candles(self.contracts['ETHUSDT'], '1d')
+        
+        self.strategy_price_btc = strategies.golden_cross(hist_contracts_btc)
+        self.strategy_price_eth = strategies.golden_cross(hist_contracts_eth)
+        self.strategy_price_ltc = strategies.golden_cross(hist_contracts_ltc)
 
 
         self.subscribe_channel(list(self.contracts.values()), "bookTicker")
@@ -245,10 +252,19 @@ class BinanceFuturesClient:
                 else:
                     self.prices[symbol]['bid'] = float(data['b'])
                     self.prices[symbol]['ask'] = float(data['a'])
-                    if symbol == 'BTCBUSD' and self.strategy_price != 'false' and \
-                            self.prices[symbol]['bid'] > self.strategy_price:    
-                        #print("This method is working as intended")
+                    #print(f"This is the litecoin price {self.prices['LTCUSDT']['ask']} and the strategy price {self.strategy_price_ltc}")
+                    if symbol == 'BTCBUSD' and self.strategy_price_btc != 'false' and \
+                            self.prices[symbol]['bid'] > self.strategy_price_btc:    
+                        print("This bitcoin method is working as intended")
                         self.execute_trade(symbol, self.prices[symbol]['bid'], self.prices[symbol]['ask'])
+                    elif symbol == 'ETHUSDT_211231' and self.strategy_price_eth != 'false' and \
+                             self.prices[symbol]['bid'] > self.strategy_price_eth:    
+                             print("This ethereum method is working as intended")
+                             self.execute_trade(symbol, self.prices[symbol]['bid'], self.prices[symbol]['ask'])
+                    elif symbol == 'LTCUSDT' and self.strategy_price_ltc != 'false' and \
+                             self.prices[symbol]['bid'] > self.strategy_price_ltc:    
+                             print("This litecoin method is working as intended")
+                             self.execute_trade(symbol, self.prices[symbol]['bid'], self.prices[symbol]['ask'])
                     else:
                         pass
 
@@ -283,13 +299,14 @@ class BinanceFuturesClient:
 
         if difference.days > 1:
             print("Now is time to do a trade")
-            x = self.place_order(self.contracts['BTCUSDT'], "BUY", order_quantity, "LIMIT", buy_price, "GTC")
+            #need to amend for ticker specific trades
+            x = self.place_order(self.contracts['ETHUSDT'], "BUY", order_quantity, "LIMIT", buy_price, "GTC")
 
             print(f"This is the {x.order_id} and this is the order status {x.status} and the average price {x.status}")
             
             new_trade = Trade(
                 symbol = f"{symbol_ticker}",
-                trade_date = f"{datetime.datetime.now()}",
+                trade_date = f"{datetime.now()}",
                 order_id = x.order_id,
                 status = f"{x.status}",
                 bid_price = sym_bid_price,
