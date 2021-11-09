@@ -6,6 +6,9 @@ from django.contrib import messages
 from django.contrib.auth.forms import AuthenticationForm
 from API.main import binancey
 
+from tradingbot.models import Trade
+
+
 def register_request(request):
 	if request.method == "POST":
 		form = NewUserForm(request.POST)
@@ -43,12 +46,12 @@ def logout_request(request):
 	return redirect("/login")
 
 def home(request):
-
-	bid_price = 2000.21
+	trades = Trade.objects.all().order_by("trade_date")
 	contracts = binancey.contracts
+	
 
 	context = {
-		'bid_price' : bid_price,
-		'contracts' : contracts
+		'trades' : trades,
+		'contracts' : contracts,
 	}
 	return render(request, 'home.html', context)

@@ -18,7 +18,13 @@
   {% if user.is_authenticated %}
   Hi {{ user.username }}!
 
-  <p> Lets start talking about bitcoin,</p>
+  <p> Lets start talking about bitcoin,
+    1 - {{contracts.ADAUSDT.symbol}}
+    2 - {{contracts.ETHUSDT.symbol}}
+
+  </p>
+
+  
 
   <div>
     <img src="https://www.pikpng.com/pngl/b/169-1694738_graphic-free-stock-star-wars-at-getdrawings-com.png" alt="Graphic Free Stock Star Wars At Getdrawings Com Free - Star Wars C3p0 Drawings Clipart@pikpng.com">
@@ -27,7 +33,7 @@
   <div class="table-container">
     <div class="table-responsive-sm text-center">
       <table class="table table-hover">
-        <thead>
+        <thead class="thead-dark">
           <tr>
             <th scope="col">Crypto</th>
             <th scope="col">Date</th>
@@ -38,23 +44,16 @@
           </tr>
         </thead>
         <tbody>
+          {% for trade in trades %}
           <tr>
-            <td>Bitcoin</td>
-            <td>08 Nov 21</td>
-            <td>Buy</td>
-            <td>0.05</td>
-            <td>000001</td>
-            <td>60001.02</td>
+            <td>{{trade.symbol}}</td>
+            <td>{{trade.trade_date}}</td>
+            <td>{{trade.side}}</td>
+            <td>{{trade.quantity}} for ${{trade.order_price}}</td>
+            <td>{{trade.order_id}}</td>
+            <td>{{trade.bid_price}} / {{trade.ask_price}}</td>
           </tr>
-          <tr>
-            <td>Ethereum</td>
-            <td>08 Nov 21</td>
-            <td>Buy</td>
-            <td>0.1</td>
-            <td>000002</td>
-            <td>4001.02</td>
-          </tr>
-
+          {% endfor %}
           
         </tbody>
       </table>

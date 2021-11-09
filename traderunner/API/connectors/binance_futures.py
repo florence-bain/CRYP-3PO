@@ -302,7 +302,7 @@ class BinanceFuturesClient:
             new_trade.save()
             logger.info("Bingo, now is a good time to execute a trade")
         else:
-            print("You've already traded enough today")
+            #print("You've already traded enough today")
             pass
 
 
