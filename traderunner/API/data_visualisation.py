@@ -10,12 +10,12 @@ import os
 candlesticks  = binancey.get_historical_candles(binancey.contracts['BTCBUSD'], '1d')
 
 filtered_btc = candlesticks[-30:]
-filtered_eth
+filtered_eth = candlesticks
 
 x_values = []
 y_values = []
 
-for figure in filtered:
+for figure in filtered_btc:
     y_values.append(figure.high)
     x_values.append(str(datetime.datetime.fromtimestamp((figure.timestamp)/1000).date))
 

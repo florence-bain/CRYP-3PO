@@ -59,22 +59,26 @@ def home(request):
 	filtered = candlesticks[-30:]
 
 	x_values = []
-	y_values = []
+	btc_high_values = []
+	btc_close_values =[]
 
 	for figure in filtered:
-				y_values.append(figure.high)
+				btc_high_values.append(figure.high)
+				btc_close_values.append(figure.close)
 				time = datetime.datetime.fromtimestamp((figure.timestamp)/1000)
 				x_values.append(time.strftime("%m/%d/%Y"))
 
 	
 	x_axis = x_values
 	#x_axis = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30]
-	y_axis = y_values
+	btc_close = btc_close_values
+	btc_high = btc_high_values
 
 	context = {
 			'trades' : trades,
 			'contracts' : contracts,
-			'y' : y_axis,
+			'btc_high' : btc_high,
+			'btc_close' : btc_close,
 			'x' : x_axis,
 			
 		}
