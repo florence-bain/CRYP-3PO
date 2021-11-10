@@ -294,10 +294,10 @@ class BinanceFuturesClient:
 
         if symbol_ticker == 'LTCUSDT':
             order_quantity = 10
-            buy_price = 270
+            buy_price = 350
         elif symbol_ticker == 'XMRUSDT':
             order_quantity = 20
-            buy_price = 290
+            buy_price = 350
         
         x = Trade.objects.latest('trade_date').trade_date
 
@@ -315,6 +315,7 @@ class BinanceFuturesClient:
 
         if difference_hours > 4 :
             print("Now is time to do a trade")
+            print(f"This is the bid price {sym_bid_price} and the buy price set {buy_price}")
             #need to amend for ticker specific trades
             x = self.place_order(self.contracts[symbol_ticker], "BUY", order_quantity, "LIMIT", buy_price, "GTC")
             print(f"This is the {x.order_id} and this is the order status {x.status} and the average price {x.status}")
