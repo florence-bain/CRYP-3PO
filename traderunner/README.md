@@ -1,15 +1,21 @@
-# Create Database on user SQL running my sql command (Database name used = traderunner)
+# Download mysql 
+
+# Create Database on user SQL running my sql command - call database 'traderunner'
 
 # Open my sql using mysql -u root command in the terminal
 
-# Run Command in mysql intergace - mysql > CREATE USER 'djangouser'@'%' IDENTIFIED WITH mysql_native_password BY 'password';
+# Run Command in mysql interface - 
+
+ - mysql > CREATE USER 'djangouser'@'%' IDENTIFIED WITH mysql_native_password BY 'password';
  
  - user : djangouser
  - password : password 
 
- # Let the databae know that our user should have complete access to the database - run : mysql > GRANT ALL ON blog_data.* TO 'djangouser'@'%';
+ # Let the database know that our user should have complete access to the database - run :
+ 
+ - mysql > GRANT ALL ON traderunner_data.* TO 'djangouser'@'%';
 
- # mysql> FLUSH PRIVELEGES;
+ - mysql> FLUSH PRIVELEGES;
 
 # Amend Database settings in settings.py 
 
