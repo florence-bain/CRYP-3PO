@@ -50,7 +50,7 @@ class BinanceFuturesClient:
         self._ws = None
 
         self.strategy_price_btc = ""
-        self.strategy_price_eth = ""
+        self.strategy_price_xmr = ""
         self.strategy_price_ltc = ""
 
         t = threading.Thread(target=self._start_ws)
@@ -220,10 +220,10 @@ class BinanceFuturesClient:
         strategies = Strategies()
         hist_contracts_btc = self.get_historical_candles(self.contracts['BTCBUSD'], '1d')
         hist_contracts_ltc = self.get_historical_candles(self.contracts['LTCUSDT'], '1d')
-        hist_contracts_eth = self.get_historical_candles(self.contracts['ETHUSDT'], '1d')
+        hist_contracts_xmr = self.get_historical_candles(self.contracts['XMRUSDT'], '1d')
         
         self.strategy_price_btc = strategies.golden_cross(hist_contracts_btc)
-        self.strategy_price_eth = strategies.golden_cross(hist_contracts_eth)
+        self.strategy_price_xmr = strategies.golden_cross(hist_contracts_xmr)
         self.strategy_price_ltc = strategies.golden_cross(hist_contracts_ltc)
 
 
@@ -252,18 +252,18 @@ class BinanceFuturesClient:
                 else:
                     self.prices[symbol]['bid'] = float(data['b'])
                     self.prices[symbol]['ask'] = float(data['a'])
-                    #print(f"This is the litecoin price {self.prices['LTCUSDT']['ask']} and the strategy price {self.strategy_price_ltc}")
+                    #print("Methods are working just not satisfied")
                     if symbol == 'BTCBUSD' and self.strategy_price_btc != 'false' and \
                             self.prices[symbol]['bid'] > self.strategy_price_btc:    
                         #print("This bitcoin method is working as intended")
                         self.execute_trade(symbol, self.prices[symbol]['bid'], self.prices[symbol]['ask'])
-                    elif symbol == 'ETHUSDT_211231' and self.strategy_price_eth != 'false' and \
-                             self.prices[symbol]['bid'] > self.strategy_price_eth:    
-                             #print("This ethereum method is working as intended")
+                    elif symbol == 'XMRUSDT' and self.strategy_price_xmr == 'false': #and \
+                             #self.prices[symbol]['bid'] > self.strategy_price_xmr:    
+                             print("This Monero method is working as intended")
                              self.execute_trade(symbol, self.prices[symbol]['bid'], self.prices[symbol]['ask'])
-                    elif symbol == 'LTCUSDT' and self.strategy_price_ltc != 'false' and \
-                             self.prices[symbol]['bid'] > self.strategy_price_ltc:    
-                             #print("This litecoin method is working as intended")
+                    elif symbol == 'LTCUSDT' and self.strategy_price_ltc == 'false': #and \
+                             #self.prices[symbol]['bid'] > self.strategy_price_ltc:    
+                             print("This litecoin method is working as intended")
                              self.execute_trade(symbol, self.prices[symbol]['bid'], self.prices[symbol]['ask'])
                     else:
                         pass
@@ -289,21 +289,28 @@ class BinanceFuturesClient:
 
         order_quantity = 0.05
         buy_price = 2000 
+
+        if symbol_ticker == 'LTCUSDT':
+            order_quantity = 10
+            buy_price = 280
+        elif symbol_ticker == 'XMRUSDT':
+            order_quantity = 20
+            buy_price = 290
         
         x = Trade.objects.latest('trade_date').trade_date
 
         y = (datetime.now(timezone.utc))
         #print(f"This is the trade date {x}")
 
-        print(x.hour)
-        print(y.hour)
+        # print(x.hour)
+        # print(y.hour)
 
         difference = y - x 
 
         if difference.days > 1:
             print("Now is time to do a trade")
             #need to amend for ticker specific trades
-            x = self.place_order(self.contracts['ETHUSDT'], "BUY", order_quantity, "LIMIT", buy_price, "GTC")
+            x = self.place_order(self.contracts[symbol_ticker], "BUY", order_quantity, "LIMIT", buy_price, "GTC")
 
             print(f"This is the {x.order_id} and this is the order status {x.status} and the average price {x.status}")
             
@@ -322,6 +329,7 @@ class BinanceFuturesClient:
             new_trade.save()
             logger.info("Bingo, now is a good time to execute a trade")
         else:
+            print("You've already made a trade in the past however long, what do you think you are made of money?")
             pass
 
 
