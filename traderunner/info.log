@@ -3752,3 +3752,25 @@ TypeError: float() argument must be a string or a number, not 'Balance'
 2021-11-10 18:25:19,279 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -1021, 'msg': 'Timestamp for this request is outside of the recvWindow.'} (error code 400
 2021-11-10 18:25:19,282 INFO :: Binance Futures Client Successfully Initialized
 2021-11-10 18:25:20,398 INFO :: Binance connection opened
+2021-11-10 18:27:59,024 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -1021, 'msg': 'Timestamp for this request is outside of the recvWindow.'} (error code 400
+2021-11-10 18:27:59,027 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 18:28:00,102 INFO :: Binance connection opened
+2021-11-10 18:31:58,953 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -1021, 'msg': 'Timestamp for this request is outside of the recvWindow.'} (error code 400
+2021-11-10 18:31:58,955 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 18:32:00,119 INFO :: Binance connection opened
+2021-11-10 18:32:05,914 WARNING :: Not Found: /login/
+2021-11-10 18:47:55,159 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -1021, 'msg': 'Timestamp for this request is outside of the recvWindow.'} (error code 400
+2021-11-10 18:47:55,160 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 18:47:56,387 INFO :: Binance connection opened
+2021-11-10 18:59:58,754 ERROR :: Internal Server Error: /home
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/student/weekend/CRYP-3PO/traderunner/tradingbot/views.py", line 59, in home
+    print(f" Before : {trades[0].status}")
+NameError: name 'trades' is not defined
+2021-11-10 19:02:10,826 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -1021, 'msg': 'Timestamp for this request is outside of the recvWindow.'} (error code 400
+2021-11-10 19:02:10,827 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 19:02:11,920 INFO :: Binance connection opened
