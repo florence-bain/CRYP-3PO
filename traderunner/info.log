@@ -4088,3 +4088,11 @@ TypeError: float() argument must be a string or a number, not 'Balance'
 2021-11-10 16:05:32,500 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
 2021-11-10 16:05:32,500 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x113131700>>: 'NoneType' object has no attribute 'order_id'
 2021-11-10 16:05:32,500 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:18:17,881 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 16:18:18,976 INFO :: Binance connection opened
+2021-11-10 16:18:24,007 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:18:24,007 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x104fb4d30>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:18:24,007 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:18:24,753 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:18:24,753 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x104fb4d30>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:18:24,753 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'

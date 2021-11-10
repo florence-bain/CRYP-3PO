@@ -290,14 +290,14 @@ class BinanceFuturesClient:
     def execute_trade(self, symbol_ticker, sym_bid_price, sym_ask_price):
 
         order_quantity = 0.05
-        buy_price = 2000 
+        buy_price = 5000 
 
         if symbol_ticker == 'LTCUSDT':
             order_quantity = 10
-            buy_price = 350
+            buy_price = 270
         elif symbol_ticker == 'XMRUSDT':
             order_quantity = 20
-            buy_price = 350
+            buy_price = 290
         
         x = Trade.objects.latest('trade_date').trade_date
 

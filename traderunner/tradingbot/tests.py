@@ -21,6 +21,10 @@ class TestTradeInput(TestCase):
       expect_symbol_ticker = trade.symbol
       self.assertEqual(str(trade.symbol), expect_symbol_ticker)
 
+  def test_quantity_maximum_digits(self):
+      trade = Trade.objects.get(symbol= 'BTCUSD')
+      max_digits = trade._meta.get_field('quantity').max_digits
+      self.assertEqual(max_digits,12)
   
   def test_setUpTestData(cls):
         print("setUpTestData: Run once to set up non-modified data for all class methods.")
