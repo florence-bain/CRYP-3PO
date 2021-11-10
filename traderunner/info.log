@@ -3687,3 +3687,5 @@ TypeError: float() argument must be a string or a number, not 'Balance'
 2021-11-10 13:29:23,705 INFO :: Binance connection opened
 2021-11-10 13:30:54,015 INFO :: Binance Futures Client Successfully Initialized
 2021-11-10 13:30:55,226 INFO :: Binance connection opened
+2021-11-10 13:41:40,090 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 13:41:41,190 INFO :: Binance connection opened
