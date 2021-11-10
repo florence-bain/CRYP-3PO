@@ -295,6 +295,9 @@ class BinanceFuturesClient:
         y = (datetime.now(timezone.utc))
         #print(f"This is the trade date {x}")
 
+        print(x.hour)
+        print(y.hour)
+
         difference = y - x 
 
         if difference.days > 1:

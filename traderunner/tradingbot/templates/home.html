@@ -37,7 +37,8 @@
       </div>
     </div>
 
-   <br><br> <h3 style="text-align: center;"> This is your balance ${{balance}}</h3>
+   <br><br> <h3 style="text-align: center;"> This is your balance  : ${{balance.wallet_balance}}</h3>
+   <br> <h3>This is your current pnl : {{balance.unrealized_pnl}}</h3>
 
   <div class="row align-items-center" id="chart_container">
     <div class="col-6 col-sm-4">
@@ -208,6 +209,7 @@
               <th scope="col">Amount</th>
               <th scope="col">Order ID</th>
               <th scope="col">Bid/Ask</th>
+              <th scope="col">Order Status</th>
             </tr>
           </thead>
           <tbody>
@@ -219,6 +221,7 @@
               <td>{{trade.quantity}} for ${{trade.order_price}}</td>
               <td>{{trade.order_id}}</td>
               <td>{{trade.bid_price}} / {{trade.ask_price}}</td>
+              <td>{{trade.status}}</td>
             </tr>
             {% endfor %}
             
