@@ -3039,3 +3039,8 @@ django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '
 2021-11-09 21:20:08,817 INFO :: Binance Futures Client Successfully Initialized
 2021-11-09 21:20:10,026 INFO :: Binance connection opened
 2021-11-09 21:23:20,271 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-09 21:52:24,057 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 21:52:25,128 INFO :: Binance connection opened
+2021-11-09 23:07:30,612 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-09 23:18:25,432 INFO :: Binance Futures Client Successfully Initialized
+2021-11-09 23:18:26,548 INFO :: Binance connection opened

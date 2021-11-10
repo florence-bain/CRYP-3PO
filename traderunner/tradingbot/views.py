@@ -54,19 +54,21 @@ def home(request):
 	trades = Trade.objects.all().order_by("trade_date").reverse()
 	contracts = binancey.contracts
 
-	candlesticks  = binancey.get_historical_candles(binancey.contracts['BTCBUSD'], '1d')
+	cryp_messages = ['Hello', 'How are you friend', 'I am well', 'I hope that you are too']
 
-	filtered = candlesticks[-30:]
+	# candlesticks  = binancey.get_historical_candles(binancey.contracts['BTCBUSD'], '1d')
 
-	x_values = []
-	btc_high_values = []
-	btc_close_values =[]
+	# filtered = candlesticks[-30:]
 
-	for figure in filtered:
-				btc_high_values.append(figure.high)
-				btc_close_values.append(figure.close)
-				time = datetime.datetime.fromtimestamp((figure.timestamp)/1000)
-				x_values.append(time.strftime("%m/%d/%Y"))
+	# x_values = []
+	# btc_high_values = []
+	# btc_close_values =[]
+
+	# for figure in filtered:
+	# 			btc_high_values.append(figure.high)
+	# 			btc_close_values.append(figure.close)
+	# 			time = datetime.datetime.fromtimestamp((figure.timestamp)/1000)
+	# 			x_values.append(time.strftime("%m/%d/%Y"))
 
 	
 	x_axis = x_values
@@ -81,7 +83,7 @@ def home(request):
 	doge_h = doge_close
 
 
-	print(f"This is doge {doge_c}")
+
 
 	#x_axis = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30]
 	# btc_close = btc_close_values

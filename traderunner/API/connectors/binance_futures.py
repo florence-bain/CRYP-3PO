@@ -182,7 +182,7 @@ class BinanceFuturesClient:
         data['timestamp'] = int(time.time() * 1000)
         data['signature'] = self._generate_signature(data)
 
-        order_status = self._make_request("DELETE", "/fapi/v1/account", data)
+        order_status = self._make_request("DELETE", "/fapi/v1/order", data)
 
         if order_status is not None:
             order_status = OrderStatus(order_status)
@@ -194,7 +194,7 @@ class BinanceFuturesClient:
         data = dict()
         data['timestamp'] = int(time.time() * 1000)
         data['symbol'] = contract.symbol
-        data['order_id'] = order_id
+        data['orderId'] = order_id
         data['signature'] = self._generate_signature(data)
 
         order_status = self._make_request("GET", "/fapi/v1/order", data)
@@ -319,7 +319,6 @@ class BinanceFuturesClient:
             new_trade.save()
             logger.info("Bingo, now is a good time to execute a trade")
         else:
-            #print("You've already traded enough today")
             pass
 
 
