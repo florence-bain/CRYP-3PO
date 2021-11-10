@@ -9,6 +9,8 @@
 
  # Let the databae know that our user should have complete access to the database - run : mysql > GRANT ALL ON blog_data.* TO 'djangouser'@'%';
 
+ - mysql> GRANT ALL PRIVILEGES ON test_traderunner.* TO 'djangouser'@'%'
+
  # mysql> FLUSH PRIVELEGES;
 
 # Amend Database settings in settings.py 

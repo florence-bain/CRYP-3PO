@@ -337,7 +337,7 @@ class BinanceFuturesClient:
             if len(self.cryp_messages) < 40:
                 self.cryp_messages.append(f'{y.strftime("%m/%d/%Y")} : Hello Friend, now is a good time to buy some {symbol_ticker} the price is only {sym_ask_price}')
             else:
-                print("You've already made a trade in the past however long, what do you think you are made of money?")
+                print(f"You've already made a trade in the past {difference_hours} hours, what do you think you are made of money?")
                 pass
 
 

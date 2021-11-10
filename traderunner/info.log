@@ -3689,3 +3689,28 @@ TypeError: float() argument must be a string or a number, not 'Balance'
 2021-11-10 13:30:55,226 INFO :: Binance connection opened
 2021-11-10 13:41:40,090 INFO :: Binance Futures Client Successfully Initialized
 2021-11-10 13:41:41,190 INFO :: Binance connection opened
+2021-11-10 14:07:53,907 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 14:07:55,127 INFO :: Binance connection opened
+2021-11-10 14:18:22,469 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 14:18:23,642 INFO :: Binance connection opened
+2021-11-10 14:23:54,618 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/API/connectors/binance_futures.py changed, reloading.
+2021-11-10 14:24:02,967 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 14:24:04,177 INFO :: Binance connection opened
+2021-11-10 14:24:15,871 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 14:24:16,976 INFO :: Binance connection opened
+2021-11-10 14:28:43,151 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 14:28:44,353 INFO :: Binance connection opened
+2021-11-10 14:32:44,233 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 14:32:45,509 INFO :: Binance connection opened
+2021-11-10 14:36:13,858 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 14:36:14,911 INFO :: Binance connection opened
+2021-11-10 14:38:27,323 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 14:38:28,568 INFO :: Binance connection opened
+2021-11-10 14:38:57,062 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 14:38:58,086 INFO :: Binance connection opened
+2021-11-10 14:45:20,158 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 14:45:21,443 INFO :: Binance connection opened
+2021-11-10 14:51:18,070 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 14:51:19,244 INFO :: Binance connection opened
+2021-11-10 15:02:38,723 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 15:02:39,898 INFO :: Binance connection opened

@@ -99,6 +99,9 @@ DATABASES = {
         'PORT': '3306',
         'USER': 'djangouser',
         'PASSWORD': 'password',
+        'TEST': {
+            'NAME': 'test_traderunner'
+        }
     }
 }
 
