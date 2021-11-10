@@ -7,7 +7,7 @@
  - user : djangouser
  - password : password 
 
- # Let the databae know that our user should have complete access to the database - run : mysql > GRANT ALL ON blog_data.* TO 'djangouser'@'%';
+ # Let the databae know that our user should have complete access to the database - run : mysql > GRANT ALL ON traderunner.* TO 'djangouser'@'%';
 
  - mysql> GRANT ALL PRIVILEGES ON test_traderunner.* TO 'djangouser'@'%'
 

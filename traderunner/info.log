@@ -4096,3 +4096,8 @@ TypeError: float() argument must be a string or a number, not 'Balance'
 2021-11-10 16:18:24,753 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
 2021-11-10 16:18:24,753 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x104fb4d30>>: 'NoneType' object has no attribute 'order_id'
 2021-11-10 16:18:24,753 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 19:06:32,458 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 19:06:33,685 INFO :: Binance connection opened
+2021-11-10 19:06:40,543 INFO :: Bingo, now is a good time to execute a trade
+2021-11-10 19:12:24,312 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 19:12:25,507 INFO :: Binance connection opened

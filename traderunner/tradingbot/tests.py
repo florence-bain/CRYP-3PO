@@ -1,9 +1,21 @@
 from django.test import TestCase
 from tradingbot.models import Trade
 from datetime import datetime, timezone 
+from django.urls import resolve
+from tradingbot.views import home
 
 
 # Create your tests here.
+
+# Not testing authentication, feels redundant as authentication is inbuilt with Django..
+
+class HomePageTest(TestCase):
+
+    def test_root_url_resolves_to_home_page_view(self):
+        found = resolve ('/home')
+        self.assertEqual(found.func, home)
+
+
 
 class TestTradeInput(TestCase):
   def setUp(self):
