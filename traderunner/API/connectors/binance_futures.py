@@ -53,6 +53,8 @@ class BinanceFuturesClient:
         self.strategy_price_xmr = ""
         self.strategy_price_ltc = ""
 
+        self.cryp_messages = []
+
         t = threading.Thread(target=self._start_ws)
         t.start()
 
@@ -261,9 +263,9 @@ class BinanceFuturesClient:
                              self.prices[symbol]['bid'] > self.strategy_price_xmr:
                              #print("This Monero method is working as intended")
                              self.execute_trade(symbol, self.prices[symbol]['bid'], self.prices[symbol]['ask'])
-                    elif symbol == 'LTCUSDT' and self.strategy_price_ltc == 'false':# and \
-                             #self.prices[symbol]['bid'] > self.strategy_price_ltc:    
-                             print("This litecoin method is working as intended")
+                    elif symbol == 'LTCUSDT' and self.strategy_price_ltc != 'false' and \
+                             self.prices[symbol]['bid'] > self.strategy_price_ltc:    
+                             #print("This litecoin method is working as intended")
                              self.execute_trade(symbol, self.prices[symbol]['bid'], self.prices[symbol]['ask'])
                     else:
                         pass
@@ -308,7 +310,7 @@ class BinanceFuturesClient:
         difference_hours = days * 24 + seconds // 3600
 
         # print(x)
-        # print(y)
+        #print(y.strftime("%m/%d/%Y"))
         # print(difference_hours)
 
         if difference_hours > 4 :
@@ -332,8 +334,11 @@ class BinanceFuturesClient:
             new_trade.save()
             logger.info("Bingo, now is a good time to execute a trade")
         else:
-            #print("You've already made a trade in the past however long, what do you think you are made of money?")
-            pass
+            if len(self.cryp_messages) < 40:
+                self.cryp_messages.append(f'{y.strftime("%m/%d/%Y")} : Hello Friend, now is a good time to buy some {symbol_ticker} the price is only {sym_ask_price}')
+            else:
+                print("You've already made a trade in the past however long, what do you think you are made of money?")
+                pass
 
 
 
