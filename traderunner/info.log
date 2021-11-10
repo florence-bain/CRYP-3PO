@@ -3687,3 +3687,68 @@ TypeError: float() argument must be a string or a number, not 'Balance'
 2021-11-10 13:29:23,705 INFO :: Binance connection opened
 2021-11-10 13:30:54,015 INFO :: Binance Futures Client Successfully Initialized
 2021-11-10 13:30:55,226 INFO :: Binance connection opened
+2021-11-10 16:20:27,968 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -1021, 'msg': 'Timestamp for this request is outside of the recvWindow.'} (error code 400
+2021-11-10 16:20:27,976 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 16:20:29,138 INFO :: Binance connection opened
+2021-11-10 16:20:33,878 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1048e6040>>: (1146, "Table 'traderunner.tradingbot_trade' doesn't exist")
+2021-11-10 16:20:33,879 ERROR :: Binance connections error: (1146, "Table 'traderunner.tradingbot_trade' doesn't exist")
+2021-11-10 16:20:34,780 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1048e6040>>: (1146, "Table 'traderunner.tradingbot_trade' doesn't exist")
+2021-11-10 16:20:34,780 ERROR :: Binance connections error: (1146, "Table 'traderunner.tradingbot_trade' doesn't exist")
+2021-11-10 16:20:34,804 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1048e6040>>: (1146, "Table 'traderunner.tradingbot_trade' doesn't exist")
+2021-11-10 16:20:34,804 ERROR :: Binance connections error: (1146, "Table 'traderunner.tradingbot_trade' doesn't exist")
+2021-11-10 16:20:34,856 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1048e6040>>: (1146, "Table 'traderunner.tradingbot_trade' doesn't exist")
+2021-11-10 16:20:34,856 ERROR :: Binance connections error: (1146, "Table 'traderunner.tradingbot_trade' doesn't exist")
+2021-11-10 16:20:36,855 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1048e6040>>: (1146, "Table 'traderunner.tradingbot_trade' doesn't exist")
+2021-11-10 16:20:36,855 ERROR :: Binance connections error: (1146, "Table 'traderunner.tradingbot_trade' doesn't exist")
+2021-11-10 16:22:41,464 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -1021, 'msg': 'Timestamp for this request is outside of the recvWindow.'} (error code 400
+2021-11-10 16:22:41,466 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 16:22:42,507 INFO :: Binance connection opened
+2021-11-10 16:22:48,730 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10f185430>>: Trade matching query does not exist.
+2021-11-10 16:22:48,736 ERROR :: Binance connections error: Trade matching query does not exist.
+2021-11-10 16:22:50,430 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10f185430>>: Trade matching query does not exist.
+2021-11-10 16:22:50,431 ERROR :: Binance connections error: Trade matching query does not exist.
+2021-11-10 16:22:50,458 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10f185430>>: Trade matching query does not exist.
+2021-11-10 16:22:50,458 ERROR :: Binance connections error: Trade matching query does not exist.
+2021-11-10 16:22:52,529 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10f185430>>: Trade matching query does not exist.
+2021-11-10 16:22:52,529 ERROR :: Binance connections error: Trade matching query does not exist.
+2021-11-10 16:22:52,558 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10f185430>>: Trade matching query does not exist.
+2021-11-10 16:22:52,558 ERROR :: Binance connections error: Trade matching query does not exist.
+2021-11-10 16:22:54,579 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10f185430>>: Trade matching query does not exist.
+2021-11-10 16:22:54,580 ERROR :: Binance connections error: Trade matching query does not exist.
+2021-11-10 16:35:16,692 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -1021, 'msg': 'Timestamp for this request is outside of the recvWindow.'} (error code 400
+2021-11-10 16:35:16,698 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 16:35:17,769 INFO :: Binance connection opened
+2021-11-10 16:35:20,843 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x108c73430>>: Trade matching query does not exist.
+2021-11-10 16:35:20,844 ERROR :: Binance connections error: Trade matching query does not exist.
+2021-11-10 16:35:22,618 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x108c73430>>: Trade matching query does not exist.
+2021-11-10 16:35:22,620 ERROR :: Binance connections error: Trade matching query does not exist.
+2021-11-10 16:35:22,670 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x108c73430>>: Trade matching query does not exist.
+2021-11-10 16:35:22,671 ERROR :: Binance connections error: Trade matching query does not exist.
+2021-11-10 16:35:24,718 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x108c73430>>: Trade matching query does not exist.
+2021-11-10 16:35:24,718 ERROR :: Binance connections error: Trade matching query does not exist.
+2021-11-10 16:35:35,317 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -1021, 'msg': 'Timestamp for this request is outside of the recvWindow.'} (error code 400
+2021-11-10 16:35:35,319 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 16:35:36,362 INFO :: Binance connection opened
+2021-11-10 16:35:40,844 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109472370>>: Trade matching query does not exist.
+2021-11-10 16:35:40,845 ERROR :: Binance connections error: Trade matching query does not exist.
+2021-11-10 16:35:42,769 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109472370>>: Trade matching query does not exist.
+2021-11-10 16:35:42,769 ERROR :: Binance connections error: Trade matching query does not exist.
+2021-11-10 16:35:42,795 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109472370>>: Trade matching query does not exist.
+2021-11-10 16:35:42,796 ERROR :: Binance connections error: Trade matching query does not exist.
+2021-11-10 17:10:17,884 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -1021, 'msg': 'Timestamp for this request is outside of the recvWindow.'} (error code 400
+2021-11-10 17:10:17,894 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 17:10:18,927 INFO :: Binance connection opened
+2021-11-10 17:10:25,272 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10d4822e0>>: Trade matching query does not exist.
+2021-11-10 17:10:25,322 ERROR :: Binance connections error: Trade matching query does not exist.
+2021-11-10 17:10:26,538 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10d4822e0>>: Trade matching query does not exist.
+2021-11-10 17:10:26,539 ERROR :: Binance connections error: Trade matching query does not exist.
+2021-11-10 17:10:28,557 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10d4822e0>>: Trade matching query does not exist.
+2021-11-10 17:10:28,558 ERROR :: Binance connections error: Trade matching query does not exist.
+2021-11-10 17:10:28,847 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10d4822e0>>: Trade matching query does not exist.
+2021-11-10 17:10:28,859 ERROR :: Binance connections error: Trade matching query does not exist.
+2021-11-10 17:24:33,880 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -1021, 'msg': 'Timestamp for this request is outside of the recvWindow.'} (error code 400
+2021-11-10 17:24:33,896 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 17:24:35,110 INFO :: Binance connection opened
+2021-11-10 18:25:19,279 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -1021, 'msg': 'Timestamp for this request is outside of the recvWindow.'} (error code 400
+2021-11-10 18:25:19,282 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 18:25:20,398 INFO :: Binance connection opened

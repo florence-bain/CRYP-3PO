@@ -20,7 +20,7 @@ from tradingbot.models import Trade
 
 from API.strategies import Strategies
 
-from API.models import * 
+from API.models import *
 
 logger = logging.getLogger()
 
@@ -66,23 +66,29 @@ class BinanceFuturesClient:
     def _make_request(self, method: str, endpoint: str, data: typing.Dict):
         if method == "GET":
             try:
-                response = requests.get(self._base_url + endpoint, params=data, headers=self._headers)
+                response = requests.get(
+                    self._base_url + endpoint, params=data, headers=self._headers)
             except Exception as e:
-                logger.error("Connection error while making %s request to %s: %s", method, endpoint, e)
+                logger.error(
+                    "Connection error while making %s request to %s: %s", method, endpoint, e)
                 return None
 
         elif method == "POST":
             try:
-                response = requests.post(self._base_url + endpoint, params=data, headers=self._headers)
+                response = requests.post(
+                    self._base_url + endpoint, params=data, headers=self._headers)
             except Exception as e:
-                logger.error("Connection error while making %s request to %s: %s", method, endpoint, e)
+                logger.error(
+                    "Connection error while making %s request to %s: %s", method, endpoint, e)
                 return None
 
         elif method == "DELETE":
             try:
-                response = requests.delete(self._base_url + endpoint, params=data, headers=self._headers)
+                response = requests.delete(
+                    self._base_url + endpoint, params=data, headers=self._headers)
             except Exception as e:
-                logger.error("Connection error while making %s request to %s: %s", method, endpoint, e)
+                logger.error(
+                    "Connection error while making %s request to %s: %s", method, endpoint, e)
                 return None
 
         else:
@@ -96,7 +102,8 @@ class BinanceFuturesClient:
             return None
 
     def get_contracts(self) -> typing.Dict[str, Contract]:
-        exchange_info = self._make_request("GET", "/fapi/v1/exchangeInfo", dict())
+        exchange_info = self._make_request(
+            "GET", "/fapi/v1/exchangeInfo", dict())
 
         contracts = dict()
 
@@ -129,10 +136,13 @@ class BinanceFuturesClient:
 
         if ob_data is not None:
             if contract.symbol not in self.prices:
-                self.prices[contract.symbol] = {'bid': float(ob_data['bidPrice']), 'ask': float(ob_data['askPrice'])}
+                self.prices[contract.symbol] = {'bid': float(
+                    ob_data['bidPrice']), 'ask': float(ob_data['askPrice'])}
             else:
-                self.prices[contract.symbol]['bid'] = float(ob_data['bidPrice'])
-                self.prices[contract.symbol]['ask'] = float(ob_data['askPrice'])
+                self.prices[contract.symbol]['bid'] = float(
+                    ob_data['bidPrice'])
+                self.prices[contract.symbol]['ask'] = float(
+                    ob_data['askPrice'])
 
             return self.prices[contract.symbol]
 
@@ -208,7 +218,7 @@ class BinanceFuturesClient:
 
     def _start_ws(self):
         self._ws = websocket.WebSocketApp(self._wss_url, on_open=self._on_open, on_close=self._on_close,
-                                         on_error=self._on_error, on_message=self._on_message)
+                                          on_error=self._on_error, on_message=self._on_message)
         while True:
             try:
                 self._ws.run_forever()
@@ -220,14 +230,16 @@ class BinanceFuturesClient:
         logger.info("Binance connection opened")
 
         strategies = Strategies()
-        hist_contracts_btc = self.get_historical_candles(self.contracts['BTCBUSD'], '1d')
-        hist_contracts_ltc = self.get_historical_candles(self.contracts['LTCUSDT'], '1d')
-        hist_contracts_xmr = self.get_historical_candles(self.contracts['XMRUSDT'], '1d')
-        
+        hist_contracts_btc = self.get_historical_candles(
+            self.contracts['BTCBUSD'], '1d')
+        hist_contracts_ltc = self.get_historical_candles(
+            self.contracts['LTCUSDT'], '1d')
+        hist_contracts_xmr = self.get_historical_candles(
+            self.contracts['XMRUSDT'], '1d')
+
         self.strategy_price_btc = strategies.golden_cross(hist_contracts_btc)
         self.strategy_price_xmr = strategies.golden_cross(hist_contracts_xmr)
         self.strategy_price_ltc = strategies.golden_cross(hist_contracts_ltc)
-
 
         self.subscribe_channel(list(self.contracts.values()), "bookTicker")
 
@@ -241,8 +253,8 @@ class BinanceFuturesClient:
 
         data = json.loads(msg)
 
-        #print(data)
-        #print(self.prices)
+        # print(data)
+        # print(self.prices)
 
         if "e" in data:
             if data['e'] == "bookTicker":
@@ -250,26 +262,29 @@ class BinanceFuturesClient:
                 symbol = data['s']
 
                 if symbol not in self.prices:
-                    self.prices[symbol] = {'bid': float(data['b']), 'ask': float(data['a'])}
+                    self.prices[symbol] = {'bid': float(
+                        data['b']), 'ask': float(data['a'])}
                 else:
                     self.prices[symbol]['bid'] = float(data['b'])
                     self.prices[symbol]['ask'] = float(data['a'])
                     #print("Methods are working just not satisfied")
                     if symbol == 'BTCBUSD' and self.strategy_price_btc != 'false' and \
-                            self.prices[symbol]['bid'] > self.strategy_price_btc:    
+                            self.prices[symbol]['bid'] > self.strategy_price_btc:
                         #print("This bitcoin method is working as intended")
-                        self.execute_trade(symbol, self.prices[symbol]['bid'], self.prices[symbol]['ask'])
+                        self.execute_trade(
+                            symbol, self.prices[symbol]['bid'], self.prices[symbol]['ask'])
                     elif symbol == 'XMRUSDT' and self.strategy_price_xmr != 'false' and \
-                             self.prices[symbol]['bid'] > self.strategy_price_xmr:
-                             #print("This Monero method is working as intended")
-                             self.execute_trade(symbol, self.prices[symbol]['bid'], self.prices[symbol]['ask'])
+                            self.prices[symbol]['bid'] > self.strategy_price_xmr:
+                        #print("This Monero method is working as intended")
+                        self.execute_trade(
+                            symbol, self.prices[symbol]['bid'], self.prices[symbol]['ask'])
                     elif symbol == 'LTCUSDT' and self.strategy_price_ltc != 'false' and \
-                             self.prices[symbol]['bid'] > self.strategy_price_ltc:    
-                             #print("This litecoin method is working as intended")
-                             self.execute_trade(symbol, self.prices[symbol]['bid'], self.prices[symbol]['ask'])
+                            self.prices[symbol]['bid'] > self.strategy_price_ltc:
+                        #print("This litecoin method is working as intended")
+                        self.execute_trade(
+                            symbol, self.prices[symbol]['bid'], self.prices[symbol]['ask'])
                     else:
                         pass
-
 
     def subscribe_channel(self, contracts: typing.List[Contract], channel: str):
         data = dict()
@@ -283,65 +298,60 @@ class BinanceFuturesClient:
         try:
             self._ws.send(json.dumps(data))
         except Exception as e:
-            logger.error("Websocket error while subscribing to %s %s updates: %s", len(contracts), channel, e)
+            logger.error("Websocket error while subscribing to %s %s updates: %s", len(
+                contracts), channel, e)
 
         self._ws_id += 1
 
     def execute_trade(self, symbol_ticker, sym_bid_price, sym_ask_price):
+        # print('trade done ')
+        # order_quantity = 0.05
+        # buy_price = 2000
 
-        order_quantity = 0.05
-        buy_price = 2000 
+        # if symbol_ticker == 'LTCUSDT':
+        #     order_quantity = 10
+        #     buy_price = 270
+        # elif symbol_ticker == 'XMRUSDT':
+        #     order_quantity = 20
+        #     buy_price = 290
 
-        if symbol_ticker == 'LTCUSDT':
-            order_quantity = 10
-            buy_price = 270
-        elif symbol_ticker == 'XMRUSDT':
-            order_quantity = 20
-            buy_price = 290
-        
-        x = Trade.objects.latest('trade_date').trade_date
+        # x = Trade.objects.latest('trade_date').trade_date
 
-        y = (datetime.now(timezone.utc))
+        # y = (datetime.now(timezone.utc))
 
-        difference = y - x 
+        # difference = y - x
 
-        seconds, days = difference.seconds, difference.days
-        
-        difference_hours = days * 24 + seconds // 3600
+        # seconds, days = difference.seconds, difference.days
 
-        # print(x)
-        #print(y.strftime("%m/%d/%Y"))
-        # print(difference_hours)
+        # difference_hours = days * 24 + seconds // 3600
 
-        if difference_hours > 4 :
-            print("Now is time to do a trade")
-            #need to amend for ticker specific trades
-            x = self.place_order(self.contracts[symbol_ticker], "BUY", order_quantity, "LIMIT", buy_price, "GTC")
-            print(f"This is the {x.order_id} and this is the order status {x.status} and the average price {x.status}")
-            
-            new_trade = Trade(
-                symbol = f"{symbol_ticker}",
-                trade_date = f"{datetime.now()}",
-                order_id = x.order_id,
-                status = f"{x.status}",
-                bid_price = sym_bid_price,
-                ask_price = sym_ask_price,
-                side = "BUY",
-                quantity = order_quantity,
-                tif = "GTC",
-                order_price = buy_price,
-            )
-            new_trade.save()
-            logger.info("Bingo, now is a good time to execute a trade")
-        else:
-            if len(self.cryp_messages) < 40:
-                self.cryp_messages.append(f'{y.strftime("%m/%d/%Y")} : Hello Friend, now is a good time to buy some {symbol_ticker} the price is only {sym_ask_price}')
-            else:
-                print("You've already made a trade in the past however long, what do you think you are made of money?")
-                pass
+        # # print(x)
+        # #print(y.strftime("%m/%d/%Y"))
+        # # print(difference_hours)
 
+        # if difference_hours > 4 :
+        #     print("Now is time to do a trade")
+        #     #need to amend for ticker specific trades
+        #     x = self.place_order(self.contracts[symbol_ticker], "BUY", order_quantity, "LIMIT", buy_price, "GTC")
+        #     print(f"This is the {x.order_id} and this is the order status {x.status} and the average price {x.status}")
 
-
-      
-    
-
+        #     new_trade = Trade(
+        #         symbol = f"{symbol_ticker}",
+        #         trade_date = f"{datetime.now()}",
+        #         order_id = x.order_id,
+        #         status = f"{x.status}",
+        #         bid_price = sym_bid_price,
+        #         ask_price = sym_ask_price,
+        #         side = "BUY",
+        #         quantity = order_quantity,
+        #         tif = "GTC",
+        #         order_price = buy_price,
+        #     )
+        #     new_trade.save()
+        #     logger.info("Bingo, now is a good time to execute a trade")
+        # else:
+        #     if len(self.cryp_messages) < 40:
+        #         self.cryp_messages.append(f'{y.strftime("%m/%d/%Y")} : Hello Friend, now is a good time to buy some {symbol_ticker} the price is only {sym_ask_price}')
+        #     else:
+        #         print("You've already made a trade in the past however long, what do you think you are made of money?")
+        pass

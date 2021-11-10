@@ -55,7 +55,7 @@ def home(request):
 	# helper = HelperMethods()
 	# helper.working
 
-	trades = Trade.objects.all().order_by("trade_date").reverse()
+	#trades = Trade.objects.all().order_by("trade_date").reverse()
 	print(f" Before : {trades[0].status}")
 
 	for trade in trades:
@@ -74,7 +74,7 @@ def home(request):
 
 	# status = binancey.get_order_status(binancey.contracts[f'{trades[0].symbol}'], trades[0].order_id)
 	# print(status.status)
-	print(f" This order has been filled ? : {trades[0].status}")
+	# print(f" This order has been filled ? : {trades[0].status}")
 
 
 	balance = binancey.balances['USDT']
