@@ -31,6 +31,8 @@ SECRET_KEY = 'django-insecure-%($v@kwbdueo4t!it#ixg&_6u6)v1y=^0la0m-#)^yj)qnf__t
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+DEVELOPMENT_MODE = True
+
 # ALLOWED_HOSTS = []
 
 
@@ -102,6 +104,19 @@ DATABASES = {
     }
 }
 
+if DEVELOPMENT_MODE is True:
+    DATABASES = {
+        "default": {
+            "ENGINE": "django.db.backends.mysql",
+            "NAME": os.path.join(BASE_DIR, "db.mysql"),
+        }
+    }
+elif len(sys.argv) > 0 and sys.argv[1] != 'collectstatic':
+    if os.getenv("DATABASE_URL", None) is None:
+        raise Exception("DATABASE_URL environment variable not defined")
+    DATABASES = {
+        "default": dj_database_url.parse(os.environ.get("DATABASE_URL")),
+    }
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 
@@ -150,8 +165,11 @@ django_heroku.settings(locals())
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 PROJECT_ROOT = os.path.join(os.path.abspath(__file__))
-STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
+# STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles') (ours commented out)
 STATIC_URL = '/static/'
+
+
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 
 # Extra lookup directories for collectstatic to find static files
 STATICFILES_DIRS = (
@@ -165,3 +183,5 @@ prod_db = dj_database_url.config(conn_max_age=500)
 DATABASES['default'].update(prod_db)
 
 #ALLOWED_HOSTS = ['traderunner-cryp3po.herokuapp.com']
+ALLOWED_HOSTS = os.getenv("DJANGO_ALLOWED_HOSTS",
+                          "127.0.0.1,localhost").split(",")

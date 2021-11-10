@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e3156fe-05cd-4c6a-a4b3-53fd3a8fe3b2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/CRYP-3PO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CRYP-3PO.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/traderunner/traderunner/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/traderunner/traderunner/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +24,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -42,7 +39,7 @@
       <option name="presentableId" value="Default" />
       <updated>1635951732187</updated>
       <workItem from="1635951740564" duration="1171000" />
-      <workItem from="1636041665889" duration="865000" />
+      <workItem from="1636041665889" duration="972000" />
     </task>
     <servers />
   </component>
@@ -60,5 +57,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

@@ -3687,3 +3687,5 @@ TypeError: float() argument must be a string or a number, not 'Balance'
 2021-11-10 13:29:23,705 INFO :: Binance connection opened
 2021-11-10 13:30:54,015 INFO :: Binance Futures Client Successfully Initialized
 2021-11-10 13:30:55,226 INFO :: Binance connection opened
+2021-11-10 13:44:54,336 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -1021, 'msg': 'Timestamp for this request is outside of the recvWindow.'} (error code 400
+2021-11-10 13:44:54,338 INFO :: Binance Futures Client Successfully Initialized
