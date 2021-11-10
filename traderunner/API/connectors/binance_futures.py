@@ -257,12 +257,12 @@ class BinanceFuturesClient:
                             self.prices[symbol]['bid'] > self.strategy_price_btc:    
                         #print("This bitcoin method is working as intended")
                         self.execute_trade(symbol, self.prices[symbol]['bid'], self.prices[symbol]['ask'])
-                    elif symbol == 'XMRUSDT' and self.strategy_price_xmr == 'false': #and \
-                             #self.prices[symbol]['bid'] > self.strategy_price_xmr:    
-                             print("This Monero method is working as intended")
+                    elif symbol == 'XMRUSDT' and self.strategy_price_xmr != 'false' and \
+                             self.prices[symbol]['bid'] > self.strategy_price_xmr:
+                             #print("This Monero method is working as intended")
                              self.execute_trade(symbol, self.prices[symbol]['bid'], self.prices[symbol]['ask'])
-                    elif symbol == 'LTCUSDT' and self.strategy_price_ltc == 'false': #and \
-                             #self.prices[symbol]['bid'] > self.strategy_price_ltc:    
+                    elif symbol == 'LTCUSDT' and self.strategy_price_ltc != 'false' and \
+                             self.prices[symbol]['bid'] > self.strategy_price_ltc:    
                              print("This litecoin method is working as intended")
                              self.execute_trade(symbol, self.prices[symbol]['bid'], self.prices[symbol]['ask'])
                     else:
@@ -292,7 +292,7 @@ class BinanceFuturesClient:
 
         if symbol_ticker == 'LTCUSDT':
             order_quantity = 10
-            buy_price = 280
+            buy_price = 270
         elif symbol_ticker == 'XMRUSDT':
             order_quantity = 20
             buy_price = 290
@@ -307,11 +307,10 @@ class BinanceFuturesClient:
 
         difference = y - x 
 
-        if difference.days > 1:
+        if difference.days > 1 :
             print("Now is time to do a trade")
             #need to amend for ticker specific trades
             x = self.place_order(self.contracts[symbol_ticker], "BUY", order_quantity, "LIMIT", buy_price, "GTC")
-
             print(f"This is the {x.order_id} and this is the order status {x.status} and the average price {x.status}")
             
             new_trade = Trade(
@@ -329,7 +328,7 @@ class BinanceFuturesClient:
             new_trade.save()
             logger.info("Bingo, now is a good time to execute a trade")
         else:
-            print("You've already made a trade in the past however long, what do you think you are made of money?")
+            #print("You've already made a trade in the past however long, what do you think you are made of money?")
             pass
 
 

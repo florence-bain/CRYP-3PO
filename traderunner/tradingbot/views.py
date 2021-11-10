@@ -5,6 +5,7 @@ from django.contrib.auth import login,authenticate,logout
 from django.contrib import messages
 from django.contrib.auth.forms import AuthenticationForm
 from API.main import binancey
+from tradingbot.database_helper_methods import HelperMethods
 
 from API.data_visualisation import x_values, btc_high, btc_close, eth_close, eth_high, doge_close, doge_high
 
@@ -51,7 +52,31 @@ def logout_request(request):
 	return redirect("/login")
 
 def home(request):
+	# helper = HelperMethods()
+	# helper.working
+
 	trades = Trade.objects.all().order_by("trade_date").reverse()
+	print(f" Before : {trades[0].status}")
+
+	for trade in trades:
+			orderid = trade.order_id
+			if trade.symbol == "ETHUSDT_211231" or trade.symbol == "BTCUSDT":
+				pass
+			elif trade.status != 'NEW':
+				pass
+			elif trade == None:
+				pass
+			else:
+				orderdata = binancey.get_order_status(binancey.contracts[f'{trade.symbol}'], orderid) 
+				#print(orderdata)
+				trade.status = orderdata.status
+				trade.save()
+
+	# status = binancey.get_order_status(binancey.contracts[f'{trades[0].symbol}'], trades[0].order_id)
+	# print(status.status)
+	print(f" This order has been filled ? : {trades[0].status}")
+
+
 	balance = binancey.balances['USDT']
 
 	cryp_messages = ['Hello', 'How are you friend', 'I am well', 'I hope that you are too']

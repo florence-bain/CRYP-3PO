@@ -3185,3 +3185,300 @@ django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '
 2021-11-10 09:53:44,399 INFO :: Bingo, now is a good time to execute a trade
 2021-11-10 09:55:48,272 INFO :: Binance Futures Client Successfully Initialized
 2021-11-10 09:55:49,418 INFO :: Binance connection opened
+2021-11-10 10:30:52,038 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 10:30:53,113 INFO :: Binance connection opened
+2021-11-10 10:30:55,916 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 10:31:21,531 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/API/connectors/binance_futures.py changed, reloading.
+2021-11-10 10:31:28,341 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 10:31:29,355 INFO :: Binance connection opened
+2021-11-10 10:31:32,514 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4016, 'msg': "Limit price can't be higher than 294.94"} (error code 400
+2021-11-10 10:32:02,516 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10665daf0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 10:32:02,516 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 10:32:03,245 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4016, 'msg': "Limit price can't be higher than 295.23"} (error code 400
+2021-11-10 10:32:10,758 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/API/connectors/binance_futures.py changed, reloading.
+2021-11-10 10:32:18,714 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 10:32:19,733 INFO :: Binance connection opened
+2021-11-10 10:32:22,335 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 10:32:38,343 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/API/connectors/binance_futures.py changed, reloading.
+2021-11-10 10:32:47,438 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 10:32:48,507 INFO :: Binance connection opened
+2021-11-10 10:33:23,460 INFO :: Bingo, now is a good time to execute a trade
+2021-11-10 10:33:54,225 INFO :: Bingo, now is a good time to execute a trade
+2021-11-10 10:46:05,496 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 10:46:06,541 INFO :: Binance connection opened
+2021-11-10 10:46:12,671 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 10:46:12,672 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109583fd0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 10:46:12,672 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 10:46:12,968 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 10:46:12,968 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109583fd0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 10:46:12,968 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 10:46:14,678 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 10:46:14,678 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109583fd0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 10:46:14,678 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 10:46:14,986 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 10:46:14,986 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109583fd0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 10:46:14,986 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 10:46:15,776 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 10:46:15,776 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109583fd0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 10:46:15,776 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 10:46:16,735 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 10:46:16,735 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109583fd0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 10:46:16,735 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 10:46:17,440 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 10:46:17,441 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109583fd0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 10:46:17,441 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 10:46:18,359 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 10:46:18,360 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109583fd0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 10:46:18,360 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 10:46:19,893 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 10:46:19,894 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109583fd0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 10:46:19,894 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 10:46:20,210 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 10:46:20,210 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109583fd0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 10:46:20,211 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 10:46:22,370 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 10:46:22,370 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109583fd0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 10:46:22,370 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 10:46:22,676 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 10:46:22,676 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109583fd0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 10:46:22,676 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 10:46:23,397 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 10:46:23,397 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109583fd0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 10:46:23,398 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 10:46:23,695 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 10:46:23,695 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109583fd0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 10:46:23,695 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 10:46:24,416 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 10:46:24,416 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109583fd0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 10:46:24,416 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 10:46:24,709 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 10:46:24,710 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109583fd0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 10:46:24,710 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 10:46:25,031 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 10:46:25,031 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109583fd0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 10:46:25,031 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 10:48:35,157 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 10:48:36,197 INFO :: Binance connection opened
+2021-11-10 10:50:23,808 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 10:50:24,859 INFO :: Binance connection opened
+2021-11-10 10:51:00,351 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 10:51:01,410 INFO :: Binance connection opened
+2021-11-10 10:51:26,543 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 10:51:27,632 INFO :: Binance connection opened
+2021-11-10 10:51:50,293 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/database_helper_methods.py changed, reloading.
+2021-11-10 10:52:02,917 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 10:52:04,044 INFO :: Binance connection opened
+2021-11-10 10:54:14,040 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-10 10:54:21,459 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 10:54:22,518 INFO :: Binance connection opened
+2021-11-10 10:54:57,316 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-10 10:55:06,492 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 10:55:07,577 INFO :: Binance connection opened
+2021-11-10 10:55:57,354 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-10 10:56:05,653 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 10:56:06,716 INFO :: Binance connection opened
+2021-11-10 10:56:12,722 ERROR :: Internal Server Error: /home
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py", line 57, in home
+    print(trades[0]['order_id'])
+TypeError: 'Trade' object is not subscriptable
+2021-11-10 10:56:24,484 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-10 10:56:40,362 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 10:56:41,383 INFO :: Binance connection opened
+2021-11-10 10:57:13,711 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/API/strategies.py changed, reloading.
+2021-11-10 10:59:41,128 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 10:59:42,223 INFO :: Binance connection opened
+2021-11-10 11:00:56,607 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/database_helper_methods.py changed, reloading.
+2021-11-10 11:01:39,512 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 11:01:40,584 INFO :: Binance connection opened
+2021-11-10 11:03:20,145 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-10 11:03:29,020 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 11:03:30,163 INFO :: Binance connection opened
+2021-11-10 11:03:40,144 ERROR :: Internal Server Error: /home
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py", line 57, in home
+    print(binancey.contracts[{trades[0].symbol}], trades[0].orderid)
+TypeError: unhashable type: 'set'
+2021-11-10 11:04:05,254 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-10 11:04:14,857 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 11:04:15,945 INFO :: Binance connection opened
+2021-11-10 11:04:22,673 ERROR :: Internal Server Error: /home
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py", line 57, in home
+    print(binancey.contracts['{trades[0].symbol}'], trades[0].orderid)
+KeyError: '{trades[0].symbol}'
+2021-11-10 11:04:46,581 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-10 11:04:54,603 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 11:04:55,643 INFO :: Binance connection opened
+2021-11-10 11:04:58,708 ERROR :: Internal Server Error: /home
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py", line 57, in home
+    print(binancey.contracts[f'{trades[0].symbol}'], trades[0].orderid)
+AttributeError: 'Trade' object has no attribute 'orderid'
+2021-11-10 11:05:46,968 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-10 11:05:54,716 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 11:05:55,748 INFO :: Binance connection opened
+2021-11-10 11:07:50,063 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-10 11:07:56,518 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 11:07:57,575 INFO :: Binance connection opened
+2021-11-10 11:08:44,291 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-10 11:08:52,422 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 11:08:53,507 INFO :: Binance connection opened
+2021-11-10 11:10:27,753 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/database_helper_methods.py changed, reloading.
+2021-11-10 11:10:55,354 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 11:10:56,410 INFO :: Binance connection opened
+2021-11-10 11:11:09,009 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-10 11:11:15,712 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 11:11:16,801 INFO :: Binance connection opened
+2021-11-10 11:12:44,834 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/database_helper_methods.py changed, reloading.
+2021-11-10 11:13:51,141 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 11:13:52,214 INFO :: Binance connection opened
+2021-11-10 11:14:54,075 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/database_helper_methods.py changed, reloading.
+2021-11-10 11:16:47,017 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 11:16:48,094 INFO :: Binance connection opened
+2021-11-10 11:17:17,243 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/database_helper_methods.py changed, reloading.
+2021-11-10 11:17:43,552 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 11:17:44,584 INFO :: Binance connection opened
+2021-11-10 11:18:32,821 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/database_helper_methods.py changed, reloading.
+2021-11-10 11:22:07,865 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 11:22:08,952 INFO :: Binance connection opened
+2021-11-10 11:22:15,678 ERROR :: Internal Server Error: /home
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py", line 63, in home
+    orderdata = binancey.get_order_status(binancey.contracts[f'{trade.symbol}'], orderid)
+KeyError: 'ETHUSDT_211231'
+2021-11-10 11:23:55,328 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-10 11:24:09,798 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 11:24:10,833 INFO :: Binance connection opened
+2021-11-10 11:24:22,695 ERROR :: Error while making GET request to /fapi/v1/order: {'code': -2013, 'msg': 'Order does not exist.'} (error code 400
+2021-11-10 11:24:22,749 ERROR :: Internal Server Error: /home
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py", line 67, in home
+    trade.status = orderdata.status
+AttributeError: 'NoneType' object has no attribute 'status'
+2021-11-10 11:25:35,910 ERROR :: Error while making GET request to /fapi/v1/order: {'code': -2013, 'msg': 'Order does not exist.'} (error code 400
+2021-11-10 11:25:35,952 ERROR :: Internal Server Error: /home
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py", line 67, in home
+    trade.status = orderdata.status
+AttributeError: 'NoneType' object has no attribute 'status'
+2021-11-10 11:27:48,867 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 11:27:49,903 INFO :: Binance connection opened
+2021-11-10 11:28:01,583 ERROR :: Error while making GET request to /fapi/v1/order: {'code': -2013, 'msg': 'Order does not exist.'} (error code 400
+2021-11-10 11:28:01,631 ERROR :: Internal Server Error: /home
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py", line 67, in home
+    trade.status = orderdata.status
+AttributeError: 'NoneType' object has no attribute 'status'
+2021-11-10 11:28:40,885 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-10 11:28:47,770 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 11:28:48,825 INFO :: Binance connection opened
+2021-11-10 11:28:57,499 ERROR :: Error while making GET request to /fapi/v1/order: {'code': -2013, 'msg': 'Order does not exist.'} (error code 400
+2021-11-10 11:28:57,554 ERROR :: Internal Server Error: /home
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py", line 67, in home
+    trade.status = orderdata.status
+AttributeError: 'NoneType' object has no attribute 'status'
+2021-11-10 11:29:44,323 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-10 11:29:52,740 ERROR :: Error while making GET request to /fapi/v1/order: {'code': -2013, 'msg': 'Order does not exist.'} (error code 400
+2021-11-10 11:29:52,779 ERROR :: Internal Server Error: /home
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py", line 67, in home
+    else:
+AttributeError: 'NoneType' object has no attribute 'status'
+2021-11-10 11:30:00,173 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 11:30:01,234 INFO :: Binance connection opened
+2021-11-10 11:30:11,556 ERROR :: Error while making GET request to /fapi/v1/order: {'code': -2013, 'msg': 'Order does not exist.'} (error code 400
+2021-11-10 11:30:11,612 ERROR :: Internal Server Error: /home
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py", line 69, in home
+    trade.status = orderdata.status
+AttributeError: 'NoneType' object has no attribute 'status'
+2021-11-10 11:30:46,232 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-10 11:30:55,206 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 11:30:56,280 INFO :: Binance connection opened
+2021-11-10 11:31:00,283 ERROR :: Error while making GET request to /fapi/v1/order: {'code': -2013, 'msg': 'Order does not exist.'} (error code 400
+2021-11-10 11:31:00,337 ERROR :: Internal Server Error: /home
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py", line 69, in home
+    trade.status = orderdata.status
+AttributeError: 'NoneType' object has no attribute 'status'
+2021-11-10 11:31:41,201 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-10 11:31:47,173 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 11:31:48,281 INFO :: Binance connection opened
+2021-11-10 11:31:53,909 ERROR :: Error while making GET request to /fapi/v1/order: {'code': -2013, 'msg': 'Order does not exist.'} (error code 400
+2021-11-10 11:31:53,958 ERROR :: Internal Server Error: /home
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py", line 71, in home
+    trade.status = orderdata.status
+AttributeError: 'NoneType' object has no attribute 'status'
+2021-11-10 11:33:10,996 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-10 11:33:18,488 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 11:33:19,579 INFO :: Binance connection opened
+2021-11-10 11:33:31,344 ERROR :: Error while making GET request to /fapi/v1/order: {'code': -2013, 'msg': 'Order does not exist.'} (error code 400
+2021-11-10 11:33:32,072 ERROR :: Error while making GET request to /fapi/v1/order: {'code': -2013, 'msg': 'Order does not exist.'} (error code 400
+2021-11-10 11:33:32,790 ERROR :: Error while making GET request to /fapi/v1/order: {'code': -2013, 'msg': 'Order does not exist.'} (error code 400
+2021-11-10 11:33:33,512 ERROR :: Error while making GET request to /fapi/v1/order: {'code': -2013, 'msg': 'Order does not exist.'} (error code 400
+2021-11-10 11:33:33,829 ERROR :: Error while making GET request to /fapi/v1/order: {'code': -2013, 'msg': 'Order does not exist.'} (error code 400
+2021-11-10 11:33:34,143 ERROR :: Error while making GET request to /fapi/v1/order: {'code': -2013, 'msg': 'Order does not exist.'} (error code 400
+2021-11-10 11:33:34,852 ERROR :: Error while making GET request to /fapi/v1/order: {'code': -2013, 'msg': 'Order does not exist.'} (error code 400
+2021-11-10 11:33:35,156 ERROR :: Error while making GET request to /fapi/v1/order: {'code': -2013, 'msg': 'Order does not exist.'} (error code 400
+2021-11-10 11:33:35,459 ERROR :: Error while making GET request to /fapi/v1/order: {'code': -2013, 'msg': 'Order does not exist.'} (error code 400
+2021-11-10 11:33:35,755 ERROR :: Error while making GET request to /fapi/v1/order: {'code': -2013, 'msg': 'Order does not exist.'} (error code 400
+2021-11-10 11:33:36,076 ERROR :: Error while making GET request to /fapi/v1/order: {'code': -2013, 'msg': 'Order does not exist.'} (error code 400
+2021-11-10 11:33:36,378 ERROR :: Error while making GET request to /fapi/v1/order: {'code': -2013, 'msg': 'Order does not exist.'} (error code 400
+2021-11-10 11:33:36,679 ERROR :: Error while making GET request to /fapi/v1/order: {'code': -2013, 'msg': 'Order does not exist.'} (error code 400
+2021-11-10 11:43:48,525 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 11:43:49,590 INFO :: Binance connection opened
