@@ -52,7 +52,7 @@ def logout_request(request):
 
 def home(request):
 	trades = Trade.objects.all().order_by("trade_date").reverse()
-	contracts = binancey.contracts
+	balance = binancey.balances['USDT'].wallet_balance
 
 	cryp_messages = ['Hello', 'How are you friend', 'I am well', 'I hope that you are too']
 
@@ -91,7 +91,7 @@ def home(request):
 
 	context = {
 			'trades' : trades,
-			'contracts' : contracts,
+			'balance' : balance,
 			'btc_high' : btc_h,
 			'btc_close' : btc_c,
 			'eth_high' : eth_h,
