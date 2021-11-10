@@ -261,8 +261,8 @@ class BinanceFuturesClient:
                              self.prices[symbol]['bid'] > self.strategy_price_xmr:
                              #print("This Monero method is working as intended")
                              self.execute_trade(symbol, self.prices[symbol]['bid'], self.prices[symbol]['ask'])
-                    elif symbol == 'LTCUSDT' and self.strategy_price_ltc != 'false' and \
-                             self.prices[symbol]['bid'] > self.strategy_price_ltc:    
+                    elif symbol == 'LTCUSDT' and self.strategy_price_ltc == 'false':# and \
+                             #self.prices[symbol]['bid'] > self.strategy_price_ltc:    
                              print("This litecoin method is working as intended")
                              self.execute_trade(symbol, self.prices[symbol]['bid'], self.prices[symbol]['ask'])
                     else:
@@ -300,14 +300,18 @@ class BinanceFuturesClient:
         x = Trade.objects.latest('trade_date').trade_date
 
         y = (datetime.now(timezone.utc))
-        #print(f"This is the trade date {x}")
-
-        # print(x.hour)
-        # print(y.hour)
 
         difference = y - x 
 
-        if difference.days > 1 :
+        seconds, days = difference.seconds, difference.days
+        
+        difference_hours = days * 24 + seconds // 3600
+
+        # print(x)
+        # print(y)
+        # print(difference_hours)
+
+        if difference_hours > 4 :
             print("Now is time to do a trade")
             #need to amend for ticker specific trades
             x = self.place_order(self.contracts[symbol_ticker], "BUY", order_quantity, "LIMIT", buy_price, "GTC")

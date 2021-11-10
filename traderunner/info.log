@@ -3645,3 +3645,39 @@ Traceback (most recent call last):
 TypeError: float() argument must be a string or a number, not 'Balance'
 2021-11-10 12:40:16,890 INFO :: Binance Futures Client Successfully Initialized
 2021-11-10 12:40:17,949 INFO :: Binance connection opened
+2021-11-10 13:06:03,493 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 13:06:04,526 INFO :: Binance connection opened
+2021-11-10 13:06:54,500 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 13:06:55,527 INFO :: Binance connection opened
+2021-11-10 13:06:58,856 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x112af0b20>>: 'datetime.timedelta' object has no attribute 'hour'
+2021-11-10 13:06:58,856 ERROR :: Binance connections error: 'datetime.timedelta' object has no attribute 'hour'
+2021-11-10 13:06:58,858 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x112af0b20>>: 'datetime.timedelta' object has no attribute 'hour'
+2021-11-10 13:06:58,858 ERROR :: Binance connections error: 'datetime.timedelta' object has no attribute 'hour'
+2021-11-10 13:06:59,006 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x112af0b20>>: 'datetime.timedelta' object has no attribute 'hour'
+2021-11-10 13:06:59,007 ERROR :: Binance connections error: 'datetime.timedelta' object has no attribute 'hour'
+2021-11-10 13:07:00,548 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x112af0b20>>: 'datetime.timedelta' object has no attribute 'hour'
+2021-11-10 13:07:00,548 ERROR :: Binance connections error: 'datetime.timedelta' object has no attribute 'hour'
+2021-11-10 13:07:00,614 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x112af0b20>>: 'datetime.timedelta' object has no attribute 'hour'
+2021-11-10 13:07:00,614 ERROR :: Binance connections error: 'datetime.timedelta' object has no attribute 'hour'
+2021-11-10 13:07:00,626 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x112af0b20>>: 'datetime.timedelta' object has no attribute 'hour'
+2021-11-10 13:07:00,626 ERROR :: Binance connections error: 'datetime.timedelta' object has no attribute 'hour'
+2021-11-10 13:07:00,857 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x112af0b20>>: 'datetime.timedelta' object has no attribute 'hour'
+2021-11-10 13:07:00,858 ERROR :: Binance connections error: 'datetime.timedelta' object has no attribute 'hour'
+2021-11-10 13:07:00,871 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x112af0b20>>: 'datetime.timedelta' object has no attribute 'hour'
+2021-11-10 13:07:00,871 ERROR :: Binance connections error: 'datetime.timedelta' object has no attribute 'hour'
+2021-11-10 13:07:01,012 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x112af0b20>>: 'datetime.timedelta' object has no attribute 'hour'
+2021-11-10 13:07:01,012 ERROR :: Binance connections error: 'datetime.timedelta' object has no attribute 'hour'
+2021-11-10 13:07:01,024 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x112af0b20>>: 'datetime.timedelta' object has no attribute 'hour'
+2021-11-10 13:07:01,024 ERROR :: Binance connections error: 'datetime.timedelta' object has no attribute 'hour'
+2021-11-10 13:07:02,560 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x112af0b20>>: 'datetime.timedelta' object has no attribute 'hour'
+2021-11-10 13:07:02,560 ERROR :: Binance connections error: 'datetime.timedelta' object has no attribute 'hour'
+2021-11-10 13:07:02,642 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x112af0b20>>: 'datetime.timedelta' object has no attribute 'hour'
+2021-11-10 13:07:02,643 ERROR :: Binance connections error: 'datetime.timedelta' object has no attribute 'hour'
+2021-11-10 13:07:02,659 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x112af0b20>>: 'datetime.timedelta' object has no attribute 'hour'
+2021-11-10 13:07:02,659 ERROR :: Binance connections error: 'datetime.timedelta' object has no attribute 'hour'
+2021-11-10 13:07:40,165 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 13:07:41,224 INFO :: Binance connection opened
+2021-11-10 13:09:53,934 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 13:09:55,010 INFO :: Binance connection opened
+2021-11-10 13:10:36,071 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 13:10:37,081 INFO :: Binance connection opened
