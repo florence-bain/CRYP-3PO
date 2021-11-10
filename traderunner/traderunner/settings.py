@@ -29,7 +29,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-%($v@kwbdueo4t!it#ixg&_6u6)v1y=^0la0m-#)^yj)qnf__t'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 # ALLOWED_HOSTS = []
 
@@ -45,7 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'crispy_forms',
-    'herokuapp',
+    'tradingbot',
 ]
 
 MIDDLEWARE = [
@@ -164,4 +164,4 @@ STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 prod_db = dj_database_url.config(conn_max_age=500)
 DATABASES['default'].update(prod_db)
 
-ALLOWED_HOSTS = ['traderunner-cryp3po.herokuapp.com']
+#ALLOWED_HOSTS = ['traderunner-cryp3po.herokuapp.com']

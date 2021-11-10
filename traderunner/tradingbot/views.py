@@ -4,6 +4,15 @@ from .forms import NewUserForm
 from django.contrib.auth import login,authenticate,logout
 from django.contrib import messages
 from django.contrib.auth.forms import AuthenticationForm
+from API.main import binancey
+from tradingbot.database_helper_methods import HelperMethods
+
+from API.data_visualisation import x_values, btc_high, btc_close, eth_close, eth_high, doge_close, doge_high
+
+import datetime
+import pandas as pd
+
+from tradingbot.models import Trade
 
 
 def register_request(request):
@@ -41,3 +50,80 @@ def logout_request(request):
 	logout(request)
 	messages.info(request, "You have successfully logged out.") 
 	return redirect("/login")
+
+def home(request):
+	# helper = HelperMethods()
+	# helper.working
+
+	trades = Trade.objects.all().order_by("trade_date").reverse()
+	print(f" Before : {trades[0].status}")
+
+	for trade in trades:
+			orderid = trade.order_id
+			if trade.symbol == "ETHUSDT_211231" or trade.symbol == "BTCUSDT":
+				pass
+			elif trade.status != 'NEW':
+				pass
+			elif trade == None:
+				pass
+			else:
+				orderdata = binancey.get_order_status(binancey.contracts[f'{trade.symbol}'], orderid) 
+				#print(orderdata)
+				trade.status = orderdata.status
+				trade.save()
+
+	# status = binancey.get_order_status(binancey.contracts[f'{trades[0].symbol}'], trades[0].order_id)
+	# print(status.status)
+	print(f" This order has been filled ? : {trades[0].status}")
+
+
+	balance = binancey.balances['USDT']
+
+	cryp_messages = ['Hello', 'How are you friend', 'I am well', 'I hope that you are too']
+
+	# candlesticks  = binancey.get_historical_candles(binancey.contracts['BTCBUSD'], '1d')
+
+	# filtered = candlesticks[-30:]
+
+	# x_values = []
+	# btc_high_values = []
+	# btc_close_values =[]
+
+	# for figure in filtered:
+	# 			btc_high_values.append(figure.high)
+	# 			btc_close_values.append(figure.close)
+	# 			time = datetime.datetime.fromtimestamp((figure.timestamp)/1000)
+	# 			x_values.append(time.strftime("%m/%d/%Y"))
+
+	
+	x_axis = x_values
+
+	btc_c = btc_close
+	btc_h = btc_high
+
+	eth_c = eth_close
+	eth_h = eth_high
+
+	doge_c = doge_high
+	doge_h = doge_close
+
+
+
+
+	#x_axis = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30]
+	# btc_close = btc_close_values
+	# btc_high = btc_high_values
+
+	context = {
+			'trades' : trades,
+			'balance' : balance,
+			'btc_high' : btc_h,
+			'btc_close' : btc_c,
+			'eth_high' : eth_h,
+			'eth_close' : eth_c,
+			'doge_close' : doge_c,
+			'doge_high' : doge_h,
+			'x' : x_axis,
+			
+		}
+	return render(request, 'home.html', context)
