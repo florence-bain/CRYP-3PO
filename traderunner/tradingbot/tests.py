@@ -1,3 +1,4 @@
+from django.http.request import HttpRequest
 from django.test import TestCase
 from tradingbot.models import Trade
 from datetime import datetime, timezone 
@@ -14,6 +15,14 @@ class HomePageTest(TestCase):
     def test_root_url_resolves_to_home_page_view(self):
         found = resolve ('/home')
         self.assertEqual(found.func, home)
+
+    def test_home_page_returns_correct_html(self):
+        request = HttpRequest()
+        response = home(request)
+        html = response.content.decode('utf8')
+        self.assertTrue(html.startswith('<!DOCTYPE html>'))
+        self.assertIn('<title>Home</title>', html) 
+        self.assertTrue(html.endswith('</html>'))
 
 
 
