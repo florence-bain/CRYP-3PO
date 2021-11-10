@@ -16,7 +16,7 @@ from pathlib import Path
 import sys
 sys.path.append('C:/usr/local/lib/python3.9/site-packages')
 print(sys.path)
-
+config: set DISABLE_COLLECTSTATIC =
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -32,6 +32,8 @@ SECRET_KEY = 'django-insecure-%($v@kwbdueo4t!it#ixg&_6u6)v1y=^0la0m-#)^yj)qnf__t
 DEBUG = True
 
 DEVELOPMENT_MODE = True
+
+1
 
 # ALLOWED_HOSTS = []
 
