@@ -39,7 +39,7 @@ The user details will be
  - user : djangouser
  - password : password 
 
- Let the databae know that our user should have complete access to the database 
+ Let the database know that our user should have complete access to the database 
  
  ```
  
@@ -51,6 +51,7 @@ The user details will be
 
 Amend Database settings in settings.py 
 
+```
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -62,9 +63,13 @@ DATABASES = {
     }
 }
 
-In the terminal run 
 
 ```
-python3 manage.py migrate
+
+In the terminal run 
+
+
+```
+- python3 manage.py migrate
 ```
 
