@@ -1,3 +1,4 @@
+
 # MY SQL Database set up instructions.
 
 From the terminal run the following to install mysql
@@ -36,6 +37,7 @@ Create General User
 
 The user details will be 
 
+
  - user : djangouser
  - password : password 
 
@@ -47,7 +49,6 @@ The user details will be
  -  FLUSH PRIVILEGES;
  
  ```
- 
 
 Amend Database settings in settings.py 
 
