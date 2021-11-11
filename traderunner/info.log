@@ -4884,3 +4884,7 @@ TypeError: float() argument must be a string or a number, not 'Balance'
 2021-11-11 00:48:52,115 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
 2021-11-11 00:48:52,126 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x110d4d970>>: (1049, "Unknown database 'test_traderunner'")
 2021-11-11 00:48:52,126 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-11 00:53:40,597 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:53:41,658 INFO :: Binance connection opened
+2021-11-11 00:57:52,925 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:57:54,035 INFO :: Binance connection opened
