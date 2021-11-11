@@ -304,54 +304,58 @@ class BinanceFuturesClient:
         self._ws_id += 1
 
     def execute_trade(self, symbol_ticker, sym_bid_price, sym_ask_price):
-        # print('trade done ')
-        # order_quantity = 0.05
-        # buy_price = 2000
+        print('trade done ')
+        order_quantity = 0.05
+        buy_price = 2000
 
-        # if symbol_ticker == 'LTCUSDT':
-        #     order_quantity = 10
-        #     buy_price = 270
-        # elif symbol_ticker == 'XMRUSDT':
-        #     order_quantity = 20
-        #     buy_price = 290
+        if symbol_ticker == 'LTCUSDT':
+            order_quantity = 10
+            buy_price = 270
+        elif symbol_ticker == 'XMRUSDT':
+            order_quantity = 20
+            buy_price = 290
 
-        # x = Trade.objects.latest('trade_date').trade_date
+        x = Trade.objects.latest('trade_date').trade_date
 
-        # y = (datetime.now(timezone.utc))
+        y = (datetime.now(timezone.utc))
 
-        # difference = y - x
+        difference = y - x
 
-        # seconds, days = difference.seconds, difference.days
+        seconds, days = difference.seconds, difference.days
 
-        # difference_hours = days * 24 + seconds // 3600
+        difference_hours = days * 24 + seconds // 3600
 
-        # # print(x)
-        # #print(y.strftime("%m/%d/%Y"))
-        # # print(difference_hours)
+        # print(x)
+        # print(y.strftime("%m/%d/%Y"))
+        # print(difference_hours)
 
-        # if difference_hours > 4 :
-        #     print("Now is time to do a trade")
-        #     #need to amend for ticker specific trades
-        #     x = self.place_order(self.contracts[symbol_ticker], "BUY", order_quantity, "LIMIT", buy_price, "GTC")
-        #     print(f"This is the {x.order_id} and this is the order status {x.status} and the average price {x.status}")
+        if difference_hours > 4:
+            print("Now is time to do a trade")
+            # need to amend for ticker specific trades
+            x = self.place_order(
+                self.contracts[symbol_ticker], "BUY", order_quantity, "LIMIT", buy_price, "GTC")
+            print(
+                f"This is the {x.order_id} and this is the order status {x.status} and the average price {x.status}")
 
-        #     new_trade = Trade(
-        #         symbol = f"{symbol_ticker}",
-        #         trade_date = f"{datetime.now()}",
-        #         order_id = x.order_id,
-        #         status = f"{x.status}",
-        #         bid_price = sym_bid_price,
-        #         ask_price = sym_ask_price,
-        #         side = "BUY",
-        #         quantity = order_quantity,
-        #         tif = "GTC",
-        #         order_price = buy_price,
-        #     )
-        #     new_trade.save()
-        #     logger.info("Bingo, now is a good time to execute a trade")
-        # else:
-        #     if len(self.cryp_messages) < 40:
-        #         self.cryp_messages.append(f'{y.strftime("%m/%d/%Y")} : Hello Friend, now is a good time to buy some {symbol_ticker} the price is only {sym_ask_price}')
-        #     else:
-        #         print("You've already made a trade in the past however long, what do you think you are made of money?")
+            new_trade = Trade(
+                symbol=f"{symbol_ticker}",
+                trade_date=f"{datetime.now()}",
+                order_id=x.order_id,
+                status=f"{x.status}",
+                bid_price=sym_bid_price,
+                ask_price=sym_ask_price,
+                side="BUY",
+                quantity=order_quantity,
+                tif="GTC",
+                order_price=buy_price,
+            )
+            new_trade.save()
+            logger.info("Bingo, now is a good time to execute a trade")
+        else:
+            if len(self.cryp_messages) < 40:
+                self.cryp_messages.append(
+                    f'{y.strftime("%m/%d/%Y")} : Hello Friend, now is a good time to buy some {symbol_ticker} the price is only {sym_ask_price}')
+            else:
+                print(
+                    "You've already made a trade in the past however long, what do you think you are made of money?")
         pass

@@ -55,7 +55,7 @@ def home(request):
 	# helper = HelperMethods()
 	# helper.working
 
-	#trades = Trade.objects.all().order_by("trade_date").reverse()
+	trades = Trade.objects.all().order_by("trade_date").reverse()
 	print(f" Before : {trades[0].status}")
 
 	for trade in trades:
