@@ -30,11 +30,11 @@
       </div>
       <div class="col-6 col-sm-4"> 
         <canvas id="myChartD" width="400" height="400"></canvas>
-        <p style="color:#f7f7f7; font-family: 'Blade Runner Movie Font'; text-align: center;">DogeCoin</p>
+        <p style="color:#f7f7f7; font-family: 'Blade Runner Movie Font'; text-align: center;">LiteCoin</p>
       </div>
       <div class="col-6 col-sm-4">
         <canvas id="myChartETH" width="400" height="400"></canvas>
-        <p style="color:#f7f7f7; font-family: 'Blade Runner Movie Font'; text-align: center;">Ethereum</p>
+        <p style="color:#f7f7f7; font-family: 'Blade Runner Movie Font'; text-align: center;">Monero</p>
       </div>
     </div>
   
@@ -93,7 +93,7 @@
           datasets: [
             {
               label: 'ETHUSDT daily high',
-              data: {{ eth_high }},
+              data: {{ mon_high }},
               borderColor: [
               'rgb(75, 192, 192)',
               ],
@@ -102,7 +102,7 @@
           },
           {
             label: 'ETHUSDT daily close',
-              data: {{ eth_close }},
+              data: {{ mon_close }},
               borderColor: [
               'rgb(255, 255, 255)',
               ],
@@ -139,7 +139,7 @@
           datasets: [
             {
               label: 'DOGEUSDT daily high',
-              data: {{ doge_high }},
+              data: {{ lite_high }},
               borderColor: [
               'rgb(75, 192, 192)',
               ],
@@ -148,7 +148,7 @@
           },
           {
             label: 'DOGEUSDT daily close',
-              data: {{ doge_close }},
+              data: {{ lite_close }},
               borderColor: [
               'rgb(255, 255, 255)',
               ],

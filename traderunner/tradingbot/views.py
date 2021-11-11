@@ -7,7 +7,7 @@ from django.contrib.auth.forms import AuthenticationForm
 from API.main import binancey
 from tradingbot.database_helper_methods import HelperMethods
 
-from API.data_visualisation import x_values, btc_high, btc_close, eth_close, eth_high, doge_close, doge_high
+from API.data_visualisation import x_values, btc_high, btc_close, mon_close, mon_high, lite_close, lite_high
 
 import datetime
 import pandas as pd
@@ -94,11 +94,11 @@ def home(request):
   btc_c = btc_close
   btc_h = btc_high
 
-  eth_c = eth_close
-  eth_h = eth_high
+  mon_c = mon_close
+  mon_h = mon_high
 
-  doge_c = doge_high
-  doge_h = doge_close
+  lite_c = lite_high
+  lite_h = lite_close
 
 
   context = {
@@ -106,10 +106,10 @@ def home(request):
 			'balance' : balance,
 			'btc_high' : btc_h,
 			'btc_close' : btc_c,
-			'eth_high' : eth_h,
-			'eth_close' : eth_c,
-			'doge_close' : doge_c,
-			'doge_high' : doge_h,
+			'mon_high' : mon_h,
+			'mon_close' : mon_c,
+			'lite_close' : lite_c,
+			'lite_high' : lite_h,
 			'x' : x_axis,
 			'messages' : cryp_three_p_o_messages,
       'mineroTotal' : mineroTotal,

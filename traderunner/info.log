@@ -5087,3 +5087,5 @@ TypeError: 'int' object is not iterable
 2021-11-11 15:24:06,557 INFO :: Binance connection opened
 2021-11-11 15:27:57,724 INFO :: Binance Futures Client Successfully Initialized
 2021-11-11 15:27:59,366 INFO :: Binance connection opened
+2021-11-11 15:49:00,838 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 15:49:02,446 INFO :: Binance connection opened
