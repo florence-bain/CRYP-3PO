@@ -4,11 +4,35 @@ from tradingbot.models import Trade
 from datetime import datetime, timezone 
 from django.urls import resolve
 from tradingbot.views import home
+from API.strategies import Strategies
 
 
 # Create your tests here.
 
 # Not testing authentication, feels redundant as authentication is inbuilt with Django..
+
+class MockCandle:
+    def __init__(self):
+        self.close = 0
+
+class Strategy(TestCase):
+    
+    def test_goldencross_strategy(self):
+        strategy = Strategies()
+
+        x = list(range(1, 201))
+        arr = []
+
+        for el in x:
+            candle = MockCandle()
+            candle.close = (x.index(el)) + 1
+            print(candle.close)
+            arr.append(candle)
+
+        print(strategy.golden_cross(arr))
+        self.assertEqual(strategy.golden_cross(arr), 175.5)
+
+
 
 class HomePageTest(TestCase):
 

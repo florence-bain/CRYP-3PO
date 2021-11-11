@@ -4757,3 +4757,76 @@ TypeError: float() argument must be a string or a number, not 'Balance'
 2021-11-10 19:39:05,305 INFO :: Binance connection opened
 2021-11-10 19:39:37,010 INFO :: Binance Futures Client Successfully Initialized
 2021-11-10 19:39:38,087 INFO :: Binance connection opened
+2021-11-10 20:13:12,879 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 20:13:13,944 INFO :: Binance connection opened
+2021-11-10 21:32:12,299 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 21:32:13,509 INFO :: Binance connection opened
+2021-11-10 21:36:00,871 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 21:36:01,917 INFO :: Binance connection opened
+2021-11-10 23:13:43,657 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 23:13:44,725 INFO :: Binance connection opened
+2021-11-10 23:29:55,171 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 23:29:56,258 INFO :: Binance connection opened
+2021-11-10 23:30:01,395 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x103a6b9d0>>: Trade matching query does not exist.
+2021-11-10 23:30:01,395 ERROR :: Binance connections error: Trade matching query does not exist.
+2021-11-10 23:30:03,400 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x103a6b9d0>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:30:03,400 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:30:03,408 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x103a6b9d0>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:30:03,408 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:30:03,422 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x103a6b9d0>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:30:03,422 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:30:05,502 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x103a6b9d0>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:30:05,502 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:43:32,728 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 23:43:33,854 INFO :: Binance connection opened
+2021-11-10 23:54:33,805 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 23:54:34,985 INFO :: Binance connection opened
+2021-11-10 23:56:00,407 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 23:56:01,630 INFO :: Binance connection opened
+2021-11-10 23:57:23,397 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 23:57:24,481 INFO :: Binance connection opened
+2021-11-10 23:58:17,592 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 23:58:18,668 INFO :: Binance connection opened
+2021-11-10 23:58:23,807 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fd91970>>: Trade matching query does not exist.
+2021-11-10 23:58:23,807 ERROR :: Binance connections error: Trade matching query does not exist.
+2021-11-10 23:58:23,809 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fd91970>>: Trade matching query does not exist.
+2021-11-10 23:58:23,809 ERROR :: Binance connections error: Trade matching query does not exist.
+2021-11-10 23:58:25,340 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fd91970>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:58:25,340 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:58:25,351 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fd91970>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:58:25,351 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:58:27,398 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fd91970>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:58:27,399 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:58:27,503 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fd91970>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:58:27,504 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:58:27,514 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fd91970>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:58:27,514 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:58:27,527 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fd91970>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:58:27,527 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:58:27,544 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fd91970>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:58:27,544 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:58:27,555 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fd91970>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:58:27,555 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:58:27,568 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fd91970>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:58:27,569 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:58:27,584 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fd91970>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:58:27,584 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-11 00:01:16,184 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:01:17,258 INFO :: Binance connection opened
+2021-11-11 00:04:06,505 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:04:07,835 INFO :: Binance connection opened
+2021-11-11 00:04:09,611 ERROR :: error from callback <bound method BinanceFuturesClient._on_open of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10c433400>>: local variable 'has_it_crossed' referenced before assignment
+2021-11-11 00:04:09,612 ERROR :: Binance connections error: local variable 'has_it_crossed' referenced before assignment
+2021-11-11 00:05:48,864 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:05:50,093 INFO :: Binance connection opened
+2021-11-11 00:05:52,831 ERROR :: error from callback <bound method BinanceFuturesClient._on_open of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10ad46430>>: local variable 'has_it_crossed' referenced before assignment
+2021-11-11 00:05:52,831 ERROR :: Binance connections error: local variable 'has_it_crossed' referenced before assignment
+2021-11-11 00:06:31,904 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:06:33,039 INFO :: Binance connection opened
+2021-11-11 00:06:41,907 INFO :: Bingo, now is a good time to execute a trade
+2021-11-11 00:07:36,889 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:07:37,964 INFO :: Binance connection opened
+2021-11-11 00:09:19,886 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:09:20,925 INFO :: Binance connection opened
+2021-11-11 00:14:19,375 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:14:20,434 INFO :: Binance connection opened

@@ -25,11 +25,11 @@ class Strategies:
         #print(f"This is the fifty day moving average {fifty_day_moving_average}")
         #print(f"This is the two hundred day moving average {two_hundred_day_moving_average}")
 
-        has_it_crossed = 'false'
+        #has_it_crossed = 'false'
 
         if fifty_day_moving_average > two_hundred_day_moving_average:
             has_it_crossed = fifty_day_moving_average
-        else:
+        elif fifty_day_moving_average < two_hundred_day_moving_average:
             has_it_crossed = 'false'
 
         #print(has_it_crossed)
