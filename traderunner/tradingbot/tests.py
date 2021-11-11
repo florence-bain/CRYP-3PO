@@ -15,11 +15,28 @@ class MockCandle:
     def __init__(self):
         self.close = 0
 
-class Strategy(TestCase):
+# Need to refactor tests for DRY principles
+
+# class MockArray:
+#     def __init__(self):
+#         self.array = []
+
+#     def iterate_array(self):
+#         x = list(range(1, 201))
+
+#         for el in x:
+#             candle = MockCandle()
+#             candle.close = (x.index(el)) + 1
+#             print(candle.close)
+#             self.array.append(candle)
     
+
+
+class Strategy(TestCase):
+
     def test_goldencross_strategy(self):
         strategy = Strategies()
-
+       
         x = list(range(1, 201))
         arr = []
 
@@ -27,10 +44,24 @@ class Strategy(TestCase):
             candle = MockCandle()
             candle.close = (x.index(el)) + 1
             print(candle.close)
-            arr.append(candle)
+            arr.append(candle)  
 
-        print(strategy.golden_cross(arr))
         self.assertEqual(strategy.golden_cross(arr), 175.5)
+
+    def test_sell_strategy_trade(self):
+
+        strategy = Strategies()
+       
+        x = list(range(1, 201))
+        arr = []
+
+        for el in x:
+            candle = MockCandle()
+            candle.close = (x.index(el)) + 1
+            print(candle.close)
+            arr.append(candle)  
+
+        self.assertEqual(strategy.sell_strategy(arr, 10), 'Hold')
 
 
 

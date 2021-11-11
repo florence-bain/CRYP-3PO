@@ -4830,3 +4830,57 @@ TypeError: float() argument must be a string or a number, not 'Balance'
 2021-11-11 00:09:20,925 INFO :: Binance connection opened
 2021-11-11 00:14:19,375 INFO :: Binance Futures Client Successfully Initialized
 2021-11-11 00:14:20,434 INFO :: Binance connection opened
+2021-11-11 00:19:25,742 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:19:26,808 INFO :: Binance connection opened
+2021-11-11 00:20:35,989 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:20:37,201 INFO :: Binance connection opened
+2021-11-11 00:25:04,323 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:25:05,369 INFO :: Binance connection opened
+2021-11-11 00:25:32,244 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:25:33,378 INFO :: Binance connection opened
+2021-11-11 00:32:26,300 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:32:27,461 INFO :: Binance connection opened
+2021-11-11 00:36:35,142 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:36:36,177 INFO :: Binance connection opened
+2021-11-11 00:36:38,444 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109024ac0>>: (1146, "Table 'test_traderunner.tradingbot_trade' doesn't exist")
+2021-11-11 00:36:38,444 ERROR :: Binance connections error: (1146, "Table 'test_traderunner.tradingbot_trade' doesn't exist")
+2021-11-11 00:36:40,473 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109024ac0>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-11 00:36:40,474 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-11 00:36:40,526 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109024ac0>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-11 00:36:40,526 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-11 00:36:40,551 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109024ac0>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-11 00:36:40,552 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-11 00:36:40,564 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109024ac0>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-11 00:36:40,564 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-11 00:36:40,594 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109024ac0>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-11 00:36:40,594 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-11 00:37:24,401 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:37:25,570 INFO :: Binance connection opened
+2021-11-11 00:38:55,678 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:38:56,967 INFO :: Binance connection opened
+2021-11-11 00:39:42,869 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:39:44,001 INFO :: Binance connection opened
+2021-11-11 00:40:33,645 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:40:34,689 INFO :: Binance connection opened
+2021-11-11 00:41:52,598 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:41:53,747 INFO :: Binance connection opened
+2021-11-11 00:43:01,224 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:43:02,282 INFO :: Binance connection opened
+2021-11-11 00:45:47,350 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:45:48,409 INFO :: Binance connection opened
+2021-11-11 00:46:31,847 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:46:32,977 INFO :: Binance connection opened
+2021-11-11 00:47:11,469 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:47:12,570 INFO :: Binance connection opened
+2021-11-11 00:48:42,622 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:48:43,680 INFO :: Binance connection opened
+2021-11-11 00:48:48,505 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x110d4d970>>: (1146, "Table 'test_traderunner.tradingbot_trade' doesn't exist")
+2021-11-11 00:48:48,505 ERROR :: Binance connections error: (1146, "Table 'test_traderunner.tradingbot_trade' doesn't exist")
+2021-11-11 00:48:50,071 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x110d4d970>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-11 00:48:50,072 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-11 00:48:50,084 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x110d4d970>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-11 00:48:50,084 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-11 00:48:52,115 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x110d4d970>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-11 00:48:52,115 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-11 00:48:52,126 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x110d4d970>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-11 00:48:52,126 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
