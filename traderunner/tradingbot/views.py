@@ -51,12 +51,12 @@ def logout_request(request):
 	messages.info(request, "You have successfully logged out.") 
 	return redirect("/login")
 
+
 def home(request):
-	# helper = HelperMethods()
-	# helper.working
+	
 
 	trades = Trade.objects.all().order_by("trade_date").reverse()
-	print(f" Before : {trades[0].status}")
+	#print(f" Before : {trades[0].status}")
 
 	for trade in trades:
 			orderid = trade.order_id
@@ -72,28 +72,16 @@ def home(request):
 				trade.status = orderdata.status
 				trade.save()
 
-	# status = binancey.get_order_status(binancey.contracts[f'{trades[0].symbol}'], trades[0].order_id)
-	# print(status.status)
-	print(f" This order has been filled ? : {trades[0].status}")
-
 
 	balance = binancey.balances['USDT']
 
-	cryp_messages = ['Hello', 'How are you friend', 'I am well', 'I hope that you are too']
+	cryp_three_p_o_messages = ['Nothing is coming to mind at this time', 'I will keep looking']
 
-	# candlesticks  = binancey.get_historical_candles(binancey.contracts['BTCBUSD'], '1d')
-
-	# filtered = candlesticks[-30:]
-
-	# x_values = []
-	# btc_high_values = []
-	# btc_close_values =[]
-
-	# for figure in filtered:
-	# 			btc_high_values.append(figure.high)
-	# 			btc_close_values.append(figure.close)
-	# 			time = datetime.datetime.fromtimestamp((figure.timestamp)/1000)
-	# 			x_values.append(time.strftime("%m/%d/%Y"))
+	if len(binancey.cryp_messages) > 3:
+		cryp_three_p_o_messages = binancey.cryp_messages[-5:]
+	else:
+		pass
+			
 
 	
 	x_axis = x_values
@@ -108,12 +96,6 @@ def home(request):
 	doge_h = doge_close
 
 
-
-
-	#x_axis = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30]
-	# btc_close = btc_close_values
-	# btc_high = btc_high_values
-
 	context = {
 			'trades' : trades,
 			'balance' : balance,
@@ -124,6 +106,7 @@ def home(request):
 			'doge_close' : doge_c,
 			'doge_high' : doge_h,
 			'x' : x_axis,
+			'messages' : cryp_three_p_o_messages,
 			
 		}
 	return render(request, 'home.html', context)

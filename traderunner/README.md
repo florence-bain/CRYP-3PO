@@ -1,24 +1,58 @@
-# Download mysql 
 
-# Create Database on user SQL running my sql command - call database 'traderunner'
+# MY SQL Database set up instructions.
 
-# Open my sql using mysql -u root command in the terminal
+From the terminal run the following to install mysql
 
-# Run Command in mysql interface - 
+```
+- brew install mysql
+```
 
- - mysql > CREATE USER 'djangouser'@'%' IDENTIFIED WITH mysql_native_password BY 'password';
- 
+Install SQL/Python connector, from the terminal run either of the following
+
+```
+- pip install mysql-connector-python 
+- pip3 install mysql-connector-python
+```
+
+Enter mysql 
+
+```
+- mysql.server start.
+
+- mysql -u root
+```
+
+Create Database on user SQL running my sql command (Database name used = traderunner)
+
+```
+- create database [databasename];
+```
+
+Create General User 
+
+```
+- CREATE USER 'djangouser'@'%' IDENTIFIED WITH mysql_native_password BY 'password';
+
+```
+
+The user details will be 
+
+
  - user : djangouser
  - password : password 
 
- # Let the database know that our user should have complete access to the database - run :
+ Let the database know that our user should have complete access to the database 
  
- - mysql > GRANT ALL ON traderunner_data.* TO 'djangouser'@'%';
+ ```
+ 
+ -  GRANT ALL PRIVILEGES ON traderunner.* TO 'djangouser'@'%'
+ -  FLUSH PRIVILEGES;
+ 
+ ```
 
- - mysql> FLUSH PRIVELEGES;
+Amend Database settings in settings.py 
 
-# Amend Database settings in settings.py 
-
+```
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -30,5 +64,13 @@ DATABASES = {
     }
 }
 
-# run python3 manage.py migrate
+
+```
+
+In the terminal run 
+
+
+```
+- python3 manage.py migrate
+```
 

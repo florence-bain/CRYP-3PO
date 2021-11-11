@@ -23,16 +23,43 @@
 
     <h2>Feel free to toggle CRYP-3P0, if you think you know better</h2>
 
+    
+    <script type="text/javascript">
+      window.onload = function() {
+  
+          var ex1 = document.getElementById('option1');
+          var ex2 = document.getElementById('option2');
+          var ex3 = document.getElementById('option3');
+
+          ex1.onclick = hide;
+          ex2.onclick = sell;
+          ex3.onclick = show;
+      }
+  
+      function sell () {
+        alert('This function has been turned off. We do not sell at TRADERUNNER 😤. Crypto To The Moon 🚀')
+      }
+      function show() {
+        document.getElementsByClassName('message-container')[0].style.display = "block";
+        
+      }
+      function hide() {
+        document.getElementsByClassName('message-container')[0].style.display = "none";
+      }
+
+    </script>
+    
+    
     <div style="text-align: center;">
       <div class="btn-group btn-group-toggle" data-toggle="buttons">
         <label class="btn btn-info btn-lg active">
-          <input type="radio" name="options" id="option1" autocomplete="off" checked> Golden Cross
+          <input type="radio" name="example1" id="option1" autocomplete="off" checked> Golden Cross
         </label>
         <label class="btn btn-info btn-lg">
-          <input type="radio" name="options" id="option2" autocomplete="off"> Sell
+          <input type="radio" name="example2" id="option2" autocomplete="off"> Sell
         </label>
         <label class="btn btn-info btn-lg">
-          <input type="radio" name="options" id="option3" autocomplete="off"> Turn CRYP-3P0 Off
+          <input type="radio" name="example3" id="option3" autocomplete="off"> Turn CRYP-3P0 Off
         </label>
       </div>
     </div>
@@ -222,11 +249,6 @@
     </script>
 
 
-    <div>
-      <img src="https://www.pikpng.com/pngl/b/169-1694738_graphic-free-stock-star-wars-at-getdrawings-com.png" alt="Graphic Free Stock Star Wars At Getdrawings Com Free - Star Wars C3p0 Drawings Clipart@pikpng.com">
-    </div>
-
-
     <div class="table-container">
       <div class="table-responsive-sm text-center">
         <table class="table table-hover">
@@ -260,18 +282,20 @@
     </div>
 
 
-    <div class="container">
+    <div>
+      <img src="https://www.pikpng.com/pngl/b/169-1694738_graphic-free-stock-star-wars-at-getdrawings-com.png" alt="Graphic Free Stock Star Wars At Getdrawings Com Free - Star Wars C3p0 Drawings Clipart@pikpng.com">
+    </div>
+
+    <div class="message-container" >
       <button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#demo">Show CRYP-3PO messages</button>
-      <div id="demo" class="collapse">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      <div id="demo" class="collapse"> <div style="padding:2%;"></div>
+        {% for message in messages %} <p id="cryp_3po_message">{{message}}</p> <div style="padding:1%;"></div>{% endfor %}
       </div>
     </div>
 
 
     <p style="align-items: center; margin: auto; text-align: center;">
-      <a style="color:#f7f7f7; font-family: 'Blade Runner Movie Font', sans-serif;;" href="{% url 'logout' %}">Log Out</a>
+      <a style="color:#f7f7f7; font-family: 'Blade Runner Movie Font', sans-serif;" href="{% url 'logout' %}">Log Out</a>
     </p>
 
   {% else %}

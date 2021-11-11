@@ -25,16 +25,16 @@ class Strategies:
         #print(f"This is the fifty day moving average {fifty_day_moving_average}")
         #print(f"This is the two hundred day moving average {two_hundred_day_moving_average}")
 
-        has_it_crossed = 'false'
-
         if fifty_day_moving_average > two_hundred_day_moving_average:
             has_it_crossed = fifty_day_moving_average
-        else:
+        elif fifty_day_moving_average < two_hundred_day_moving_average:
             has_it_crossed = 'false'
 
         #print(has_it_crossed)
 
         return has_it_crossed
+
+
 
     def sell_strategy(self, historical_candle_callback, ask_price):
         fifty_day = historical_candle_callback[-50:]
@@ -48,7 +48,8 @@ class Strategies:
 
         if (fifty_day_moving_average * 0.15) < ask_price:
             message = (f"The price of {ask_price} has fallen by 15% over the last 50 days, probably time to sell off")
-
+        else:
+            message = ("Hold")
 
         #message = 'nothing defined at this moment'
 

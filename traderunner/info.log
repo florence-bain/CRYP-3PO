@@ -3687,3 +3687,1282 @@ TypeError: float() argument must be a string or a number, not 'Balance'
 2021-11-10 13:29:23,705 INFO :: Binance connection opened
 2021-11-10 13:30:54,015 INFO :: Binance Futures Client Successfully Initialized
 2021-11-10 13:30:55,226 INFO :: Binance connection opened
+2021-11-10 13:41:40,090 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 13:41:41,190 INFO :: Binance connection opened
+2021-11-10 14:07:53,907 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 14:07:55,127 INFO :: Binance connection opened
+2021-11-10 14:18:22,469 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 14:18:23,642 INFO :: Binance connection opened
+2021-11-10 14:23:54,618 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/API/connectors/binance_futures.py changed, reloading.
+2021-11-10 14:24:02,967 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 14:24:04,177 INFO :: Binance connection opened
+2021-11-10 14:24:15,871 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 14:24:16,976 INFO :: Binance connection opened
+2021-11-10 14:28:43,151 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 14:28:44,353 INFO :: Binance connection opened
+2021-11-10 14:32:44,233 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 14:32:45,509 INFO :: Binance connection opened
+2021-11-10 14:36:13,858 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 14:36:14,911 INFO :: Binance connection opened
+2021-11-10 14:38:27,323 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 14:38:28,568 INFO :: Binance connection opened
+2021-11-10 14:38:57,062 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 14:38:58,086 INFO :: Binance connection opened
+2021-11-10 14:45:20,158 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 14:45:21,443 INFO :: Binance connection opened
+2021-11-10 14:51:18,070 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 14:51:19,244 INFO :: Binance connection opened
+2021-11-10 15:02:38,723 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 15:02:39,898 INFO :: Binance connection opened
+2021-11-10 15:22:51,821 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 15:22:52,914 INFO :: Binance connection opened
+2021-11-10 15:23:42,487 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 15:23:43,767 INFO :: Binance connection opened
+2021-11-10 15:33:13,216 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 15:33:14,336 INFO :: Binance connection opened
+2021-11-10 15:33:55,460 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:33:55,462 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e7782e0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:33:55,462 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:33:56,225 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:33:56,225 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e7782e0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:33:56,225 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:33:57,535 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:33:57,536 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e7782e0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:33:57,536 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:33:57,852 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:33:57,853 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e7782e0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:33:57,853 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:33:58,272 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:33:58,273 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e7782e0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:33:58,273 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:33:59,208 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:33:59,208 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e7782e0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:33:59,209 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:33:59,512 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:33:59,513 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e7782e0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:33:59,513 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:35:28,698 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 15:35:29,921 INFO :: Binance connection opened
+2021-11-10 15:35:35,662 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:35:35,662 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e479730>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:35:35,663 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:35:37,324 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:35:37,325 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10e479730>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:35:37,325 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:36:44,582 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 15:36:45,772 INFO :: Binance connection opened
+2021-11-10 15:36:51,393 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:36:51,394 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1106a2430>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:36:51,394 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:36:53,504 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:36:53,504 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1106a2430>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:36:53,504 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:36:54,241 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:36:54,241 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1106a2430>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:36:54,241 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:36:54,615 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:36:54,615 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1106a2430>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:36:54,615 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:36:55,350 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:36:55,351 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1106a2430>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:36:55,351 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:36:55,681 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:36:55,682 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1106a2430>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:36:55,682 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:36:56,458 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:36:56,458 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1106a2430>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:36:56,459 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:36:56,873 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:36:56,873 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1106a2430>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:36:56,873 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:36:57,611 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:36:57,611 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1106a2430>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:36:57,611 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:36:59,325 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:36:59,326 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1106a2430>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:36:59,326 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:37:01,329 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:37:01,329 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1106a2430>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:37:01,329 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:37:03,818 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:37:03,818 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1106a2430>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:37:03,818 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:37:04,242 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:37:04,242 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1106a2430>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:37:04,243 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:37:05,370 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:37:05,371 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1106a2430>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:37:05,371 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:37:06,977 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:37:06,977 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1106a2430>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:37:06,978 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:37:09,494 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:37:09,495 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1106a2430>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:37:09,495 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:37:11,586 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:37:11,586 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1106a2430>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:37:11,586 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:37:11,912 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:37:11,913 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1106a2430>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:37:11,913 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:37:12,741 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:37:12,741 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1106a2430>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:37:12,741 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:37:13,226 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:37:13,226 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1106a2430>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:37:13,226 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:37:13,572 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:37:13,572 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1106a2430>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:37:13,572 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:37:21,863 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 15:37:22,920 INFO :: Binance connection opened
+2021-11-10 15:38:47,985 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 15:38:49,157 INFO :: Binance connection opened
+2021-11-10 15:38:53,354 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:38:53,355 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10a904400>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:38:53,355 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:38:55,430 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:38:55,431 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10a904400>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:38:55,431 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:39:40,209 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 15:39:41,286 INFO :: Binance connection opened
+2021-11-10 15:40:38,685 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 15:40:39,702 INFO :: Binance connection opened
+2021-11-10 15:40:46,051 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:40:46,051 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x11263b910>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:40:46,052 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:41:53,371 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 15:41:54,468 INFO :: Binance connection opened
+2021-11-10 15:42:44,231 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 15:42:45,357 INFO :: Binance connection opened
+2021-11-10 15:42:49,070 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:42:49,071 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x108696940>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:42:49,071 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:46:26,649 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 15:46:27,937 INFO :: Binance connection opened
+2021-11-10 15:46:33,341 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:46:33,342 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x107bed730>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:46:33,343 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:46:35,334 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:46:35,335 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x107bed730>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:46:35,335 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:46:35,736 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:46:35,736 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x107bed730>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:46:35,737 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:50:13,583 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 15:50:14,802 INFO :: Binance connection opened
+2021-11-10 15:50:19,340 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:50:19,340 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10b8c4700>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:50:19,340 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:53:49,464 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 15:53:50,507 INFO :: Binance connection opened
+2021-11-10 15:53:55,177 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:53:55,178 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1064c17f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:53:55,179 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:53:55,488 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:53:55,488 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1064c17f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:53:55,488 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:53:57,241 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:53:57,241 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1064c17f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:53:57,242 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:57:58,039 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 15:57:59,313 INFO :: Binance connection opened
+2021-11-10 15:58:05,596 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:58:05,597 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x110f21760>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:58:05,597 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:58:07,640 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:58:07,640 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x110f21760>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:58:07,641 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:58:07,952 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:58:07,952 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x110f21760>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:58:07,952 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:58:09,320 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:58:09,320 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x110f21760>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:58:09,321 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:59:36,708 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 15:59:37,837 INFO :: Binance connection opened
+2021-11-10 15:59:41,254 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:59:41,254 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:59:41,254 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:59:43,732 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:59:43,733 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:59:43,733 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:59:45,397 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:59:45,397 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:59:45,398 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:59:45,704 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:59:45,704 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:59:45,704 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:59:46,963 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:59:46,963 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:59:46,963 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:59:49,199 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:59:49,199 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:59:49,199 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:59:51,568 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:59:51,569 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:59:51,570 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:59:53,193 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:59:53,194 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:59:53,194 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:59:53,617 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:59:53,617 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:59:53,617 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:59:55,605 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:59:55,606 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:59:55,606 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:59:56,469 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:59:56,470 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:59:56,470 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:59:57,274 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:59:57,275 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:59:57,275 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:59:57,586 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:59:57,587 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:59:57,587 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:59:58,415 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:59:58,415 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:59:58,415 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:59:59,440 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:59:59,441 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:59:59,441 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:59:59,761 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 15:59:59,761 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 15:59:59,761 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:02,121 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:00:02,122 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:02,122 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:02,510 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:00:02,510 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:02,510 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:03,020 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:00:03,020 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:03,020 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:14,528 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:00:14,528 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:14,528 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:14,895 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:00:14,896 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:14,896 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:16,496 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:00:16,497 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:16,497 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:17,237 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:00:17,237 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:17,237 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:18,585 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:00:18,585 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:18,586 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:19,399 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:00:19,400 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:19,400 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:20,328 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:00:20,328 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:20,328 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:21,865 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:00:21,865 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:21,866 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:22,194 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:00:22,194 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:22,194 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:22,512 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:00:22,512 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:22,512 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:24,617 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:00:24,618 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:24,619 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:25,654 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:00:25,654 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:25,655 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:26,099 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:00:26,099 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:26,100 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:26,413 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:00:26,413 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:26,413 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:28,255 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:00:28,255 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:28,255 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:30,589 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:00:30,589 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:30,589 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:30,967 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:00:30,967 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:30,967 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:31,372 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:00:31,372 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:31,372 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:32,308 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:00:32,308 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:32,308 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:34,398 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:00:34,399 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:34,399 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:36,110 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:00:36,110 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:36,111 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:38,788 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:00:38,789 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:38,789 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:39,259 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:00:39,260 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:39,260 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:40,521 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:00:40,521 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:40,522 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:40,839 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:00:40,839 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:40,839 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:42,177 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:00:42,177 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1126397f0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:00:42,177 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:01:30,769 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 16:01:31,991 INFO :: Binance connection opened
+2021-11-10 16:01:36,085 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:01:36,085 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x108b50cd0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:01:36,085 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:01:38,547 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:01:38,548 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x108b50cd0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:01:38,548 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:01:39,284 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:01:39,284 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x108b50cd0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:01:39,285 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:01:40,169 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:01:40,170 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x108b50cd0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:01:40,170 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:01:42,642 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:01:42,642 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x108b50cd0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:01:42,642 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:01:43,054 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:01:43,055 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x108b50cd0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:01:43,055 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:01:43,804 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:01:43,804 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x108b50cd0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:01:43,804 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:01:44,281 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:01:44,282 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x108b50cd0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:01:44,282 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:01:45,215 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:01:45,216 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x108b50cd0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:01:45,216 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:01:45,878 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:01:45,878 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x108b50cd0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:01:45,879 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:01:46,621 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:01:46,621 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x108b50cd0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:01:46,622 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:01:47,031 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:01:47,031 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x108b50cd0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:01:47,031 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:01:47,903 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:01:47,903 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x108b50cd0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:01:47,903 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:04:36,018 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 16:04:37,208 INFO :: Binance connection opened
+2021-11-10 16:04:40,111 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:04:40,112 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10677f7c0>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:04:40,112 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:05:15,855 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 16:05:16,917 INFO :: Binance connection opened
+2021-11-10 16:05:22,196 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:05:22,197 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x113131700>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:05:22,197 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:05:24,762 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:05:24,763 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x113131700>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:05:24,763 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:05:25,519 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:05:25,519 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x113131700>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:05:25,519 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:05:25,846 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:05:25,847 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x113131700>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:05:25,847 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:05:27,945 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:05:27,946 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x113131700>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:05:27,946 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:05:28,368 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:05:28,368 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x113131700>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:05:28,369 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:05:29,960 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:05:29,960 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x113131700>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:05:29,960 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:05:32,500 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:05:32,500 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x113131700>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:05:32,500 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:18:17,881 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 16:18:18,976 INFO :: Binance connection opened
+2021-11-10 16:18:24,007 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:18:24,007 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x104fb4d30>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:18:24,007 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:18:24,753 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4013, 'msg': 'Price less than min price.'} (error code 400
+2021-11-10 16:18:24,753 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x104fb4d30>>: 'NoneType' object has no attribute 'order_id'
+2021-11-10 16:18:24,753 ERROR :: Binance connections error: 'NoneType' object has no attribute 'order_id'
+2021-11-10 19:06:32,458 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 19:06:33,685 INFO :: Binance connection opened
+2021-11-10 19:06:40,543 INFO :: Bingo, now is a good time to execute a trade
+2021-11-10 19:12:24,312 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 19:12:25,507 INFO :: Binance connection opened
+2021-11-10 19:28:30,921 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 19:28:31,987 INFO :: Binance connection opened
+2021-11-10 19:28:35,566 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1146, "Table 'test_traderunner.tradingbot_trade' doesn't exist")
+2021-11-10 19:28:35,567 ERROR :: Binance connections error: (1146, "Table 'test_traderunner.tradingbot_trade' doesn't exist")
+2021-11-10 19:28:35,569 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1146, "Table 'test_traderunner.tradingbot_trade' doesn't exist")
+2021-11-10 19:28:35,570 ERROR :: Binance connections error: (1146, "Table 'test_traderunner.tradingbot_trade' doesn't exist")
+2021-11-10 19:28:37,597 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:28:37,597 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:28:39,651 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:28:39,652 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:28:41,677 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:28:41,677 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:28:41,703 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:28:41,704 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:28:43,768 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:28:43,768 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:28:43,789 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:28:43,790 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:28:43,802 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:28:43,803 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:28:45,885 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:28:45,886 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:28:47,914 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:28:47,916 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:28:47,935 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:28:47,936 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:28:49,472 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:28:49,472 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:28:49,483 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:28:49,484 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:28:51,536 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:28:51,536 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:28:51,565 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:28:51,565 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:28:53,604 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:28:53,605 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:28:53,631 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:28:53,631 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:28:59,739 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:28:59,740 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:28:59,754 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:28:59,755 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:01,798 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:01,799 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:03,854 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:03,854 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:03,912 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:03,912 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:05,943 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:05,943 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:07,615 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:07,616 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:09,549 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:09,549 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:09,595 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:09,596 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:09,619 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:09,619 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:09,632 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:09,633 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:09,641 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:09,641 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:11,672 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:11,673 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:11,713 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:11,713 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:13,778 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:13,778 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:15,818 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:15,818 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:15,861 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:15,862 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:17,917 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:17,918 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:19,938 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:19,939 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:19,948 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:19,948 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:21,483 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:21,483 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:21,508 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:21,508 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:23,593 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:23,594 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:23,596 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:23,596 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:23,598 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:23,598 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:25,641 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:25,642 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:25,683 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:25,683 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:25,695 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:25,695 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:27,742 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:27,742 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:27,766 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:27,766 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:29,847 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:29,847 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:29,884 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:29,884 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:31,879 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:31,879 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:31,907 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:31,907 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:33,954 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:33,954 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:33,982 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:33,982 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:35,531 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:35,531 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:37,623 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:37,623 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:37,625 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:37,625 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:39,650 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:39,650 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:41,698 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:41,699 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:41,713 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:41,713 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:41,722 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:41,722 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:43,798 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:43,798 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:43,808 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:43,808 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:45,843 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:45,843 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:45,855 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:45,855 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:47,907 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:47,907 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:47,911 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:47,911 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:49,942 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:49,942 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:49,956 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:49,956 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:51,499 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:51,500 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:51,508 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:51,508 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:53,537 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:53,538 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:53,547 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:53,547 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:55,644 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:55,644 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:55,649 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:55,649 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:57,793 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:57,793 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:57,795 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:57,796 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:57,798 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:57,798 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:59,755 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:59,755 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:59,765 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:29:59,766 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:01,828 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:01,830 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:01,851 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:01,851 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:03,895 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:03,896 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:03,952 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:03,952 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:05,514 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:05,514 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:07,623 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:07,623 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:09,673 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:09,674 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:09,676 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:09,676 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:11,697 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:11,697 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:11,704 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:11,705 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:13,731 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:13,732 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:13,745 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:13,745 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:15,804 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:15,805 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:17,847 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:17,847 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:17,866 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:17,866 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:21,991 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:21,991 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:22,001 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:22,001 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:22,011 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:22,011 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:23,600 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:23,600 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:23,602 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:23,602 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:25,649 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:25,649 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:25,651 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:25,651 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:25,654 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:25,654 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:27,706 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:27,707 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:29,839 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:29,839 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:29,841 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:29,841 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:31,894 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:31,895 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:33,933 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:33,934 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:33,943 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:33,943 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:33,954 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:33,954 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:35,485 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:35,486 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:35,498 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:35,498 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:35,510 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:35,510 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:37,588 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:37,588 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:37,599 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:37,599 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:39,780 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:39,780 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:39,782 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:39,782 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:41,828 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:41,828 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:43,763 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:43,763 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:43,771 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:43,771 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:43,787 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:43,788 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:45,838 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:45,838 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:45,849 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:45,849 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:45,861 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:45,861 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:47,891 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:47,891 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:47,932 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:47,932 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:49,947 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:49,947 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:51,485 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:51,485 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:51,498 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:51,498 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:53,560 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:53,560 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:55,598 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:55,598 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:59,724 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:30:59,725 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:01,763 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:01,763 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:01,773 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:01,773 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:03,847 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:03,848 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:05,890 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:05,890 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:05,901 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:05,901 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:07,951 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:07,952 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:07,976 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:07,977 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:09,554 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:09,554 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:09,562 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:09,562 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:09,576 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:09,576 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:11,639 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:11,640 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:11,650 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:11,650 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:11,663 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:11,663 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:13,695 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:13,695 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:13,705 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:13,706 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:13,712 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:13,712 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:15,765 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:15,765 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:15,780 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:15,780 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:15,793 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:15,794 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:17,864 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:17,864 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:19,904 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:19,905 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:19,914 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:19,914 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:21,993 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:21,994 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:22,006 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:22,006 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:23,548 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:23,548 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:25,656 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:25,657 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:27,656 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:27,656 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:27,693 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:27,693 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:27,720 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:27,721 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:27,730 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:27,731 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:29,763 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:29,763 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:29,788 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:29,788 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:31,825 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:31,826 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:31,847 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:31,847 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:33,894 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:33,894 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:35,933 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:35,934 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:35,948 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:35,948 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:35,986 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:35,986 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:37,503 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:37,504 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:39,542 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:39,543 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:39,554 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:39,555 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:39,569 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:39,569 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:41,627 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:41,628 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:41,638 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:41,639 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:41,653 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:41,653 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:43,695 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:43,695 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:43,706 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:43,706 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:45,773 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:45,773 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:45,797 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:45,798 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:47,857 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:47,857 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:47,866 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:47,866 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:49,912 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:49,912 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:51,983 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:51,984 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:53,540 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:53,541 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:55,577 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:55,578 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:57,642 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:57,642 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:57,677 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:57,678 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:57,701 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:57,701 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:59,769 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:59,769 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:59,781 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:59,781 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:59,804 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:31:59,804 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:01,872 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:01,873 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:01,883 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:01,883 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:01,894 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:01,894 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:01,907 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:01,908 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:03,941 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:03,942 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:03,957 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:03,957 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:03,968 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:03,968 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:05,504 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:05,504 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:05,514 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:05,515 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:05,528 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:05,528 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:07,558 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:07,559 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:09,620 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:09,621 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:11,673 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:11,674 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:13,754 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:13,755 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:13,762 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:13,763 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:15,839 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:15,839 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:15,855 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:15,855 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:17,890 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:17,890 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:19,934 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:19,934 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:19,943 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:19,944 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:21,567 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:21,568 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:21,570 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:21,570 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:23,629 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:23,629 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:23,631 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:23,631 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:23,632 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:23,633 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:25,668 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:25,668 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:25,671 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:25,671 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:29,773 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:29,774 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:31,815 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:31,815 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:31,830 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:31,830 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:33,903 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:33,904 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:35,951 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:35,952 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:35,966 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:35,966 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:37,508 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:37,508 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:37,517 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:37,517 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:37,529 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:37,529 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:39,605 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:39,606 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:39,630 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:39,630 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:39,643 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:39,643 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:39,658 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:39,658 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:41,692 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:41,693 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:41,706 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:41,706 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:43,762 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:43,762 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:45,816 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:45,817 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:47,854 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:47,854 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:47,893 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:47,893 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:49,951 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:49,952 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:51,484 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:51,485 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:51,496 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:51,496 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:53,526 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:53,526 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:53,537 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:53,538 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:55,606 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:55,607 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:57,659 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:57,660 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:57,672 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:57,672 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:59,724 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:59,725 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:59,759 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:59,759 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:59,783 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:59,783 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:59,794 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:32:59,794 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:01,837 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:01,838 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:01,929 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:01,929 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:01,942 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:01,942 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:03,556 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:03,556 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:03,558 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:03,558 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:03,560 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:03,560 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:05,627 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:05,627 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:07,702 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:07,704 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:09,767 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:09,768 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:11,792 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:11,793 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:11,806 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:11,806 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:13,897 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:13,898 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:15,916 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:15,917 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:15,939 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:15,940 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:17,480 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:17,480 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:19,506 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:19,506 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:19,521 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:19,521 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:21,595 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:21,595 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:23,665 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:23,665 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:23,676 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:23,676 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:23,689 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:23,689 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:23,701 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:23,701 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:25,785 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:25,786 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:25,810 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:25,810 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:27,849 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:27,849 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:27,868 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:27,868 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:29,939 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:29,939 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:29,955 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:29,955 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:31,516 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:31,517 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:33,594 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:33,594 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:35,706 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:35,707 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:35,718 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:35,718 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:35,729 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:35,729 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:37,786 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:37,786 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:37,798 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:37,798 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:37,810 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:37,810 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:39,852 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:39,852 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:39,880 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:39,880 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:39,892 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:39,893 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:41,933 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:41,934 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:43,497 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:43,498 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:45,564 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:45,564 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:47,625 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:47,625 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:49,702 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:49,703 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:49,713 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:49,713 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:51,764 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:51,765 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:51,774 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:51,775 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:53,815 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:53,815 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:55,843 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:55,843 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:55,864 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:55,864 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:57,919 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:57,919 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:57,933 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:57,933 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:59,969 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:33:59,969 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:34:01,537 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:34:01,538 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:34:01,586 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:34:01,586 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:34:03,610 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:34:03,611 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:34:03,633 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:34:03,633 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:34:05,696 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:34:05,697 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:34:07,722 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:34:07,723 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:34:07,740 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:34:07,740 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:34:09,793 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:34:09,793 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:34:11,832 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:34:11,833 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:34:13,907 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:34:13,908 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:34:15,997 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:34:15,998 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:34:16,019 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:34:16,020 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:34:16,044 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:34:16,044 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:34:17,582 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:34:17,583 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:34:17,595 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:34:17,596 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:34:19,653 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:34:19,654 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:34:19,664 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fad6850>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:34:19,664 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 19:34:29,423 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 19:34:30,507 INFO :: Binance connection opened
+2021-11-10 19:35:40,483 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 19:35:41,603 INFO :: Binance connection opened
+2021-11-10 19:36:20,684 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 19:36:21,860 INFO :: Binance connection opened
+2021-11-10 19:37:47,832 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 19:37:48,858 INFO :: Binance connection opened
+2021-11-10 19:39:04,260 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 19:39:05,305 INFO :: Binance connection opened
+2021-11-10 19:39:37,010 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 19:39:38,087 INFO :: Binance connection opened
+2021-11-10 20:13:12,879 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 20:13:13,944 INFO :: Binance connection opened
+2021-11-10 21:32:12,299 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 21:32:13,509 INFO :: Binance connection opened
+2021-11-10 21:36:00,871 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 21:36:01,917 INFO :: Binance connection opened
+2021-11-10 23:13:43,657 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 23:13:44,725 INFO :: Binance connection opened
+2021-11-10 23:29:55,171 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 23:29:56,258 INFO :: Binance connection opened
+2021-11-10 23:30:01,395 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x103a6b9d0>>: Trade matching query does not exist.
+2021-11-10 23:30:01,395 ERROR :: Binance connections error: Trade matching query does not exist.
+2021-11-10 23:30:03,400 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x103a6b9d0>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:30:03,400 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:30:03,408 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x103a6b9d0>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:30:03,408 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:30:03,422 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x103a6b9d0>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:30:03,422 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:30:05,502 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x103a6b9d0>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:30:05,502 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:43:32,728 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 23:43:33,854 INFO :: Binance connection opened
+2021-11-10 23:54:33,805 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 23:54:34,985 INFO :: Binance connection opened
+2021-11-10 23:56:00,407 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 23:56:01,630 INFO :: Binance connection opened
+2021-11-10 23:57:23,397 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 23:57:24,481 INFO :: Binance connection opened
+2021-11-10 23:58:17,592 INFO :: Binance Futures Client Successfully Initialized
+2021-11-10 23:58:18,668 INFO :: Binance connection opened
+2021-11-10 23:58:23,807 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fd91970>>: Trade matching query does not exist.
+2021-11-10 23:58:23,807 ERROR :: Binance connections error: Trade matching query does not exist.
+2021-11-10 23:58:23,809 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fd91970>>: Trade matching query does not exist.
+2021-11-10 23:58:23,809 ERROR :: Binance connections error: Trade matching query does not exist.
+2021-11-10 23:58:25,340 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fd91970>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:58:25,340 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:58:25,351 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fd91970>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:58:25,351 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:58:27,398 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fd91970>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:58:27,399 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:58:27,503 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fd91970>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:58:27,504 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:58:27,514 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fd91970>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:58:27,514 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:58:27,527 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fd91970>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:58:27,527 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:58:27,544 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fd91970>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:58:27,544 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:58:27,555 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fd91970>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:58:27,555 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:58:27,568 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fd91970>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:58:27,569 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:58:27,584 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10fd91970>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-10 23:58:27,584 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-11 00:01:16,184 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:01:17,258 INFO :: Binance connection opened
+2021-11-11 00:04:06,505 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:04:07,835 INFO :: Binance connection opened
+2021-11-11 00:04:09,611 ERROR :: error from callback <bound method BinanceFuturesClient._on_open of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10c433400>>: local variable 'has_it_crossed' referenced before assignment
+2021-11-11 00:04:09,612 ERROR :: Binance connections error: local variable 'has_it_crossed' referenced before assignment
+2021-11-11 00:05:48,864 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:05:50,093 INFO :: Binance connection opened
+2021-11-11 00:05:52,831 ERROR :: error from callback <bound method BinanceFuturesClient._on_open of <API.connectors.binance_futures.BinanceFuturesClient object at 0x10ad46430>>: local variable 'has_it_crossed' referenced before assignment
+2021-11-11 00:05:52,831 ERROR :: Binance connections error: local variable 'has_it_crossed' referenced before assignment
+2021-11-11 00:06:31,904 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:06:33,039 INFO :: Binance connection opened
+2021-11-11 00:06:41,907 INFO :: Bingo, now is a good time to execute a trade
+2021-11-11 00:07:36,889 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:07:37,964 INFO :: Binance connection opened
+2021-11-11 00:09:19,886 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:09:20,925 INFO :: Binance connection opened
+2021-11-11 00:14:19,375 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:14:20,434 INFO :: Binance connection opened
+2021-11-11 00:19:25,742 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:19:26,808 INFO :: Binance connection opened
+2021-11-11 00:20:35,989 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:20:37,201 INFO :: Binance connection opened
+2021-11-11 00:25:04,323 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:25:05,369 INFO :: Binance connection opened
+2021-11-11 00:25:32,244 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:25:33,378 INFO :: Binance connection opened
+2021-11-11 00:32:26,300 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:32:27,461 INFO :: Binance connection opened
+2021-11-11 00:36:35,142 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:36:36,177 INFO :: Binance connection opened
+2021-11-11 00:36:38,444 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109024ac0>>: (1146, "Table 'test_traderunner.tradingbot_trade' doesn't exist")
+2021-11-11 00:36:38,444 ERROR :: Binance connections error: (1146, "Table 'test_traderunner.tradingbot_trade' doesn't exist")
+2021-11-11 00:36:40,473 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109024ac0>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-11 00:36:40,474 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-11 00:36:40,526 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109024ac0>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-11 00:36:40,526 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-11 00:36:40,551 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109024ac0>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-11 00:36:40,552 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-11 00:36:40,564 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109024ac0>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-11 00:36:40,564 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-11 00:36:40,594 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x109024ac0>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-11 00:36:40,594 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-11 00:37:24,401 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:37:25,570 INFO :: Binance connection opened
+2021-11-11 00:38:55,678 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:38:56,967 INFO :: Binance connection opened
+2021-11-11 00:39:42,869 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:39:44,001 INFO :: Binance connection opened
+2021-11-11 00:40:33,645 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:40:34,689 INFO :: Binance connection opened
+2021-11-11 00:41:52,598 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:41:53,747 INFO :: Binance connection opened
+2021-11-11 00:43:01,224 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:43:02,282 INFO :: Binance connection opened
+2021-11-11 00:45:47,350 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:45:48,409 INFO :: Binance connection opened
+2021-11-11 00:46:31,847 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:46:32,977 INFO :: Binance connection opened
+2021-11-11 00:47:11,469 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:47:12,570 INFO :: Binance connection opened
+2021-11-11 00:48:42,622 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:48:43,680 INFO :: Binance connection opened
+2021-11-11 00:48:48,505 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x110d4d970>>: (1146, "Table 'test_traderunner.tradingbot_trade' doesn't exist")
+2021-11-11 00:48:48,505 ERROR :: Binance connections error: (1146, "Table 'test_traderunner.tradingbot_trade' doesn't exist")
+2021-11-11 00:48:50,071 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x110d4d970>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-11 00:48:50,072 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-11 00:48:50,084 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x110d4d970>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-11 00:48:50,084 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-11 00:48:52,115 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x110d4d970>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-11 00:48:52,115 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-11 00:48:52,126 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x110d4d970>>: (1049, "Unknown database 'test_traderunner'")
+2021-11-11 00:48:52,126 ERROR :: Binance connections error: (1049, "Unknown database 'test_traderunner'")
+2021-11-11 00:53:40,597 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:53:41,658 INFO :: Binance connection opened
+2021-11-11 00:57:52,925 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 00:57:54,035 INFO :: Binance connection opened
+2021-11-11 07:30:32,066 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 07:30:33,145 INFO :: Binance connection opened
+2021-11-11 07:30:38,676 INFO :: Bingo, now is a good time to execute a trade
+2021-11-11 07:32:38,004 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/API/connectors/binance_futures.py changed, reloading.
+2021-11-11 07:46:18,386 ERROR :: Internal Server Error: /home
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py", line 129, in home
+  File "/usr/local/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.9/site-packages/django/template/defaulttags.py", line 965, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.9/site-packages/django/template/defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 522, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 275: 'else', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+2021-11-11 07:48:59,475 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 07:49:00,544 INFO :: Binance connection opened
+2021-11-11 07:51:05,565 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-11 07:54:02,998 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 07:54:04,042 INFO :: Binance connection opened
+2021-11-11 07:58:10,132 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 07:58:11,309 INFO :: Binance connection opened
+2021-11-11 08:07:11,385 WARNING :: Forbidden (CSRF token missing or incorrect.): /login
+2021-11-11 08:25:04,682 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 08:25:05,985 INFO :: Binance connection opened
+2021-11-11 08:37:47,673 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 08:37:48,829 INFO :: Binance connection opened
+2021-11-11 09:15:56,832 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
