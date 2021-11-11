@@ -300,14 +300,15 @@ class BinanceFuturesClient:
             buy_price = 290
         
         x = Trade.objects.latest('trade_date').trade_date
-
-        y = (datetime.now(timezone.utc))
-
-        difference = y - x 
-
-        seconds, days = difference.seconds, difference.days
         
-        difference_hours = days * 24 + seconds // 3600
+        #check for empty database and provides arbitrary number to pass this query set
+        if not x:
+            difference_hours = 6
+        else:
+            y = (datetime.now(timezone.utc))
+            difference = y - x 
+            seconds, days = difference.seconds, difference.days
+            difference_hours = days * 24 + seconds // 3600
 
         # print(x)
         #print(y.strftime("%m/%d/%Y"))
@@ -318,7 +319,7 @@ class BinanceFuturesClient:
             print(f"This is the bid price {sym_bid_price} and the buy price set {buy_price}")
             #need to amend for ticker specific trades
             x = self.place_order(self.contracts[symbol_ticker], "BUY", order_quantity, "LIMIT", buy_price, "GTC")
-            print(f"This is the {x.order_id} and this is the order status {x.status} and the average price {x.status}")
+            print(f"This is the orderid: {x.order_id} for {symbol_ticker} and this is the order status {x.status} and the average price {x.avg_price}")
             
             new_trade = Trade(
                 symbol = f"{symbol_ticker}",
@@ -338,7 +339,8 @@ class BinanceFuturesClient:
             if len(self.cryp_messages) < 40:
                 self.cryp_messages.append(f'{y.strftime("%m/%d/%Y")} : Hello Friend, now is a good time to buy some {symbol_ticker} the price is only {sym_ask_price}')
             else:
-                print(f"You've already made a trade in the past {difference_hours} hours, what do you think you are made of money?")
+                self.cryp_messages.pop
+                #print(f"You've already made a trade in the past {difference_hours} hours, what do you think you are made of money?")
                 pass
 
 

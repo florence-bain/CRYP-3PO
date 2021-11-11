@@ -4888,3 +4888,81 @@ TypeError: float() argument must be a string or a number, not 'Balance'
 2021-11-11 00:53:41,658 INFO :: Binance connection opened
 2021-11-11 00:57:52,925 INFO :: Binance Futures Client Successfully Initialized
 2021-11-11 00:57:54,035 INFO :: Binance connection opened
+2021-11-11 07:30:32,066 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 07:30:33,145 INFO :: Binance connection opened
+2021-11-11 07:30:38,676 INFO :: Bingo, now is a good time to execute a trade
+2021-11-11 07:32:38,004 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/API/connectors/binance_futures.py changed, reloading.
+2021-11-11 07:46:18,386 ERROR :: Internal Server Error: /home
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py", line 129, in home
+  File "/usr/local/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.9/site-packages/django/template/loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.9/site-packages/django/template/defaulttags.py", line 965, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.9/site-packages/django/template/defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 522, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 275: 'else', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+2021-11-11 07:48:59,475 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 07:49:00,544 INFO :: Binance connection opened
+2021-11-11 07:51:05,565 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-11 07:54:02,998 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 07:54:04,042 INFO :: Binance connection opened
+2021-11-11 07:58:10,132 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 07:58:11,309 INFO :: Binance connection opened
+2021-11-11 08:07:11,385 WARNING :: Forbidden (CSRF token missing or incorrect.): /login
+2021-11-11 08:25:04,682 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 08:25:05,985 INFO :: Binance connection opened
+2021-11-11 08:37:47,673 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 08:37:48,829 INFO :: Binance connection opened
+2021-11-11 09:15:56,832 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
