@@ -44,7 +44,7 @@ The user details will be
  ```
  
  -  GRANT ALL PRIVILEGES ON traderunner.* TO 'djangouser'@'%'
- -  FLUSH PRIVELEGES;
+ -  FLUSH PRIVILEGES;
  
  ```
  
