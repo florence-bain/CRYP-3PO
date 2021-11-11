@@ -4966,3 +4966,41 @@ django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 275: '
 2021-11-11 08:37:47,673 INFO :: Binance Futures Client Successfully Initialized
 2021-11-11 08:37:48,829 INFO :: Binance connection opened
 2021-11-11 09:15:56,832 INFO :: /Users/osneildrakes/Desktop/Makers/Projects/cryp-3po/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-11 14:20:57,985 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 14:20:59,594 INFO :: Binance connection opened
+2021-11-11 14:21:02,581 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x105c69d60>>: Trade matching query does not exist.
+2021-11-11 14:21:02,582 ERROR :: Binance connections error: Trade matching query does not exist.
+2021-11-11 14:21:04,529 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x105c69d60>>: Trade matching query does not exist.
+2021-11-11 14:21:04,530 ERROR :: Binance connections error: Trade matching query does not exist.
+2021-11-11 14:21:04,544 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x105c69d60>>: Trade matching query does not exist.
+2021-11-11 14:21:04,544 ERROR :: Binance connections error: Trade matching query does not exist.
+2021-11-11 14:21:06,576 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x105c69d60>>: Trade matching query does not exist.
+2021-11-11 14:21:06,577 ERROR :: Binance connections error: Trade matching query does not exist.
+2021-11-11 14:21:06,611 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x105c69d60>>: Trade matching query does not exist.
+2021-11-11 14:21:06,611 ERROR :: Binance connections error: Trade matching query does not exist.
+2021-11-11 14:29:18,638 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 14:29:20,273 INFO :: Binance connection opened
+2021-11-11 14:29:24,540 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1053f4640>>: Trade matching query does not exist.
+2021-11-11 14:29:24,540 ERROR :: Binance connections error: Trade matching query does not exist.
+2021-11-11 14:29:26,530 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1053f4640>>: Trade matching query does not exist.
+2021-11-11 14:29:26,530 ERROR :: Binance connections error: Trade matching query does not exist.
+2021-11-11 14:29:26,542 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1053f4640>>: Trade matching query does not exist.
+2021-11-11 14:29:26,542 ERROR :: Binance connections error: Trade matching query does not exist.
+2021-11-11 14:29:28,604 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x1053f4640>>: Trade matching query does not exist.
+2021-11-11 14:29:28,604 ERROR :: Binance connections error: Trade matching query does not exist.
+2021-11-11 14:30:12,159 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 14:30:13,760 INFO :: Binance connection opened
+2021-11-11 14:30:22,550 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x103404640>>: Trade matching query does not exist.
+2021-11-11 14:30:22,550 ERROR :: Binance connections error: Trade matching query does not exist.
+2021-11-11 14:30:24,580 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x103404640>>: Trade matching query does not exist.
+2021-11-11 14:30:24,580 ERROR :: Binance connections error: Trade matching query does not exist.
+2021-11-11 14:30:24,590 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x103404640>>: Trade matching query does not exist.
+2021-11-11 14:30:24,590 ERROR :: Binance connections error: Trade matching query does not exist.
+2021-11-11 14:30:26,650 ERROR :: error from callback <bound method BinanceFuturesClient._on_message of <API.connectors.binance_futures.BinanceFuturesClient object at 0x103404640>>: Trade matching query does not exist.
+2021-11-11 14:30:26,650 ERROR :: Binance connections error: Trade matching query does not exist.
+2021-11-11 14:30:47,266 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 14:30:48,888 INFO :: Binance connection opened
+2021-11-11 14:30:55,033 INFO :: Bingo, now is a good time to execute a trade
+2021-11-11 14:31:30,780 INFO :: /Users/jessicabulman/Projects/CRYP-3PO/traderunner/API/connectors/binance_futures.py changed, reloading.
+2021-11-11 14:31:48,027 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 14:31:49,649 INFO :: Binance connection opened

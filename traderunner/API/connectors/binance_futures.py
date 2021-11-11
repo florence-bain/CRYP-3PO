@@ -299,10 +299,21 @@ class BinanceFuturesClient:
             order_quantity = 20
             buy_price = 290
         
-        x = Trade.objects.latest('trade_date').trade_date
+        try:
+          x = Trade.objects.latest('trade_date').trade_date
+        except Trade.DoesNotExist:
+          x = None
+          print("hello")
+
+        # comment = Comment.objects.get(pk=comment_id)
+        # except Comment.DoesNotExist:  
+        # comment = None
+
+
+        # x = Trade.objects.latest('trade_date').trade_date
         
         #check for empty database and provides arbitrary number to pass this query set
-        if not x:
+        if x is None:
             difference_hours = 6
         else:
             y = (datetime.now(timezone.utc))
