@@ -1,4 +1,15 @@
-# Create Database on user SQL running my sql command (Database name used = traderunner)
+# MY SQL Database set up instructions.
+
+From the terminal run the following command to start 
+
+Install SQL/Python connector, from the terminal run either of the following
+
+```
+- pip install mysql-connector-python 
+- pip3 install mysql-connector-python
+```
+
+Create Database on user SQL running my sql command (Database name used = traderunner)
 
 # Open my sql using mysql -u root command in the terminal
 
