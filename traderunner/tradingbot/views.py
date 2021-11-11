@@ -53,12 +53,12 @@ def logout_request(request):
 
 
 def home(request):
-	
 
-	trades = Trade.objects.all().order_by("trade_date").reverse()
-	#print(f" Before : {trades[0].status}")
-
-	for trade in trades:
+  mineroSum = [0]
+  litecoinSum = [0]
+  
+  trades = Trade.objects.all().order_by("trade_date").reverse()
+  for trade in trades:
 			orderid = trade.order_id
 			if trade.symbol == "ETHUSDT_211231" or trade.symbol == "BTCUSDT":
 				pass
@@ -72,31 +72,36 @@ def home(request):
 				trade.status = orderdata.status
 				trade.save()
 
+  for trade in trades:
+        if trade.symbol == "LTCUSDT":
+          mineroSum.append(trade.quantity) 
+        elif trade.symbol == "XMRUSDT":
+          litecoinSum.append(trade.quantity)
+      
+  litecoinTotal = sum(litecoinSum[-1])
+  mineroTotal = sum(mineroSum[-1])
 
-	balance = binancey.balances['USDT']
+  balance = binancey.balances['USDT']
 
-	cryp_three_p_o_messages = ['Nothing is coming to mind at this time', 'I will keep looking']
+  cryp_three_p_o_messages = ['Nothing is coming to mind at this time', 'I will keep looking']
+  if len(binancey.cryp_messages) > 3:
+    cryp_three_p_o_messages = binancey.cryp_messages[-5:]
+  else:
+    pass
+  
+  x_axis = x_values
+  
+  btc_c = btc_close
+  btc_h = btc_high
 
-	if len(binancey.cryp_messages) > 3:
-		cryp_three_p_o_messages = binancey.cryp_messages[-5:]
-	else:
-		pass
-			
+  eth_c = eth_close
+  eth_h = eth_high
 
-	
-	x_axis = x_values
-
-	btc_c = btc_close
-	btc_h = btc_high
-
-	eth_c = eth_close
-	eth_h = eth_high
-
-	doge_c = doge_high
-	doge_h = doge_close
+  doge_c = doge_high
+  doge_h = doge_close
 
 
-	context = {
+  context = {
 			'trades' : trades,
 			'balance' : balance,
 			'btc_high' : btc_h,
@@ -107,6 +112,8 @@ def home(request):
 			'doge_high' : doge_h,
 			'x' : x_axis,
 			'messages' : cryp_three_p_o_messages,
+      'mineroTotal' : mineroTotal,
+      'litecoinTotal' : litecoinTotal,
 			
 		}
-	return render(request, 'home.html', context)
+  return render(request, 'home.html', context)

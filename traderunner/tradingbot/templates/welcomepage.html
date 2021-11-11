@@ -19,13 +19,18 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
+  #enter-button :focus{
+      box-shadow: 0 0 20px #e22865;
+      border: 1px solid #e22865;
+      font-family: 'Blade Runner Movie Font', sans-serif;
+    }
 
 </style>
 
 <body>
   <h1 style="font-size: 48px;"> Welcome to Traderunner <br><br> 🤖 </h1>
 
-  <a class="btn btn-light" href="/home" role="button">Click to Enter</a>
+  <a class="btn btn-light" id="enter-button" href="/home" role="button">Click to Enter</a>
   
 </body>
 
