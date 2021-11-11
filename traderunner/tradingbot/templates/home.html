@@ -23,6 +23,158 @@
 
     <h2>Feel free to toggle CRYP-3P0, if you think you know better</h2>
 
+    <div class="row align-items-center" id="chart_container">
+      <div class="col-6 col-sm-4">
+        <canvas id="myChart" width="400" height="400"></canvas>
+        <p style="color:#f7f7f7; font-family: 'Blade Runner Movie Font'; text-align: center;">Bitcoin</p>
+      </div>
+      <div class="col-6 col-sm-4"> 
+        <canvas id="myChartD" width="400" height="400"></canvas>
+        <p style="color:#f7f7f7; font-family: 'Blade Runner Movie Font'; text-align: center;">DogeCoin</p>
+      </div>
+      <div class="col-6 col-sm-4">
+        <canvas id="myChartETH" width="400" height="400"></canvas>
+        <p style="color:#f7f7f7; font-family: 'Blade Runner Movie Font'; text-align: center;">Ethereum</p>
+      </div>
+    </div>
+  
+  
+    <script>
+    const ctx = document.getElementById('myChart');
+    const myChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: [{% for dates in x %} '{{dates}}', {% endfor %}],
+            datasets: [
+              {
+                label: 'BTCUSDT daily high',
+                data: {{ btc_high }},
+                borderColor: [
+                'rgb(75, 192, 192)',
+                ],
+                borderWidth: 3,
+                color: ['rgb(255, 255, 255)'],
+            },
+            {
+              label: 'BTCUSDT daily close',
+                data: {{ btc_close }},
+                borderColor: [
+                'rgb(255, 255, 255)',
+                ],
+                borderWidth: 3,
+              }
+            
+          ]
+        },
+        options: {
+          plugins: {  
+            legend: {
+              display: true,
+              labels: {
+                
+              }
+            }
+          },
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+    </script>
+
+<script>
+  const ctxeth = document.getElementById('myChartETH');
+  const myChartETH = new Chart(ctxeth, {
+      type: 'line',
+      data: {
+          labels: [{% for dates in x %} '{{dates}}', {% endfor %}],
+          datasets: [
+            {
+              label: 'ETHUSDT daily high',
+              data: {{ eth_high }},
+              borderColor: [
+              'rgb(75, 192, 192)',
+              ],
+              borderWidth: 3,
+              color: ['rgb(255, 255, 255)'],
+          },
+          {
+            label: 'ETHUSDT daily close',
+              data: {{ eth_close }},
+              borderColor: [
+              'rgb(255, 255, 255)',
+              ],
+              borderWidth: 3,
+            }
+          
+        ]
+      },
+      options: {
+        plugins: {  
+          legend: {
+            display: true,
+            labels: {
+              
+            }
+          }
+        },
+          scales: {
+              y: {
+                  beginAtZero: true
+              }
+          }
+      }
+  });
+  </script>
+
+
+<script>
+  const ctxd = document.getElementById('myChartD');
+  const myChartD = new Chart(ctxd, {
+      type: 'line',
+      data: {
+          labels: [{% for dates in x %} '{{dates}}', {% endfor %}],
+          datasets: [
+            {
+              label: 'DOGEUSDT daily high',
+              data: {{ doge_high }},
+              borderColor: [
+              'rgb(75, 192, 192)',
+              ],
+              borderWidth: 3,
+              color: ['rgb(255, 255, 255)'],
+          },
+          {
+            label: 'DOGEUSDT daily close',
+              data: {{ doge_close }},
+              borderColor: [
+              'rgb(255, 255, 255)',
+              ],
+              borderWidth: 3,
+            }
+          
+        ]
+      },
+      options: {
+        plugins: {  
+          legend: {
+            display: true,
+            labels: {
+              
+            }
+          }
+        },
+          scales: {
+              y: {
+                  beginAtZero: true
+              }
+          }
+      }
+  });
+  </script>
+
     
     <script type="text/javascript">
       window.onload = function() {
@@ -65,19 +217,22 @@
     </div>
 
     <div class="table-container">
-      <table class="table table-dark">
-        <thead>
+      <div class="table-responsive-sm text-center">
+        <table class="table table-hover" id='account-info'>
+        <!-- <thead>
           <th></th>
-        </thead>
-        <tbody>
+        </thead> -->
+          <thead class="thead-dark">
           <tr>
-          <th scope="row"></th>
-          <td> Balance</td>
-          <td> Profit Loss</td>
-          <td> Litecoin</td>
-          <td> Monero</td>
-          <td> Bitcoin</td>
+            <th scope="row"></th>
+            <th scope="col">Balance</th>       
+            <th scope="col">Profit Loss</th>  
+            <th scope="col">Litecoin</th>  
+            <th scope="col">Monero</th>  
+            <th scope="col">Bitcoin</th>  
           </tr>
+          </thead>
+          <tbody>
           <tr>
             <th scope="row"></th>
             <td> ${{balance.wallet_balance}} </td>
@@ -86,8 +241,9 @@
             <td> {{mineroTotal}} </td>
             <td> 0 😭😭😭 </td>
             </tr>
-        </tbody>
-      </table>
+          </tbody>
+        </table>
+    </div>
   </div>
 
 
@@ -96,162 +252,12 @@
    <!-- <br><br> <h3 style="text-align: center;"> This is your balance  : ${{balance.wallet_balance}}</h3>
    <br> <h3>This is your current pnl : {{balance.unrealized_pnl}}</h3> -->
 
-  <div class="row align-items-center" id="chart_container">
-    <div class="col-6 col-sm-4">
-      <canvas id="myChart" width="400" height="400"></canvas>
-      <p style="color:#f7f7f7; font-family: 'Blade Runner Movie Font'; text-align: center;">Bitcoin</p>
-    </div>
-    <div class="col-6 col-sm-4"> 
-      <canvas id="myChartD" width="400" height="400"></canvas>
-      <p style="color:#f7f7f7; font-family: 'Blade Runner Movie Font'; text-align: center;">DogeCoin</p>
-    </div>
-    <div class="col-6 col-sm-4">
-      <canvas id="myChartETH" width="400" height="400"></canvas>
-      <p style="color:#f7f7f7; font-family: 'Blade Runner Movie Font'; text-align: center;">Ethereum</p>
-    </div>
-  </div>
 
-
-  <script>
-  const ctx = document.getElementById('myChart');
-  const myChart = new Chart(ctx, {
-      type: 'line',
-      data: {
-          labels: [{% for dates in x %} '{{dates}}', {% endfor %}],
-          datasets: [
-            {
-              label: 'BTCUSDT daily high',
-              data: {{ btc_high }},
-              borderColor: [
-              'rgb(75, 192, 192)',
-              ],
-              borderWidth: 3,
-              color: ['rgb(255, 255, 255)'],
-          },
-          {
-            label: 'BTCUSDT daily close',
-              data: {{ btc_close }},
-              borderColor: [
-              'rgb(255, 255, 255)',
-              ],
-              borderWidth: 3,
-            }
-          
-        ]
-      },
-      options: {
-        plugins: {  
-          legend: {
-            display: true,
-            labels: {
-              
-            }
-          }
-        },
-          scales: {
-              y: {
-                  beginAtZero: true
-              }
-          }
-      }
-  });
-  </script>
-
-  <script>
-    const ctxeth = document.getElementById('myChartETH');
-    const myChartETH = new Chart(ctxeth, {
-        type: 'line',
-        data: {
-            labels: [{% for dates in x %} '{{dates}}', {% endfor %}],
-            datasets: [
-              {
-                label: 'ETHUSDT daily high',
-                data: {{ eth_high }},
-                borderColor: [
-                'rgb(75, 192, 192)',
-                ],
-                borderWidth: 3,
-                color: ['rgb(255, 255, 255)'],
-            },
-            {
-              label: 'ETHUSDT daily close',
-                data: {{ eth_close }},
-                borderColor: [
-                'rgb(255, 255, 255)',
-                ],
-                borderWidth: 3,
-              }
-            
-          ]
-        },
-        options: {
-          plugins: {  
-            legend: {
-              display: true,
-              labels: {
-                
-              }
-            }
-          },
-            scales: {
-                y: {
-                    beginAtZero: true
-                }
-            }
-        }
-    });
-    </script>
-
-
-  <script>
-    const ctxd = document.getElementById('myChartD');
-    const myChartD = new Chart(ctxd, {
-        type: 'line',
-        data: {
-            labels: [{% for dates in x %} '{{dates}}', {% endfor %}],
-            datasets: [
-              {
-                label: 'DOGEUSDT daily high',
-                data: {{ doge_high }},
-                borderColor: [
-                'rgb(75, 192, 192)',
-                ],
-                borderWidth: 3,
-                color: ['rgb(255, 255, 255)'],
-            },
-            {
-              label: 'DOGEUSDT daily close',
-                data: {{ doge_close }},
-                borderColor: [
-                'rgb(255, 255, 255)',
-                ],
-                borderWidth: 3,
-              }
-            
-          ]
-        },
-        options: {
-          plugins: {  
-            legend: {
-              display: true,
-              labels: {
-                
-              }
-            }
-          },
-            scales: {
-                y: {
-                    beginAtZero: true
-                }
-            }
-        }
-    });
-    </script>
 
 
     <div class="table-container">
       <div class="table-responsive-sm text-center">
-        <table class="table table-hover">
+        <table class="table table-hover" id='past-trades'>
           <thead class="thead-dark">
             <tr>
               <th scope="col">Crypto</th>

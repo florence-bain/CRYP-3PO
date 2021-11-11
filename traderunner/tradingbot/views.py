@@ -78,8 +78,8 @@ def home(request):
         elif trade.symbol == "XMRUSDT":
           litecoinSum.append(trade.quantity)
       
-  litecoinTotal = sum(litecoinSum[-1])
-  mineroTotal = sum(mineroSum[-1])
+  litecoinTotal = sum(litecoinSum)
+  mineroTotal = sum(mineroSum)
 
   balance = binancey.balances['USDT']
 

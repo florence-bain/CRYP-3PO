@@ -5062,3 +5062,28 @@ Traceback (most recent call last):
     raise TemplateSyntaxError("Could not parse the remainder: '%s' "
 django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[-1]' from 'litecoinTotal[-1]'
 2021-11-11 15:16:47,964 INFO :: /Users/jessicabulman/Projects/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-11 15:20:25,249 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 15:20:26,847 INFO :: Binance connection opened
+2021-11-11 15:21:27,403 ERROR :: Internal Server Error: /home
+Traceback (most recent call last):
+  File "/Users/jessicabulman/.pyenv/versions/3.9.7/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jessicabulman/.pyenv/versions/3.9.7/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jessicabulman/Projects/CRYP-3PO/traderunner/tradingbot/views.py", line 81, in home
+    litecoinTotal = sum(litecoinSum[-1])
+TypeError: 'int' object is not iterable
+2021-11-11 15:23:34,162 INFO :: /Users/jessicabulman/Projects/CRYP-3PO/traderunner/tradingbot/views.py changed, reloading.
+2021-11-11 15:23:39,418 ERROR :: Internal Server Error: /home
+Traceback (most recent call last):
+  File "/Users/jessicabulman/.pyenv/versions/3.9.7/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/jessicabulman/.pyenv/versions/3.9.7/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jessicabulman/Projects/CRYP-3PO/traderunner/tradingbot/views.py", line 81, in home
+    litecoinTotal = sum(litecoinSum)
+TypeError: 'int' object is not iterable
+2021-11-11 15:24:04,743 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 15:24:06,557 INFO :: Binance connection opened
+2021-11-11 15:27:57,724 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 15:27:59,366 INFO :: Binance connection opened
