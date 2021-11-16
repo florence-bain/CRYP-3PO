@@ -5089,3 +5089,20 @@ TypeError: 'int' object is not iterable
 2021-11-11 15:27:59,366 INFO :: Binance connection opened
 2021-11-11 15:49:00,838 INFO :: Binance Futures Client Successfully Initialized
 2021-11-11 15:49:02,446 INFO :: Binance connection opened
+2021-11-11 17:06:01,840 INFO :: Binance Futures Client Successfully Initialized
+2021-11-11 17:06:02,936 INFO :: Binance connection opened
+2021-11-12 10:47:10,799 ERROR :: Binance connections error: [Errno 54] Connection reset by peer
+2021-11-12 10:47:11,429 ERROR :: error from callback <bound method BinanceFuturesClient._on_close of <API.connectors.binance_futures.BinanceFuturesClient object at 0x108f09220>>: _on_close() takes 2 positional arguments but 4 were given
+2021-11-12 10:47:11,569 ERROR :: Binance connections error: _on_close() takes 2 positional arguments but 4 were given
+2021-11-12 10:47:14,733 INFO :: Binance connection opened
+2021-11-12 10:47:20,204 INFO :: Bingo, now is a good time to execute a trade
+2021-11-12 12:46:42,224 ERROR :: Binance connections error: Connection to remote host was lost.
+2021-11-12 12:46:42,231 ERROR :: error from callback <bound method BinanceFuturesClient._on_close of <API.connectors.binance_futures.BinanceFuturesClient object at 0x108f09220>>: _on_close() takes 2 positional arguments but 4 were given
+2021-11-12 12:46:42,231 ERROR :: Binance connections error: _on_close() takes 2 positional arguments but 4 were given
+2021-11-12 12:46:45,338 INFO :: Binance connection opened
+2021-11-12 13:36:39,921 ERROR :: Binance connections error: Connection to remote host was lost.
+2021-11-12 13:36:39,923 ERROR :: error from callback <bound method BinanceFuturesClient._on_close of <API.connectors.binance_futures.BinanceFuturesClient object at 0x108f09220>>: _on_close() takes 2 positional arguments but 4 were given
+2021-11-12 13:36:39,923 ERROR :: Binance connections error: _on_close() takes 2 positional arguments but 4 were given
+2021-11-12 13:36:43,664 INFO :: Binance connection opened
+2021-11-12 14:51:10,258 WARNING :: Forbidden (CSRF token missing or incorrect.): /login
+2021-11-12 14:51:15,303 WARNING :: Forbidden (CSRF token missing or incorrect.): /login
