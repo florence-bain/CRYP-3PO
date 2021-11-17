@@ -1,6 +1,29 @@
 
 
-# MY SQL Database set up instructions.
+# Traderunner
+
+Makers finale project - Automated cryptocurrency trading bot 
+
+## Developers 
+
+- Florence Bain (florence-bain)
+- Jessica Bulman (jessocxz98)
+- Osneil Drakes (odrakes1992)
+- Harry Parsons (drkitsch)
+
+## Our initial wireframe ideas for our program
+![wireframes](https://user-images.githubusercontent.com/78934464/142075218-6854f157-6a15-4b59-b7a4-989d4a4e3649.jpeg)
+
+## Installation
+
+- Git clone this repo 
+- You will need to have Django & MySQL installed
+- Setup your database with the instructions below 
+- Once this is done, run 'python manage.py runserver' 
+  which will start up your server and provide a url address.
+- You will be prompted to sign up before you can access the main page.
+
+## MySQL Database set up instructions.
 
 From the terminal run the following to install mysql
 
@@ -72,3 +95,4 @@ In the terminal run
 ```
 - python3 manage.py migrate
 ```
+
